@@ -14,3 +14,7 @@ hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
 disqusShortname = "hugo-theme-stack"
+
+# PDF Modulen (Not Working right Now)
+# theme = ["hugo-embed-pdf-shortcode", "hugo-theme-stack"]
+# enableInlineShortcodes = true

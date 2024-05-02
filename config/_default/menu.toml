@@ -6,7 +6,7 @@
 #[main.params]
 #icon = "home"
 #newtab = true
-
+################## Github ##################
 [[social]]
 identifier = "github"
 name = "GitHub"
@@ -14,15 +14,26 @@ url = "https://github.com/u77w41/"
 
 [social.params]
 icon = "brand-github"
-
+newtab = true
+################## LinkedIn ##################
 [[social]]
 identifier = "linkedin"
-name = "LinkedIN"
+name = "LinkedIn"
 url = "https://www.linkedin.com/in/ujjwalchowdhury0"
 
 [social.params]
 icon = "brand-linkedin"
+newtab = true
+################## Kaggle ##################
+[[social]]
+identifier = "kaggle"
+name = "Kaggle"
+url = "https://www.kaggle.com/ujjwalchowdhury"
 
+[social.params]
+icon = "brand-kaggle"
+newtab = true
+################## X ##################
 [[social]]
 identifier = "twitter"
 name = "Twitter"
@@ -30,3 +41,4 @@ url = "https://twitter.com/UjjwalCh0wdhury"
 
 [social.params]
 icon = "brand-twitter"
+newtab = true

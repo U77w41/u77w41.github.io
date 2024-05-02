@@ -4,9 +4,9 @@ mainSections = ["post"]
 rssFullContent = true
 favicon = "/favicon.ico"
 
-[footer]
-since = 2024
-customText = "Ujjwal Chowdhury"
+# [footer]
+# since = 2024
+# customText = "Ujjwal Chowdhury"
 
 [dateFormat]
 published = "April 27, 2024"
@@ -14,7 +14,10 @@ lastUpdated = "May 02, 2024 10:04 IST"
 
 [sidebar]
 emoji = "🇮🇳"
-subtitle = "Data Scientist | Research Analyst | 3x Kaggle Expert | MSc Data Science (BDA)"
+subtitle = """> Data Scientist
+> Research Analyst 
+> 3x Kaggle Expert
+> MSc Data Science (BDA)"""
 
 [sidebar.avatar]
 enabled = true
@@ -26,7 +29,7 @@ math = false
 readingTime = true
 
 [article.license]
-enabled = true
+enabled = false
 default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
@@ -75,7 +78,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
