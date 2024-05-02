@@ -7,5 +7,10 @@ math:
 license: 
 hidden: false
 comments: true
-draft: true
+draft: flase
+menu:
+    main:
+        weight: 2
+        params: 
+            icon: school
 ---

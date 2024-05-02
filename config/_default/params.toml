@@ -14,10 +14,7 @@ lastUpdated = "May 02, 2024 10:04 IST"
 
 [sidebar]
 emoji = "🇮🇳"
-subtitle = """> Data Scientist
-> Research Analyst 
-> 3x Kaggle Expert
-> MSc Data Science (BDA)"""
+subtitle = """Data Scientist | Research Analyst"""
 
 [sidebar.avatar]
 enabled = true

@@ -1,7 +1,7 @@
 ---
-title: "Certificates"
+title: "Publications"
 description: 
-date: 2024-05-02T07:30:18Z
+date: 2024-05-02T08:47:38Z
 image: 
 math: 
 license: 
@@ -12,5 +12,5 @@ menu:
     main:
         weight: 2
         params: 
-            icon: certificate
+            icon: publications
 ---
