@@ -16,6 +16,14 @@ url = "https://github.com/u77w41/"
 icon = "brand-github"
 
 [[social]]
+identifier = "linkedin"
+name = "LinkedIN"
+url = "https://www.linkedin.com/in/ujjwalchowdhury0"
+
+[social.params]
+icon = "brand-linkedin"
+
+[[social]]
 identifier = "twitter"
 name = "Twitter"
 url = "https://twitter.com/UjjwalCh0wdhury"
