@@ -2,7 +2,6 @@
 title: "Search"
 slug: "search"
 layout: "search"
-draft: true
 outputs:
     - html
     - json
