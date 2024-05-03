@@ -1,6 +1,6 @@
 ---
 title: "Ujjwal Chowdhury"
-description:
+description: Experienced data scientist with a Master’s degree in Data Science and over a year of practical experience. Specializes in NLP, Generative AI, and Stock Forecasting. Proficient in designing and developing innovative solutions using Artificial Intelligence, implementing ML models, and establishing collaborative frameworks with cross-functional teams to deliver impactful, data-driven insights. Skilled in fine-tuning and automating processes, analyzing outcomes, and effectively communicating findings to drive business impact.
 date: 2024-05-03
 image: 
 math: 
@@ -17,9 +17,6 @@ menu:
 
 [Download Resume](https://github.com/U77w41/My-Data-Science-Journey/blob/main/My%20Resume/Ujjwal_Chowdhury(April2024).pdf)
 
-## Profile
-
-Experienced data scientist with a Master’s degree in Data Science and over a year of practical experience. Specializes in NLP, Generative AI, and Stock Forecasting. Proficient in designing and developing innovative solutions using Artificial Intelligence, implementing ML models, and establishing collaborative frameworks with cross-functional teams to deliver impactful, data-driven insights. Skilled in fine-tuning and automating processes, analyzing outcomes, and effectively communicating findings to drive business impact.
 
 ## Areas of Expertise
 
