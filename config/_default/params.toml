@@ -10,10 +10,10 @@ favicon = "/favicon.ico"
 
 [dateFormat]
 published = "April 27, 2024"
-lastUpdated = "May 02, 2024 10:04 IST"
+lastUpdated = "May 03, 2024 20:04 IST"
 
 [sidebar]
-emoji = "🇮🇳"
+emoji = ""
 subtitle = """Data Scientist | Research Analyst"""
 
 [sidebar.avatar]
