@@ -1,7 +1,7 @@
 ---
-title: "Resume"
-description: Current Resume
-date: 2024-05-03T06:13:30Z
+title: "Ujjwal Chowdhury"
+description: ![Download Resume](https://github.com/U77w41/My-Data-Science-Journey/blob/main/My%20Resume/Ujjwal_Chowdhury(April2024).pdf)
+date: 2024-05-03
 image: 
 math: 
 license: 
@@ -37,11 +37,11 @@ NLP, Generative AI, Machine Learning Algorithms, Time Series Analysis, Algorithm
 
 ## Professional Experience
 
-Research Executive (AI & NLP) (Feedsense AI Private Limited) Kolkata, India (Mar 2024 - Present)
+**Research Executive (AI & NLP) (Feedsense AI Private Limited) Kolkata, India (Mar 2024 - Present)**
 
 - Utilized reinforcement learning models integrating financial data to predict market movements and develop optimized trading strategies.
 
-AI Researcher (Vista Intelligence Private Limited) Kolkata, India (Jan 2023 - Mar 2024)
+**AI Researcher (Vista Intelligence Private Limited) Kolkata, India (Jan 2023 - Mar 2024)**
 
 - Led the NLP team, overseeing project developments and team operations.
 - Finetuned an RNN-Tranducer driven speech-to-text model to effectively capture Indian accents, decreasing the Word Error Rate from 56.8% to 23.4%.
@@ -66,37 +66,37 @@ AI Researcher (Vista Intelligence Private Limited) Kolkata, India (Jan 2023 - Ma
 
 ## Education
 
-MSc Data Science RKMVERI Belur, West Bengal, India 2021-
+#### MSc Data Science RKMVERI Belur, West Bengal, India (Aug 2021 - June 2023)
 
 Relevant Courses: Probability & Stochastic Process, Data Structures & Algorithms, Statistics, Machine Learning, Deep Learning, Computer Vision, NLP, Optimization Techniques, Linear Algebra, Time Series Analysis, Survival Analysis, Cloud Computing, Multivariate Statistical Analysis, Data Mining, DBMS
 
-BSc Mathematics Vidyasagar University Medinipur, West Bengal, India 2017-
+#### BSc Mathematics Vidyasagar University Medinipur, West Bengal, India (June 2017 - Oct 2020)
 
 Relevant Courses: Set Theory, Calculus, Geometry & Differential Equation, Higher Algebra, Real Analysis, Differential Equations & Vector calculus, Group and Ring Theory, Theory of Equation, Graph Theory, PDE, ODE, DBMS, Operation Research, Numerical Methods
 
 ## Personal Projects
 
-- Fin-Bot: Advanced Agent based Financial Chatbot
+- **Fin-Bot: Advanced Agent based Financial Chatbot**
   (Domain: NLP, LLM, Generative AI, Deep Learning, RAG)
   - Seamlessly integrated web search functionality ensuring comprehensive responses to queries.
   - Implemented a custom vector database for efficient retrieval of financial news articles and concall transcripts.
   - Employed LLM-equipped agent to direct user queries to relevant web or custom database, ensuring up-to-dated, comprehensive insights.
-- SALES FORECASTING AND ANOMALY DETECTION ON WALMART SALES DATASET
+- **SALES FORECASTING AND ANOMALY DETECTION ON WALMART SALES DATASET**
   (Domain: Machine Learning, Time Series Analysis, Deep Learning)
   - Used Factor Analysis for feature extraction.
   - Concepts of time series, machine learning, and deep learning are used to predict future sales.
   - Used unsupervised techniques to detect the anomalies.
-- Deep Bidirectional LSTM Network for Textual Sentiment Analysis
+- **Deep Bidirectional LSTM Network for Textual Sentiment Analysis**
   (Domain: Deep Learning, Sentiment Analysis, NLP, Web Scrapping)
   - Integrated Twitter API for real-time tweet scraping.
   - Utilized AsyncHTMLSession to scrape news articles from Google News.
   - Leveraged Bi-LSTM architecture to process sequential data and extract meaningful features for sentiment classification.
-- BRAIN TUMOUR CLASSIFICATION
+- **BRAIN TUMOUR CLASSIFICATION**
   (Domain: Computer Vision, Deep Learning, Optimization Techniques)
   - Used Transfer Learning and Fine-tuned several pre-trained models.
   - Explored different optimization algorithms such as Adam, RMSProp, SGD, GD, Adagrad etc.
   - Applied snapshot learning technique to construct an ensemble predictive model.
-- STATISTICAL ANALYSIS OF DIET, EXERCISE AND FITNESS
+- **STATISTICAL ANALYSIS OF DIET, EXERCISE AND FITNESS**
   (Domain: EDA, Data Visualization, Data Analysis, Statistical Inference)
   - Collected data using online surveys at different time frames.
   - Employed descriptive statistics to summarize the key characteristics of the dataset.
