@@ -24,6 +24,17 @@ url = "https://www.linkedin.com/in/ujjwalchowdhury0"
 [social.params]
 icon = "brand-linkedin"
 newtab = true
+
+################## X ##################
+[[social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com/UjjwalCh0wdhury"
+
+[social.params]
+icon = "brand-x"
+newtab = true
+
 ################## Kaggle ##################
 [[social]]
 identifier = "kaggle"
@@ -32,13 +43,4 @@ url = "https://www.kaggle.com/ujjwalchowdhury"
 
 [social.params]
 icon = "brand-kaggle"
-newtab = true
-################## X ##################
-[[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com/UjjwalCh0wdhury"
-
-[social.params]
-icon = "brand-twitter"
 newtab = true
