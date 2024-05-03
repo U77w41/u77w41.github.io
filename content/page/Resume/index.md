@@ -1,6 +1,6 @@
 ---
 title: "Ujjwal Chowdhury"
-description: ![Download Resume](https://github.com/U77w41/My-Data-Science-Journey/blob/main/My%20Resume/Ujjwal_Chowdhury(April2024).pdf)
+description:
 date: 2024-05-03
 image: 
 math: 
@@ -15,7 +15,7 @@ menu:
             icon: file-text
 ---
 
-
+[Download Resume](https://github.com/U77w41/My-Data-Science-Journey/blob/main/My%20Resume/Ujjwal_Chowdhury(April2024).pdf)
 
 ## Profile
 
