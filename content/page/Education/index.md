@@ -10,7 +10,7 @@ comments: true
 draft: flase
 menu:
     main:
-        weight: 2
+        weight: 4
         params: 
             icon: school
 ---

@@ -5,7 +5,7 @@ layout: "archives"
 slug: "archives"
 menu:
     main:
-        weight: 2
+        weight: 10
         params: 
             icon: archives #https://tabler.io/icons
 ---
