@@ -15,7 +15,7 @@ menu:
             icon: file-text
 ---
 
-[Download Resume](https://github.com/U77w41/My-Data-Science-Journey/blob/main/My%20Resume/Ujjwal_Chowdhury(April2024).pdf)
+[Download Resume](https://drive.google.com/uc?export=download&id=1WJgZM5sqf_O31Bb1UVXjpGy4l6zjOPso)
 
 
 ## Areas of Expertise

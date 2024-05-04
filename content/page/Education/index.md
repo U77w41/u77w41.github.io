@@ -1,7 +1,7 @@
 ---
 title: "Education"
 description: 
-date: 2024-05-02T07:31:08Z
+date: 2024-05-04
 image: 
 math: 
 license: 
