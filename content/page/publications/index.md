@@ -10,7 +10,7 @@ comments: true
 draft: false
 menu:
     main:
-        weight: 3
+        weight: 4
         params: 
             icon: publications
 ---

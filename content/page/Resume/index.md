@@ -10,7 +10,7 @@ comments: flase
 draft: false
 menu:
     main:
-        weight: 0
+        weight: 2
         params: 
             icon: file-text
 ---
