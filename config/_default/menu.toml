@@ -36,11 +36,11 @@ icon = "brand-x"
 newtab = true
 
 ################## Kaggle ##################
-[[social]]
-identifier = "kaggle"
-name = "Kaggle"
-url = "https://www.kaggle.com/ujjwalchowdhury"
-
-[social.params]
-icon = "brand-kaggle"
-newtab = true
+#[[social]]
+#identifier = "kaggle"
+#name = "Kaggle"
+#url = "https://www.kaggle.com/ujjwalchowdhury"
+#
+#[social.params]
+#icon = "brand-kaggle"
+#newtab = true
