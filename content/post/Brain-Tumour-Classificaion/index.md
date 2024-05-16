@@ -1,7 +1,7 @@
 ---
 title: "Brain Tumour Classificaion"
 description: Radiology is a broad subject that needs more knowledge and understanding of medical science to identify tumors accurately. The need for a tumor detection program, thus, overcomes the lack of qualified radiologists. Using magnetic resonance imaging, biomedical image processing makes it easier to detect and locate brain tumors. In this study, a segmentation and detection method for brain tumors was developed using images from the MRI sequence as an input image to identify the tumor area. This process is difficult due to the wide variety of tumor tissues in the presence of different patients, and, in most cases, the similarity within normal tissues makes the task difficult. The main goal is to classify the brain in the presence of a brain tumor or a healthy brain.
-date: 2022-5-2
+date: 2022-05-02 00:00:00+0000
 image: Anaplastic_astrocytoma.jpg
 math: 
 license: 

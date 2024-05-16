@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 description: 
-date: 2024-05-04
+date: 2024-05-04 00:00:00+0000
 image: publication.png
 math: 
 license: 
