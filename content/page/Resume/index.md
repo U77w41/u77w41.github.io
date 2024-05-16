@@ -18,11 +18,11 @@ menu:
 [Download Resume](https://drive.google.com/uc?export=download&id=1WJgZM5sqf_O31Bb1UVXjpGy4l6zjOPso)
 
 
-## Areas of Expertise
+# Areas of Expertise
 
 NLP, Generative AI, Machine Learning Algorithms, Time Series Analysis, Algorithm Optimization, Statistical Analysis, Data Visualization, Model Development, Cross-functional Collaboration
 
-## Skills
+# Skills
 
 - Data Visualization: Microsoft Power BI, Excel, Tableau, Seaborn, Plotly, Matplotlib
 - Machine Learning and Deep Learning: Feature Engineering, Model Development, Hyper-parameter Tuning, Neural Networks, Reinforcement Learning, Transfer Learning, Optimization Techniques, MLOps
@@ -32,7 +32,7 @@ NLP, Generative AI, Machine Learning Algorithms, Time Series Analysis, Algorithm
 - Data Analysis and Mining: Data Mining, Web Scrapping, Statistical Analysis, Time Series Analysis, Anomaly Detection, Predictive Analytics, Survival Analysis
 - Soft Skills: Problem-Solving, Teamwork, Active Listening, Adaptability, Communication, Analytical Thinking
 
-## Professional Experience
+# Professional Experience
 
 **Research Executive (AI & NLP) (Feedsense AI Private Limited) Kolkata, India (Mar 2024 - Present)**
 
@@ -48,11 +48,11 @@ NLP, Generative AI, Machine Learning Algorithms, Time Series Analysis, Algorithm
 - Utilized OpenAI API with Langchain to develop a large document summarizer.
 - Employed a 4-bit quantized Mistral 7b LLM model for summarizing conference call conversations.
 
-## Research & Publication
+# Research & Publication
 
 - Investigate How Market Behaves: Toward an Explanatory Multitasking Based Analytical Model for Financial Investments (IEEE Access, March 2024) DOI: 10.1109/ACCESS.2024.
 
-## Courses & Certifications
+# Courses & Certifications
 
 - Artificial Intelligence (AI) for Investments (April 2023) - NPTEL
 - Cloud Computing and Distributed Systems (March 2023) - NPTEL
@@ -61,17 +61,17 @@ NLP, Generative AI, Machine Learning Algorithms, Time Series Analysis, Algorithm
 - Deep Learning for Computer Vision (Oct. 2022) - NPTEL
 - Data Science Math Skills (April 2020) - Duke University, Coursera
 
-## Education
+# Education
 
-#### MSc Data Science RKMVERI Belur, West Bengal, India (Aug 2021 - June 2023)
+## MSc Data Science RKMVERI Belur, West Bengal, India (Aug 2021 - June 2023)
 
 Relevant Courses: Probability & Stochastic Process, Data Structures & Algorithms, Statistics, Machine Learning, Deep Learning, Computer Vision, NLP, Optimization Techniques, Linear Algebra, Time Series Analysis, Survival Analysis, Cloud Computing, Multivariate Statistical Analysis, Data Mining, DBMS
 
-#### BSc Mathematics Vidyasagar University Medinipur, West Bengal, India (June 2017 - Oct 2020)
+## BSc Mathematics Vidyasagar University Medinipur, West Bengal, India (June 2017 - Oct 2020)
 
 Relevant Courses: Set Theory, Calculus, Geometry & Differential Equation, Higher Algebra, Real Analysis, Differential Equations & Vector calculus, Group and Ring Theory, Theory of Equation, Graph Theory, PDE, ODE, DBMS, Operation Research, Numerical Methods
 
-## Personal Projects
+# Personal Projects
 
 - **Fin-Bot: Advanced Agent based Financial Chatbot**
   (Domain: NLP, LLM, Generative AI, Deep Learning, RAG)

@@ -1,7 +1,7 @@
 ---
 title: "Forcasting and Anomaly Detection"
 description: In the "Forecasting-and-Anomaly-Detection" project, we delved into the realm of machine learning to enhance our understanding of Walmart sales data. The project focused on both time series forecasting and anomaly detection, employing a diverse set of techniques to achieve accurate predictions and identify unusual patterns in the sales data.
-date: 2022-06-27 00:00:00+0000
+date: 2022-06-27
 image: forecasting.png
 math: 
 license: 
@@ -10,7 +10,12 @@ comments: true
 categories:
     - Projects
 tags:
-    - Machine Learning, Deep Learning, Time Series, Statistics, Regression, Annomaly Detection
+    - Machine Learning
+    - Deep Learning 
+    - Time Series
+    - Statistics
+    - Regression
+    - Annomaly Detection
 weight: 5 
 draft: false
 ---
