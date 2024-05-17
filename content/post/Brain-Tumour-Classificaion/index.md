@@ -17,23 +17,23 @@ tags:
 weight: 5 
 draft: false
 ---
-# Overview
+## Overview
 
 This project focuses on the classification of brain tumor images into four distinct classes: 'glioma', 'meningioma', 'notumor', and 'pituitary'. The primary approach involves fine-tuning the VGG16 model using the PyTorch framework. Additionally, Python's OpenCV library is utilized for image processing, and various image augmentation techniques are applied to enhance model generalization.
 
 **[GitHub Link](https://github.com/U77w41/Brain-Tumour-Classificaion/tree/main)**
 
-# Technologies Used
+## Technologies Used
 
 - **PyTorch:** The deep learning framework for model development and training.
 - **OpenCV:** Used for image processing tasks.
 - **Python:** The primary programming language for the project.
 
-# Model Architecture
+## Model Architecture
 
 The VGG16 model is employed as the base architecture for the brain tumor classification task. The model is fine-tuned to adapt to the specific requirements of the project.
 
-# Image Augmentation Techniques
+## Image Augmentation Techniques
 
 To enhance the model's robustness and improve generalization, the following image augmentation techniques are applied:
 
@@ -42,7 +42,7 @@ To enhance the model's robustness and improve generalization, the following imag
 - Horizontal and Vertical Flipping
 - Brightness and Contrast adjustments
 
-# Optimization Techniques
+## Optimization Techniques
 
 Several optimization techniques are experimented with to fine-tune the model:
 
@@ -51,11 +51,11 @@ Several optimization techniques are experimented with to fine-tune the model:
 3. **RMSprop:** Another adaptive learning rate optimization algorithm.
 4. **AdaGrad:** Adaptive gradient optimization algorithm.
 
-# Experimentation and Tuning
+## Experimentation and Tuning
 
 The optimization parameters for each technique are carefully tuned to achieve optimal performance. The model undergoes thorough experimentation to identify the best combination of hyperparameters and optimization algorithms for the given task.
 
-# Conclusion
+## Conclusion
 
 The Brain Tumour Classification project demonstrates the successful implementation of a fine-tuned VGG16 model for accurately classifying brain tumor images into four classes. The combination of image augmentation techniques and experimentation with various optimization algorithms contributes to the overall success of the project.
 

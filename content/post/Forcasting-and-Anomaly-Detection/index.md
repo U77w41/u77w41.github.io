@@ -20,9 +20,9 @@ weight: 5
 draft: false
 ---
 **[GitHub Repo](https://github.com/U77w41/Forcasting-and-Anomaly-Detection)
-# Forecasting Techniques
+## Forecasting Techniques:
 
-## Regression Techniques
+### Regression Techniques
 
 - **Polynomial Regression:** Leveraging the flexibility of polynomial functions to capture non-linear relationships in the data.
 - **Multiple Linear Regression:** Utilizing multiple features to model the sales data and uncover complex dependencies.
@@ -30,13 +30,13 @@ draft: false
 - **Ridge Linear Regression:** Applying L2 regularization to prevent overfitting and improve the generalization of the model.
 - **Elastic Net Regression:** Combining L1 and L2 regularization to harness the strengths of both techniques.
 
-## Time Series Forecasting
+### Time Series Forecasting
 
 - **ARMA (AutoRegressive Moving Average):** Employing ARMA models to understand and predict the temporal patterns in Walmart sales data.
 
-# Anomaly Detection Techniques using Unsupervised Learning Approaches
+## Anomaly Detection Techniques:
 
-## Supervised Learning Approach
+### Anomaly Detection Techniques using Unsupervised Learning Approaches
 
 - **KNN Regressor:** Utilizing the K-nearest neighbors algorithm to detect anomalies based on the deviation from the expected sales values.
 - **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** Identifying anomalies by clustering the sales data and isolating points that do not conform to any cluster.
