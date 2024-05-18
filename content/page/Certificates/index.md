@@ -1,7 +1,7 @@
 ---
 title: "Certificates"
 description: 
-date: 2024-05-04 00:00:00+0000
+date: 2024-05-04T00:00:00Z
 image: NISM_Research_Analyst_Certificate.png
 math: 
 license: 
