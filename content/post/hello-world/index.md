@@ -2,8 +2,8 @@
 title: Hello World # https://stack.jimmycai.com/ for dcoumentation
 description: Welcome to my blog here I will post my projects etc
 slug: hello-world
-date: 2024-05-02T00:00:00Z
-image: https://github.com/U77w41/U77w41/blob/output/github-contribution-grid-snake2.svg%20dist/github-snake-dark.svg
+date: 2024-05-26T00:00:00Z
+image: hello.png
 categories:
     - Greetings
 tags:
