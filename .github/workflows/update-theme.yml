@@ -10,8 +10,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-theme:
-    runs-on: ubuntu-latest
+  # update-theme:
+  #   runs-on: ubuntu-latest
 
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
