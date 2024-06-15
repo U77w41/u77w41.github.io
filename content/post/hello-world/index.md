@@ -160,4 +160,3 @@ Hello and welcome to my blog! I'm Ujjwal Chowdhury, a data scientist and researc
 Stay tuned for more insights, projects, and discussions on data science, AI, and beyond. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/u77w41) or explore my projects on [GitHub](https://github.com/u77w41).
 
 Thank you for visiting my blog!
-
