@@ -24,22 +24,19 @@ NLP, Generative AI, Machine Learning Algorithms, Time Series Analysis, Algorithm
 
 ## Skills
 
-- Data Visualization: Microsoft Power BI, Excel, Tableau, Seaborn, Plotly, Matplotlib
-- Machine Learning and Deep Learning: Feature Engineering, Model Development, Hyper-parameter Tuning, Neural Networks, Reinforcement Learning, Transfer Learning, Optimization Techniques, MLOps
-- Tools/Frameworks: Python, R, TensorFlow, PyTorch, Keras, TFLite, MLFlow, PySpark, PostgreSQL, Azure, AWS, LangChain, streamlit, Docker, Pydantic
-- Natural Language Processing: Text Generation, Sentiment Analysis, Speech Recognition, Named Entity Recognition, Text Classification, LLM Prompt Engineering
-- Computer Vision: Image Processing, Object Detection, Image Classification, Image Segmentation, Image Generation
-- Data Analysis and Mining: Data Mining, Web Scrapping, Statistical Analysis, Time Series Analysis, Anomaly Detection, Predictive Analytics, Survival Analysis
-- Soft Skills: Problem-Solving, Teamwork, Active Listening, Adaptability, Communication, Analytical Thinking
+- Data Visualization: Microsoft Power BI, Excel, Tableau, Seaborn, Plotly, Matplotlib.
+- Machine Learning and Deep Learning: Feature Engineering, Model Development, Hyper-parameter Tuning, Neural Networks, Reinforcement Learning, Transfer Learning, Optimization Techniques, MLOps.
+- Tools/Frameworks: Python, R, TensorFlow, PyTorch, Keras, TFLite, MLFlow, PySpark, PostgreSQL, Azure, AWS, LangChain, streamlit, Docker, Pydantic.
+- Natural Language Processing: Text Generation, Sentiment Analysis, Speech Recognition, Named Entity Recognition, Text Classification, LLM Prompt Engineering.
+- Computer Vision: Image Processing, Object Detection, Image Classification, Image Segmentation, Image Generation.
+- Data Analysis and Mining: Data Mining, Web Scrapping, Statistical Analysis, Time Series Analysis, Anomaly Detection, Predictive Analytics, Survival Analysis.
+- Soft Skills: Problem-Solving, Teamwork, Active Listening, Adaptability, Communication, Analytical Thinking.
 
 ## Professional Experience
 
-**Research Executive (AI & NLP) (Feedsense AI Private Limited) Kolkata, India (Mar 2024 - Present)**
+**Research Executive (AI & NLP) (Feedsense AI Private Limited formerly Vista Intelligence) Kolkata, India (Jan 2023 - Present)**
 
 - Utilized reinforcement learning models integrating financial data to predict market movements and develop optimized trading strategies.
-
-**AI Researcher (Vista Intelligence Private Limited) Kolkata, India (Jan 2023 - Mar 2024)**
-
 - Led the NLP team, overseeing project developments and team operations.
 - Finetuned an RNN-Tranducer driven speech-to-text model to effectively capture Indian accents, decreasing the Word Error Rate from 56.8% to 23.4%.
 - Developed a live audio transcription model for real-time news analysis.
@@ -53,7 +50,7 @@ NLP, Generative AI, Machine Learning Algorithms, Time Series Analysis, Algorithm
 - Investigate How Market Behaves: Toward an Explanatory Multitasking Based Analytical Model for Financial Investments (IEEE Access, March 2024) DOI: 10.1109/ACCESS.2024.
 
 ## Courses & Certifications
-
+- Microsoft DP-100: Azure Data Scientist Associate (June 2024) - Microsoft
 - Artificial Intelligence (AI) for Investments (April 2023) - NPTEL
 - Cloud Computing and Distributed Systems (March 2023) - NPTEL
 - NISM-Series-XV: Research Analyst (Feb. 2023) - National Institute of Securities Markets
