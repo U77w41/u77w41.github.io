@@ -1,8 +1,8 @@
 ---
 title: "Certificates"
 description: 
-date: 2024-05-04T00:00:00Z
-image: NISM_Research_Analyst_Certificate.png
+date: 2024-06-23T00:00:00Z
+image: microsoft_dp100.jpg
 math: 
 license: 
 hidden: false
@@ -14,6 +14,19 @@ menu:
         params: 
             icon: certificate
 ---
+
+## Microsoft Certified: Azure Data Scientist Associate
+In this course, I gained subject matter expertise in applying data science and machine learning to implement and manage machine learning workloads on **Azure**. I learned how to design and create suitable environments for data science projects, explore and analyze data, and train machine learning models. The course covered the implementation of pipelines and running jobs to prepare models for production. I also acquired skills in managing, deploying, and monitoring scalable machine learning solutions. Throughout the course, I developed a solid understanding and practical experience with **Azure Machine Learning** and **MLflow**.
+
+- [link](https://learn.microsoft.com/api/credentials/share/en-us/u77w41/6DED7CA0675E173B?sharingId=2E0F4AA6DCCB6C73)
+
+### Skills Learned:
+**MLFlow**, **Docker**, **Kubernetes**, **Cloud Computing**, **AutoML**, **CI/CD Pipeline**, **Data Bricks**, **PySpark**, **CosmosDB**, **Blob Storage**, **Data Visualization**.
+
+![AzureDP100](microsoft_dp100.jpg)
+
+
+
 
 ## NISM-Series-XV: Research Analyst
 Completing the NISM Series XV Research Analyst examination equipped me with foundational knowledge of the **Indian Securities Markets** and essential terminologies used in **Equity** and **Debt Markets**. I learned diverse **Research Methodologies**, including top-down and bottom-up approaches, facilitating comprehensive analysis. Additionally, I honed skills in **Economic Analysis**, **Industry and Company Evaluation**, **Risk Management**, **Valuation** principles, and effective communication through research **Report Writing**.
