@@ -10,11 +10,11 @@ favicon = "/favicon.ico"
 
 [dateFormat]
 published = "April 27, 2024"
-lastUpdated = "May 03, 2024 20:04 IST"
+lastUpdated = "June 23, 2024 20:04 IST"
 
 [sidebar]
 emoji = ""
-subtitle = """Data Scientist | Research Analyst"""
+subtitle = """Data Scientist | Research Analyst | Azure Certified"""
 
 [sidebar.avatar]
 enabled = true
