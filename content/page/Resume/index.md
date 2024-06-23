@@ -15,7 +15,7 @@ menu:
             icon: file-text
 ---
 
-[Download Resume](https://drive.google.com/uc?export=download&id=1WJgZM5sqf_O31Bb1UVXjpGy4l6zjOPso)
+[Download Resume](https://drive.google.com/uc?export=download&id=15Kj71JI8GAC3EWfur87vyEPdS5jVIkl6)
 
 
 ## Areas of Expertise
