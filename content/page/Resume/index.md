@@ -15,7 +15,7 @@ menu:
             icon: file-text
 ---
 
-[Download Resume](https://drive.google.com/uc?export=download&id=15Kj71JI8GAC3EWfur87vyEPdS5jVIkl6)
+[Download Resume](https://github.com/U77w41/u77w41.github.io/blob/master/assets/Ujjwal_Chowdhury_July2024.pdf)
 
 
 ## Areas of Expertise
