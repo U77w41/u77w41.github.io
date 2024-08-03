@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Scrapping on Ujjwal Chowdhury</title><link>https://u77w41.github.io/tags/web-scrapping/</link><description>Recent content in Web Scrapping on Ujjwal Chowdhury</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 03 Aug 2024 17:37:11 +0000</lastBuildDate><atom:link href="https://u77w41.github.io/tags/web-scrapping/index.xml" rel="self" type="application/rss+xml"/><item><title>NSEScraper an open-source scrapper for nseindia.com website.</title><link>https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./</link><pubDate>Sat, 03 Aug 2024 17:37:11 +0000</pubDate><guid>https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./</guid><description>&lt;img src="https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage.png" alt="Featured image of post NSEScraper an open-source scrapper for nseindia.com website." />&lt;h1 id="installation">Installation
+&lt;/h1>&lt;p>To install using pip, use&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pip&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">nsescraper&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>nsescraper&lt;/strong> requires &lt;a class="link" href="https://www.python.org/" target="_blank" rel="noopener"
+>Python 3&lt;/a> and &lt;a class="link" href="https://pandas.pydata.org/" target="_blank" rel="noopener"
+>Pandas&lt;/a> to execute.&lt;/p>
+&lt;h1 id="features">Features:
+&lt;/h1>&lt;p>&lt;strong>nsescraper&lt;/strong> package contains different functions such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>intraday_index&lt;/strong>: Scrapes intra day data for any index from NSE&lt;/li>
+&lt;li>&lt;strong>intraday_stock&lt;/strong>: Scrapes intra day data for any listed stock from NSE&lt;/li>
+&lt;/ul>
+&lt;h1 id="usage">Usage
+&lt;/h1>&lt;ul>
+&lt;li>&lt;strong>Import the library&lt;/strong>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">nsescraper&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="o">*&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>&lt;strong>Choose a method:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-1-minute-candle-format">To scrap current days nse index/stock data as 1 minute candle format
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty 50&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 25010.9 | 25085.6 | 24777 | 24945.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:01:00 | 24946 | 24950 | 24826.8 | 24830 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:02:00 | 24816.5 | 24816.5 | 24784 | 24792.3 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:03:00 | 24791.5 | 24791.5 | 24777.6 | 24789.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 392 | 2024-08-02 15:32:00 | 24699.5 | 24717.7 | 24699.5 | 24717.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 393 | 2024-08-02 15:33:00 | 24717.7 | 24717.7 | 24717.7 | 24717.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;britannia&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:15:00 | 5645.9 | 5695.8 | 5645.9 | 5695.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:16:00 | 5707.8 | 5732.95 | 5706.7 | 5729.85 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:17:00 | 5715 | 5737.9 | 5709.15 | 5729.85 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:18:00 | 5732 | 5732.85 | 5689.95 | 5697.3 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 400 | 2024-08-02 15:55:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 401 | 2024-08-02 15:56:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-1-second-tick-format">To scrap current days nse index/stock data as 1 second tick format
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty midcap 100&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">tick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | Tick | 2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=======+=====================+=========+=====+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:00:01 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:00:02 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:00:03 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 15319 | 2024-08-02 15:32:59 | 57913.7 | NM |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 15320 | 2024-08-02 15:33:00 | 57913.7 | NM |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;dr reddy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">tick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | Tick |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+======+=====================+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:15:24 | 6891.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:15:30 | 6886.1 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:15:37 | 6900.05 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:15:44 | 6900.6 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 7931 | 2024-08-02 15:58:49 | 6964.15 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 7932 | 2024-08-02 15:59:39 | 6964.15 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-required-length-minute-candle">To scrap current days nse index/stock data as required length minute candle
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty energy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">candlestick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 44954.4 | 44954.4 | 44481.8 | 44481.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:10:00 | 44481.8 | 44627.7 | 44258.1 | 44625.6 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:20:00 | 44618.6 | 44684.2 | 44537.8 | 44551.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:30:00 | 44524.2 | 44558.8 | 44375.6 | 44404.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 38 | 2024-08-02 15:20:00 | 44378.4 | 44399.4 | 44286.2 | 44297.5 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 39 | 2024-08-02 15:30:00 | 44299.1 | 44334.2 | 44299.1 | 44334.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Zomato&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">candlestick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="mi">69&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>To scrap historical nse index/stock data&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">historical_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;NIFTY 50&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">historical_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;ABB&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

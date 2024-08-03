@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Text Analysis on Ujjwal Chowdhury</title><link>https://u77w41.github.io/tags/text-analysis/</link><description>Recent content in Text Analysis on Ujjwal Chowdhury</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 08 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://u77w41.github.io/tags/text-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>Analysis on Complete Works of Swami Vivekananda</title><link>https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/</link><pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/</guid><description>&lt;img src="https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/swami-ji.png" alt="Featured image of post Analysis on Complete Works of Swami Vivekananda" />&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Analysis-on-Complete-Works-of-Swami-Vivekananda/" target="_blank" rel="noopener"
+>Github Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="objectives">Objectives
+&lt;/h2>&lt;ol>
+&lt;li>Implement the Flajolet-Martin Algorithm in a scalable manner suitable for processing the extensive corpus of Swami Vivekananda&amp;rsquo;s works.&lt;/li>
+&lt;li>Develop a robust data processing pipeline to handle the text data and generate the necessary input for the algorithm.&lt;/li>
+&lt;li>Fine-tune the algorithm parameters and validate its accuracy against known cardinality benchmarks to ensure reliable estimates.&lt;/li>
+&lt;/ol>
+&lt;h2 id="technologies-and-tools">Technologies and Tools
+&lt;/h2>&lt;ul>
+&lt;li>Programming Language: Python&lt;/li>
+&lt;li>Data Processing: Pandas, Spark&lt;/li>
+&lt;li>Flajolet-Martin Algorithm Implementation: Custom Python code&lt;/li>
+&lt;li>Version Control: Git&lt;/li>
+&lt;li>Documentation: Markdown&lt;/li>
+&lt;/ul>
+&lt;h2 id="expected-outcomes">Expected Outcomes
+&lt;/h2>&lt;ol>
+&lt;li>A scalable and efficient implementation of the Flajolet-Martin Algorithm tailored for the unique characteristics of Swami Vivekananda&amp;rsquo;s complete works.&lt;/li>
+&lt;li>Accurate cardinality estimates for the distinct elements in the dataset.&lt;/li>
+&lt;li>Documentation detailing the project methodology, implementation details, and findings.&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-work">Future Work
+&lt;/h2>&lt;p>Potential future enhancements could include exploring other probabilistic algorithms for cardinality estimation, optimizing the algorithm further, or extending the analysis to specific subsets of Swami Vivekananda&amp;rsquo;s works.&lt;/p></description></item></channel></rss>
