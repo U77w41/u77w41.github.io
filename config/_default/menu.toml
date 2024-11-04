@@ -20,7 +20,7 @@ newtab = true
 [[social]]
 identifier = "linkedin"
 name = "LinkedIn"
-url = "https://www.linkedin.com/in/ujjwalchowdhury0"
+url = "https://www.linkedin.com/in/ujjwal-chowdhury-857097200"
 
 [social.params]
 icon = "brand-linkedin"
