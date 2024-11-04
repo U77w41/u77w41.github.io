@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Statistics on Ujjwal Chowdhury</title><link>https://u77w41.github.io/tags/statistics/</link><description>Recent content in Statistics on Ujjwal Chowdhury</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://u77w41.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml"/><item><title>Forcasting and Anomaly Detection</title><link>https://u77w41.github.io/p/forcasting-and-anomaly-detection/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/forcasting-and-anomaly-detection/</guid><description>&lt;img src="https://u77w41.github.io/p/forcasting-and-anomaly-detection/forecasting.png" alt="Featured image of post Forcasting and Anomaly Detection" />&lt;p>**&lt;a class="link" href="https://github.com/U77w41/Forcasting-and-Anomaly-Detection" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/p>
+&lt;h2 id="forecasting-techniques">Forecasting Techniques:
+&lt;/h2>&lt;h3 id="regression-techniques">Regression Techniques
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Polynomial Regression:&lt;/strong> Leveraging the flexibility of polynomial functions to capture non-linear relationships in the data.&lt;/li>
+&lt;li>&lt;strong>Multiple Linear Regression:&lt;/strong> Utilizing multiple features to model the sales data and uncover complex dependencies.&lt;/li>
+&lt;li>&lt;strong>Lasso Linear Regression:&lt;/strong> Introducing L1 regularization to encourage sparsity in the model, selecting only the most influential features.&lt;/li>
+&lt;li>&lt;strong>Ridge Linear Regression:&lt;/strong> Applying L2 regularization to prevent overfitting and improve the generalization of the model.&lt;/li>
+&lt;li>&lt;strong>Elastic Net Regression:&lt;/strong> Combining L1 and L2 regularization to harness the strengths of both techniques.&lt;/li>
+&lt;/ul>
+&lt;h3 id="time-series-forecasting">Time Series Forecasting
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>ARMA (AutoRegressive Moving Average):&lt;/strong> Employing ARMA models to understand and predict the temporal patterns in Walmart sales data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="anomaly-detection-techniques">Anomaly Detection Techniques:
+&lt;/h2>&lt;h3 id="anomaly-detection-techniques-using-unsupervised-learning-approaches">Anomaly Detection Techniques using Unsupervised Learning Approaches
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>KNN Regressor:&lt;/strong> Utilizing the K-nearest neighbors algorithm to detect anomalies based on the deviation from the expected sales values.&lt;/li>
+&lt;li>&lt;strong>DBSCAN (Density-Based Spatial Clustering of Applications with Noise):&lt;/strong> Identifying anomalies by clustering the sales data and isolating points that do not conform to any cluster.&lt;/li>
+&lt;li>&lt;strong>LSTM with Autoencoders:&lt;/strong> Leveraging Long Short-Term Memory networks combined with autoencoders for capturing complex temporal dependencies and detecting anomalies in the sales data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-version-control-dvc">Data Version Control (DVC)
+&lt;/h2>&lt;p>To maintain the integrity and traceability of our project, we adopted the Data Version Control (DVC) Python library. DVC facilitated the versioning of our data, ensuring reproducibility and providing a robust framework for collaboration.&lt;/p>
+&lt;p>This project represents a holistic exploration of machine learning techniques for forecasting and anomaly detection, combining traditional regression methods with cutting-edge time series forecasting and unsupervised learning approaches.&lt;/p></description></item></channel></rss>

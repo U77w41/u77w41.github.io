@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer Vision on Ujjwal Chowdhury</title><link>https://u77w41.github.io/tags/computer-vision/</link><description>Recent content in Computer Vision on Ujjwal Chowdhury</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://u77w41.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml"/><item><title>Brain Tumour Classificaion</title><link>https://u77w41.github.io/p/brain-tumour-classificaion/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/brain-tumour-classificaion/</guid><description>&lt;img src="https://u77w41.github.io/p/brain-tumour-classificaion/Anaplastic_astrocytoma.jpg" alt="Featured image of post Brain Tumour Classificaion" />&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This project focuses on the classification of brain tumor images into four distinct classes: &amp;lsquo;glioma&amp;rsquo;, &amp;lsquo;meningioma&amp;rsquo;, &amp;rsquo;notumor&amp;rsquo;, and &amp;lsquo;pituitary&amp;rsquo;. The primary approach involves fine-tuning the VGG16 model using the PyTorch framework. Additionally, Python&amp;rsquo;s OpenCV library is utilized for image processing, and various image augmentation techniques are applied to enhance model generalization.&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/tree/main" target="_blank" rel="noopener"
+>GitHub Link&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="technologies-used">Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>PyTorch:&lt;/strong> The deep learning framework for model development and training.&lt;/li>
+&lt;li>&lt;strong>OpenCV:&lt;/strong> Used for image processing tasks.&lt;/li>
+&lt;li>&lt;strong>Python:&lt;/strong> The primary programming language for the project.&lt;/li>
+&lt;/ul>
+&lt;h2 id="model-architecture">Model Architecture
+&lt;/h2>&lt;p>The VGG16 model is employed as the base architecture for the brain tumor classification task. The model is fine-tuned to adapt to the specific requirements of the project.&lt;/p>
+&lt;h2 id="image-augmentation-techniques">Image Augmentation Techniques
+&lt;/h2>&lt;p>To enhance the model&amp;rsquo;s robustness and improve generalization, the following image augmentation techniques are applied:&lt;/p>
+&lt;ul>
+&lt;li>Rotation&lt;/li>
+&lt;li>Scaling&lt;/li>
+&lt;li>Horizontal and Vertical Flipping&lt;/li>
+&lt;li>Brightness and Contrast adjustments&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimization-techniques">Optimization Techniques
+&lt;/h2>&lt;p>Several optimization techniques are experimented with to fine-tune the model:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Stochastic Gradient Descent (SGD):&lt;/strong> A traditional optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>Adam:&lt;/strong> An adaptive learning rate optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>RMSprop:&lt;/strong> Another adaptive learning rate optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>AdaGrad:&lt;/strong> Adaptive gradient optimization algorithm.&lt;/li>
+&lt;/ol>
+&lt;h2 id="experimentation-and-tuning">Experimentation and Tuning
+&lt;/h2>&lt;p>The optimization parameters for each technique are carefully tuned to achieve optimal performance. The model undergoes thorough experimentation to identify the best combination of hyperparameters and optimization algorithms for the given task.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>The Brain Tumour Classification project demonstrates the successful implementation of a fine-tuned VGG16 model for accurately classifying brain tumor images into four classes. The combination of image augmentation techniques and experimentation with various optimization algorithms contributes to the overall success of the project.&lt;/p>
+&lt;p>For detailed implementation code and results, refer to the project &lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/" target="_blank" rel="noopener"
+>repository&lt;/a> and &lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/blob/main/notebooks/Brain%20Tumor%20Classification%20CDS%20Project.ipynb" target="_blank" rel="noopener"
+>notebooks&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Anaplastic_astrocytoma.jpgi" target="_blank" rel="noopener"
+>Wikipedia&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
