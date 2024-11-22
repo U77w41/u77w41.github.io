@@ -97,4 +97,4 @@ This Reinforcement Learning course offers a comprehensive journey through founda
 ### Skills Learned:
 **Bandit algorithms**, **MDPs**, **Bellman Optimality**, **Eligibility Traces**, **Hierarchical RL**, **Policy Gradient for Full RL**, **POMDPs**.
 
-![Reinforcement_Learning](Reinforcement Learning_page-0001.jpg)
+![Reinforcement_Learning](Reinforcement_Learning.jpg)
