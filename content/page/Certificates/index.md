@@ -87,3 +87,14 @@ This data science course focuses on essential math skills crucial for success in
 **Probability**, **Bayes Theory**, **Set Theory**, **Linear Algebra**, **Calculus**.
 
 ![Data_Science_Math_Skills](Data_Science_Math_Skills.png)
+
+
+## Reinforcement Learning
+This Reinforcement Learning course offers a comprehensive journey through foundational and advanced RL concepts. It begins with bandit algorithms for single-step decision-making and transitions into full RL with Markov Decision Processes (MDPs) and Bellman Optimality principles for sequential decision problems. Key techniques like Temporal Difference (TD) methods, eligibility traces, and function approximation are explored for value-based learning. Advanced methods, including Deep Q-Networks (DQN), policy gradients, and hierarchical RL, are covered to handle complex, real-world scenarios. The course concludes with Partially Observable MDPs (POMDPs), addressing decision-making in uncertain and incomplete environments.
+
+- [link](https://onlinecourses.nptel.ac.in/noc19_cs55/preview)
+
+### Skills Learned:
+**Bandit algorithms**, **MDPs**, **Bellman Optimality**, **Eligibility Traces**, **Hierarchical RL**, **Policy Gradient for Full RL**, **POMDPs**.
+
+![Reinforcement_Learning](Reinforcement Learning_page-0001.jpg)
