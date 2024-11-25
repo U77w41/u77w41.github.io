@@ -1,4 +1,24 @@
-<!-- <img align="right" width="150" alt="logo" src="https://user-images.githubusercontent.com/5889006/190859553-5b229b4f-c476-4cbd-928f-890f5265ca4c.png">
+<!-- 
+new post
+hugo new post/Visualizing-Microsoft-AdventureWorks-Data/index.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img align="right" width="150" alt="logo" src="https://user-images.githubusercontent.com/5889006/190859553-5b229b4f-c476-4cbd-928f-890f5265ca4c.png">
 
 # Hugo Theme Stack Starter Template
 
