@@ -1,10 +1,10 @@
 ---
 title: "Visualizing Microsoft AdventureWorks Data"
-description: 
+description: "This Power BI dashboard provides comprehensive sales analytics for AdventureWorks, offering insights into revenue, orders, returns, and customer demographics. The dashboard consists of three interconnected pages, each focusing on specific aspects of the business."
 date: 2024-11-25T09:47:17Z
 image: Visualizing-Microsoft-AdventureWorks-Data.png
 math: 
-license: 
+license: MIT License
 hidden: false
 comments: true
 draft: false
