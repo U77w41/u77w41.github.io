@@ -8,6 +8,7 @@ license: MIT License
 hidden: false
 comments: true
 draft: false
+weight: 4 
 categories:
     - Data Analytics Projects
 tags:
