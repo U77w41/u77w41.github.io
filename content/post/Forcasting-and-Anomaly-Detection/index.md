@@ -16,7 +16,7 @@ tags:
     - Statistics
     - Regression
     - Annomaly Detection
-weight: 5 
+weight: 6 
 draft: false
 ---
 **[GitHub Repo](https://github.com/U77w41/Forcasting-and-Anomaly-Detection)
