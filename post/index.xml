@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Ujjwal Chowdhury</title><link>https://u77w41.github.io/post/</link><description>Recent content in Posts on Ujjwal Chowdhury</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2024 06:18:40 +0000</lastBuildDate><atom:link href="https://u77w41.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://u77w41.github.io/p/hello-world/</link><pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/hello-world/</guid><description>&lt;img src="https://u77w41.github.io/p/hello-world/hello.png" alt="Featured image of post Hello World" />&lt;h1 id="welcome-to-my-blog">Welcome to My Blog
+&lt;/h1>&lt;p>Hello and welcome to my blog! I&amp;rsquo;m Ujjwal Chowdhury, a data scientist and research analyst based in Kolkata, India. With a Master’s degree in Data Science and over a year of practical experience, I specialize in Natural Language Processing (NLP), Generative AI, and Stock Forecasting. My passion lies in designing and developing innovative solutions using Artificial Intelligence, implementing machine learning models, and collaborating with cross-functional teams to deliver impactful, data-driven insights.&lt;/p>
+&lt;h2 id="areas-of-expertise">Areas of Expertise
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Natural Language Processing (NLP)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Generative AI&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Machine Learning Algorithms&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Time Series Analysis&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Algorithm Optimization&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Statistical Analysis&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Data Visualization&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Model Development&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Cross-functional Collaboration&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills
+&lt;/h2>&lt;h3 id="data-visualization">Data Visualization
+&lt;/h3>&lt;ul>
+&lt;li>Microsoft Power BI&lt;/li>
+&lt;li>Excel&lt;/li>
+&lt;li>Tableau&lt;/li>
+&lt;li>Seaborn&lt;/li>
+&lt;li>Plotly&lt;/li>
+&lt;li>Matplotlib&lt;/li>
+&lt;/ul>
+&lt;h3 id="machine-learning-and-deep-learning">Machine Learning and Deep Learning
+&lt;/h3>&lt;ul>
+&lt;li>Feature Engineering&lt;/li>
+&lt;li>Model Development&lt;/li>
+&lt;li>Hyper-parameter Tuning&lt;/li>
+&lt;li>Neural Networks&lt;/li>
+&lt;li>Reinforcement Learning&lt;/li>
+&lt;li>Transfer Learning&lt;/li>
+&lt;li>Optimization Techniques&lt;/li>
+&lt;li>MLOps&lt;/li>
+&lt;/ul>
+&lt;h3 id="toolsframeworks">Tools/Frameworks
+&lt;/h3>&lt;ul>
+&lt;li>Python, R&lt;/li>
+&lt;li>TensorFlow, PyTorch, Keras, TFLite, MLFlow, PySpark&lt;/li>
+&lt;li>PostgreSQL&lt;/li>
+&lt;li>Azure, AWS&lt;/li>
+&lt;li>LangChain, streamlit, Docker, Pydantic&lt;/li>
+&lt;/ul>
+&lt;h3 id="natural-language-processing">Natural Language Processing
+&lt;/h3>&lt;ul>
+&lt;li>Text Generation&lt;/li>
+&lt;li>Sentiment Analysis&lt;/li>
+&lt;li>Speech Recognition&lt;/li>
+&lt;li>Named Entity Recognition&lt;/li>
+&lt;li>Text Classification&lt;/li>
+&lt;li>LLM Prompt Engineering&lt;/li>
+&lt;/ul>
+&lt;h3 id="computer-vision">Computer Vision
+&lt;/h3>&lt;ul>
+&lt;li>Image Processing&lt;/li>
+&lt;li>Object Detection&lt;/li>
+&lt;li>Image Classification&lt;/li>
+&lt;li>Image Segmentation&lt;/li>
+&lt;li>Image Generation&lt;/li>
+&lt;/ul>
+&lt;h3 id="data-analysis-and-mining">Data Analysis and Mining
+&lt;/h3>&lt;ul>
+&lt;li>Data Mining&lt;/li>
+&lt;li>Web Scraping&lt;/li>
+&lt;li>Statistical Analysis&lt;/li>
+&lt;li>Time Series Analysis&lt;/li>
+&lt;li>Anomaly Detection&lt;/li>
+&lt;li>Predictive Analytics&lt;/li>
+&lt;li>Survival Analysis&lt;/li>
+&lt;/ul>
+&lt;h3 id="soft-skills">Soft Skills
+&lt;/h3>&lt;ul>
+&lt;li>Problem-Solving&lt;/li>
+&lt;li>Teamwork&lt;/li>
+&lt;li>Active Listening&lt;/li>
+&lt;li>Adaptability&lt;/li>
+&lt;li>Communication&lt;/li>
+&lt;li>Analytical Thinking&lt;/li>
+&lt;/ul>
+&lt;h2 id="professional-experience">Professional Experience
+&lt;/h2>&lt;h3 id="research-executive-ai--nlp">Research Executive (AI &amp;amp; NLP)
+&lt;/h3>&lt;p>&lt;strong>Feedsense AI Private Limited, Kolkata, India (Mar 2024 - Present)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Utilized reinforcement learning models integrating financial data to predict market movements and develop optimized trading strategies.&lt;/li>
+&lt;/ul>
+&lt;h3 id="ai-researcher">AI Researcher
+&lt;/h3>&lt;p>&lt;strong>Vista Intelligence Private Limited, Kolkata, India (Jan 2023 - Mar 2024)&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Led the NLP team, overseeing project developments and team operations.&lt;/li>
+&lt;li>Fine-tuned an RNN-Transducer driven speech-to-text model to effectively capture Indian accents, reducing the Word Error Rate from 56.8% to 23.4%.&lt;/li>
+&lt;li>Developed a live audio transcription model for real-time news analysis.&lt;/li>
+&lt;li>Created a trade signal generator model integrating live audio, textual news articles, OHLC data, and quantitative techniques with over 75% directional accuracy.&lt;/li>
+&lt;li>Developed an auto question generator program for applicant CVs.&lt;/li>
+&lt;li>Utilized OpenAI API with Langchain for a large document summarizer.&lt;/li>
+&lt;li>Employed a 4-bit quantized Mistral 7b LLM model for summarizing conference call conversations.&lt;/li>
+&lt;/ul>
+&lt;h2 id="research--publication">Research &amp;amp; Publication
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Investigate How Market Behaves: Toward an Explanatory Multitasking Based Analytical Model for Financial Investments&lt;/strong>&lt;br>
+&lt;em>IEEE Access, March 2024&lt;/em>&lt;br>
+&lt;a class="link" href="https://doi.org/10.1109/ACCESS.2024.3369033" target="_blank" rel="noopener"
+>DOI: 10.1109/ACCESS.2024.3369033&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="courses--certifications">Courses &amp;amp; Certifications
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Artificial Intelligence (AI) for Investments&lt;/strong> (April 2023) - NPTEL&lt;/li>
+&lt;li>&lt;strong>Cloud Computing and Distributed Systems&lt;/strong> (March 2023) - NPTEL&lt;/li>
+&lt;li>&lt;strong>NISM-Series-XV: Research Analyst&lt;/strong> (Feb. 2023) - National Institute of Securities Markets&lt;/li>
+&lt;li>&lt;strong>Database Management System&lt;/strong> (Oct. 2022) - NPTEL&lt;/li>
+&lt;li>&lt;strong>Deep Learning for Computer Vision&lt;/strong> (Oct. 2022) - NPTEL&lt;/li>
+&lt;li>&lt;strong>Data Science Math Skills&lt;/strong> (April 2020) - Duke University, Coursera&lt;/li>
+&lt;/ul>
+&lt;h2 id="education">Education
+&lt;/h2>&lt;h3 id="msc-data-science">MSc Data Science
+&lt;/h3>&lt;p>&lt;strong>RKMVERI, Belur, West Bengal, India (2021-2023)&lt;/strong>&lt;/p>
+&lt;h3 id="bsc-mathematics">BSc Mathematics
+&lt;/h3>&lt;p>&lt;strong>Vidyasagar University, Medinipur, West Bengal, India (2017-2020)&lt;/strong>&lt;/p>
+&lt;h2 id="personal-projects">Personal Projects
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Fin-Bot: Advanced Agent-based Financial Chatbot&lt;/strong>&lt;br>
+Domain: NLP, LLM, Generative AI, Deep Learning, RAG&lt;/p>
+&lt;ul>
+&lt;li>Integrated web search functionality for comprehensive query responses.&lt;/li>
+&lt;li>Implemented a custom vector database for efficient retrieval of financial news and transcripts.&lt;/li>
+&lt;li>Employed LLM-equipped agent for directed user queries, ensuring comprehensive insights.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Sales Forecasting and Anomaly Detection on Walmart Sales Dataset&lt;/strong>&lt;br>
+Domain: Machine Learning, Time Series Analysis, Deep Learning&lt;/p>
+&lt;ul>
+&lt;li>Used Factor Analysis for feature extraction.&lt;/li>
+&lt;li>Applied time series, machine learning, and deep learning for sales prediction.&lt;/li>
+&lt;li>Used unsupervised techniques for anomaly detection.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Deep Bidirectional LSTM Network for Textual Sentiment Analysis&lt;/strong>&lt;br>
+Domain: Deep Learning, Sentiment Analysis, NLP, Web Scraping&lt;/p>
+&lt;ul>
+&lt;li>Integrated Twitter API for real-time tweet scraping.&lt;/li>
+&lt;li>Used AsyncHTMLSession to scrape news articles from Google News.&lt;/li>
+&lt;li>Leveraged Bi-LSTM architecture for sentiment classification.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Brain Tumor Classification&lt;/strong>&lt;br>
+Domain: Computer Vision, Deep Learning, Optimization Techniques&lt;/p>
+&lt;ul>
+&lt;li>Used Transfer Learning and fine-tuned several pre-trained models.&lt;/li>
+&lt;li>Explored various optimization algorithms.&lt;/li>
+&lt;li>Applied snapshot learning technique for ensemble predictive model construction.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Statistical Analysis of Diet, Exercise, and Fitness&lt;/strong>&lt;br>
+Domain: EDA, Data Visualization, Data Analysis, Statistical Inference&lt;/p>
+&lt;ul>
+&lt;li>Collected data using online surveys.&lt;/li>
+&lt;li>Employed descriptive statistics for dataset summarization.&lt;/li>
+&lt;li>Used Power BI, Tableau, Excel, R, and Python for analysis and visualization.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Stay tuned for more insights, projects, and discussions on data science, AI, and beyond. Feel free to connect with me on &lt;a class="link" href="https://www.linkedin.com/in/u77w41" target="_blank" rel="noopener"
+>LinkedIn&lt;/a> or explore my projects on &lt;a class="link" href="https://github.com/u77w41" target="_blank" rel="noopener"
+>GitHub&lt;/a>.&lt;/p>
+&lt;p>Thank you for visiting my blog!&lt;/p></description></item><item><title>Paris Summer Olympic Games 2024 Dashboard</title><link>https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/</link><pubDate>Wed, 27 Nov 2024 06:18:40 +0000</pubDate><guid>https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/</guid><description>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/ParisSummerOlympicsDashboard.jpg" alt="Featured image of post Paris Summer Olympic Games 2024 Dashboard" />&lt;h1 id="olympics-2024-data-dashboard">Olympics 2024 Data Dashboard
+&lt;/h1>&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Power-BI-Dashboards/tree/main/Olympic-2024-Dashboard" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="project-overview">Project Overview
+&lt;/h2>&lt;p>This Power BI dashboard provides an interactive visualization of the Olympics 2024 data, focusing on key statistics related to medals, athletes, countries, and historical performances. The dashboard is divided into five pages, each tailored to present specific insights through dynamic filtering and visually engaging elements.&lt;/p>
+&lt;hr>
+&lt;h2 id="dataset-information">Dataset Information
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Source&lt;/strong>: &lt;a class="link" href="https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games" target="_blank" rel="noopener"
+>Kaggle - Paris 2024 Olympic Summer Games Dataset&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>:&lt;br>
+The Paris 2024 Olympic Summer Games dataset offers comprehensive data about the Summer Olympics held in 2024. It includes:&lt;/p>
+&lt;ul>
+&lt;li>Participating countries&lt;/li>
+&lt;li>Athletes&lt;/li>
+&lt;li>Sports disciplines&lt;/li>
+&lt;li>Medal standings&lt;/li>
+&lt;li>Key event details&lt;br>
+The dataset provides a solid foundation for analyzing the event&amp;rsquo;s performance and trends.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Additional Resources&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://olympics.com/en/paris-2024" target="_blank" rel="noopener"
+>Official Site - Paris 2024 Olympics&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/2024_Summer_Olympics" target="_blank" rel="noopener"
+>Wikipedia - 2024 Summer Olympics&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="pages-overview">Pages Overview
+&lt;/h2>&lt;h3 id="1-home">1. &lt;strong>Home&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: The landing page of the dashboard.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0001-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0001-min_hu16161788531360106778.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0001-min_hu10985719506404691726.jpg 1024w"
+loading="lazy"
+alt="Home Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>Navigation buttons or links to seamlessly guide users to other pages.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-overview">2. &lt;strong>Overview&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Provides a comprehensive summary of medal statistics for the Olympics 2024.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0002-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0002-min_hu16521905950428195455.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0002-min_hu10896075043478487203.jpg 1024w"
+loading="lazy"
+alt="Overview Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Medals by Country and Gender&lt;/strong>: Visualized using bar/column charts or other relevant visualizations to showcase the distribution of medals.&lt;/li>
+&lt;li>&lt;strong>Key Highlights&lt;/strong>:
+&lt;ul>
+&lt;li>Created using a &lt;strong>Measure Query&lt;/strong> to dynamically calculate and display critical statistics (e.g., total medals won, top-performing countries).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Custom Map Visualization&lt;/strong>:
+&lt;ul>
+&lt;li>Displays medallist density by country, offering a geographic perspective.&lt;/li>
+&lt;li>Enhances understanding of country-wise performance.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Game-wise Filtering&lt;/strong>:
+&lt;ul>
+&lt;li>Users can filter all visualizations on this page by selecting specific games.&lt;/li>
+&lt;li>Improves interactivity and customization for detailed analysis.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="3-athletes">3. &lt;strong>Athletes&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Focuses on individual athletes and their achievements.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0003-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0003-min_hu6091352730299780226.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0003-min_hu16145253374532252641.jpg 1024w"
+loading="lazy"
+alt="Athletes Summary Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Filters&lt;/strong>:
+&lt;ul>
+&lt;li>By Country, Game, Gender, and Medals Won.&lt;/li>
+&lt;li>Enables users to drill down into specific athlete data based on selected criteria.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Visualizations&lt;/strong>:
+&lt;ul>
+&lt;li>Highlight athletes&amp;rsquo; contributions to their countries&amp;rsquo; performances.&lt;/li>
+&lt;li>Possible use of tables, cards, or slicers for detailed and filtered views.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="4-country">4. &lt;strong>Country&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Analyzes the performance of countries in the Olympics 2024.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0004-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0004-min_hu7955690662470493762.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0004-min_hu1296234553821338875.jpg 1024w"
+loading="lazy"
+alt="Countrys Overview Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Summary Statistics&lt;/strong>:
+&lt;ul>
+&lt;li>Total medals won by countries.&lt;/li>
+&lt;li>Comparative analysis of countries&amp;rsquo; performances.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Game-wise Filtering&lt;/strong>:
+&lt;ul>
+&lt;li>Allows users to explore country-level statistics for selected games.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Visualizations&lt;/strong>:
+&lt;ul>
+&lt;li>Incorporates bar charts, tables, or other visual elements for an impactful representation.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="5-historical">5. &lt;strong>Historical&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Explores historical Olympic games data and trends.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0005-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0005-min_hu5887975976216773846.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0005-min_hu12895359476998909353.jpg 1024w"
+loading="lazy"
+alt="Historical Medals Summary Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Summary Statistics&lt;/strong>:
+&lt;ul>
+&lt;li>Historical medals won by countries.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Filters&lt;/strong>:
+&lt;ul>
+&lt;li>By Country and Games, enabling users to focus on specific historical data.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Visualizations&lt;/strong>:
+&lt;ul>
+&lt;li>Trends over multiple Olympic years to understand performance changes.&lt;/li>
+&lt;li>Graphs and timelines to depict historical achievements effectively.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="key-highlights">Key Highlights
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Interactivity&lt;/strong>: Filters across pages allow for granular analysis and customization.&lt;/li>
+&lt;li>&lt;strong>Custom Mapping&lt;/strong>: A unique visual element that enhances geographic insights.&lt;/li>
+&lt;li>&lt;strong>Dynamic Measures&lt;/strong>: Queries calculate and display real-time statistics.&lt;/li>
+&lt;li>&lt;strong>Comprehensive Visuals&lt;/strong>: Diverse charts, maps, and tables present data intuitively.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="applications">Applications
+&lt;/h2>&lt;ul>
+&lt;li>Suitable for analysts, sports enthusiasts, and stakeholders interested in Olympics 2024 performance data.&lt;/li>
+&lt;li>Helps in understanding medal trends, athlete achievements, and country-wise statistics.&lt;/li>
+&lt;li>Provides a historical perspective to assess long-term performance.&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Visualizing Microsoft AdventureWorks Data</title><link>https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/</link><pubDate>Mon, 25 Nov 2024 09:47:17 +0000</pubDate><guid>https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/</guid><description>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/Visualizing-Microsoft-AdventureWorks-Data.png" alt="Featured image of post Visualizing Microsoft AdventureWorks Data" />&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Power-BI-Dashboards/tree/main/Visualizing-Microsoft-AdventureWorks-Data" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h1 id="adventureworks-sales-analytics-dashboard">AdventureWorks Sales Analytics Dashboard
+&lt;/h1>&lt;h2 id="project-overview">Project Overview
+&lt;/h2>&lt;p>This Power BI dashboard provides comprehensive sales analytics for AdventureWorks, offering insights into revenue, orders, returns, and customer demographics. The dashboard consists of three interconnected pages, each focusing on specific aspects of the business.&lt;/p>
+&lt;h2 id="dashboard-structure">Dashboard Structure
+&lt;/h2>&lt;h3 id="1-sales-overview-page">1. Sales Overview Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Provides a high-level summary of key business metrics with dynamic filtering capabilities.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard1.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard1_hu9504818958505485759.jpg 480w, https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard1_hu13881012587386069282.jpg 1024w"
+loading="lazy"
+alt="Page1"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Key Features&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Revenue analysis across different dimensions&lt;/li>
+&lt;li>Order volume tracking&lt;/li>
+&lt;li>Returns monitoring&lt;/li>
+&lt;li>Product performance metrics&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Filters&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Order Category&lt;/li>
+&lt;li>Order Subcategory&lt;/li>
+&lt;li>Geographical Location&lt;/li>
+&lt;li>Date Range&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-performance-metrics-page">2. Performance Metrics Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Compares current performance against targets and tracks temporal trends.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard2.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard2_hu184460343030389083.jpg 480w, https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard2_hu17397293496313066274.jpg 1024w"
+loading="lazy"
+alt="Page2"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Key Visualizations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Current month vs target comparison for:
+&lt;ul>
+&lt;li>Order volume&lt;/li>
+&lt;li>Revenue&lt;/li>
+&lt;li>Returns&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Weekly profit and revenue trends&lt;/li>
+&lt;li>Performance gauges and KPI cards&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-customer-analytics-page">3. Customer Analytics Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Deep dive into customer demographics and behavior patterns.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard3.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard3_hu1270571163673599784.jpg 480w, https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard3_hu10573143624724678711.jpg 1024w"
+loading="lazy"
+alt="Page3"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Customer Segmentation by&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Gender distribution&lt;/li>
+&lt;li>Income levels&lt;/li>
+&lt;li>Occupational categories&lt;/li>
+&lt;li>Age groups&lt;/li>
+&lt;li>Order history&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-source">Data Source
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>&lt;a class="link" href="https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&amp;amp;tabs=ssms" target="_blank" rel="noopener"
+>Microsoft AdventureWorks sample database&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation
+&lt;/h2>&lt;p>&lt;strong>Platform&lt;/strong>: Microsoft Power BI&lt;/p>
+&lt;h2 id="interactive-features">Interactive Features
+&lt;/h2>&lt;ul>
+&lt;li>Cross-filtering capabilities across all pages&lt;/li>
+&lt;li>Drill-down functionality from category to subcategory levels&lt;/li>
+&lt;li>Dynamic date range selection&lt;/li>
+&lt;li>Tooltip enriched visualizations&lt;/li>
+&lt;/ul>
+&lt;h2 id="intended-users">Intended Users
+&lt;/h2>&lt;ul>
+&lt;li>Sales Management&lt;/li>
+&lt;li>Executive Leadership&lt;/li>
+&lt;li>Regional Managers&lt;/li>
+&lt;li>Product Teams&lt;/li>
+&lt;li>Customer Service Representatives&lt;/li>
+&lt;/ul>
+&lt;h2 id="business-benefits">Business Benefits
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Informed Decision Making&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Real-time access to critical business metrics&lt;/li>
+&lt;li>Comparison of actual performance against targets&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Customer Insights&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Better understanding of customer segments&lt;/li>
+&lt;li>Identification of high-value customer groups&lt;/li>
+&lt;li>Analysis of purchasing patterns&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Operational Efficiency&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Quick identification of underperforming areas&lt;/li>
+&lt;li>Monitoring of returns and potential quality issues&lt;/li>
+&lt;li>Geographical performance analysis&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-enhancements">Future Enhancements
+&lt;/h2>&lt;ul>
+&lt;li>Integration with predictive analytics&lt;/li>
+&lt;li>Addition of inventory management metrics&lt;/li>
+&lt;li>Enhanced customer segmentation analysis&lt;/li>
+&lt;li>Mobile-optimized view&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage-guidelines">Usage Guidelines
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Navigating the Dashboard&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Use the tabs at the bottom to switch between pages&lt;/li>
+&lt;li>Apply filters consistently across all pages&lt;/li>
+&lt;li>Utilize drill-through functionality for detailed analysis&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Best Practices&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Start with the Overview page for high-level insights&lt;/li>
+&lt;li>Use date filters to focus on specific periods&lt;/li>
+&lt;li>Export specific views for reporting purposes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item><item><title>Brain Tumour Classificaion</title><link>https://u77w41.github.io/p/brain-tumour-classificaion/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/brain-tumour-classificaion/</guid><description>&lt;img src="https://u77w41.github.io/p/brain-tumour-classificaion/Anaplastic_astrocytoma.jpg" alt="Featured image of post Brain Tumour Classificaion" />&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This project focuses on the classification of brain tumor images into four distinct classes: &amp;lsquo;glioma&amp;rsquo;, &amp;lsquo;meningioma&amp;rsquo;, &amp;rsquo;notumor&amp;rsquo;, and &amp;lsquo;pituitary&amp;rsquo;. The primary approach involves fine-tuning the VGG16 model using the PyTorch framework. Additionally, Python&amp;rsquo;s OpenCV library is utilized for image processing, and various image augmentation techniques are applied to enhance model generalization.&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/tree/main" target="_blank" rel="noopener"
+>GitHub Link&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="technologies-used">Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>PyTorch:&lt;/strong> The deep learning framework for model development and training.&lt;/li>
+&lt;li>&lt;strong>OpenCV:&lt;/strong> Used for image processing tasks.&lt;/li>
+&lt;li>&lt;strong>Python:&lt;/strong> The primary programming language for the project.&lt;/li>
+&lt;/ul>
+&lt;h2 id="model-architecture">Model Architecture
+&lt;/h2>&lt;p>The VGG16 model is employed as the base architecture for the brain tumor classification task. The model is fine-tuned to adapt to the specific requirements of the project.&lt;/p>
+&lt;h2 id="image-augmentation-techniques">Image Augmentation Techniques
+&lt;/h2>&lt;p>To enhance the model&amp;rsquo;s robustness and improve generalization, the following image augmentation techniques are applied:&lt;/p>
+&lt;ul>
+&lt;li>Rotation&lt;/li>
+&lt;li>Scaling&lt;/li>
+&lt;li>Horizontal and Vertical Flipping&lt;/li>
+&lt;li>Brightness and Contrast adjustments&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimization-techniques">Optimization Techniques
+&lt;/h2>&lt;p>Several optimization techniques are experimented with to fine-tune the model:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Stochastic Gradient Descent (SGD):&lt;/strong> A traditional optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>Adam:&lt;/strong> An adaptive learning rate optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>RMSprop:&lt;/strong> Another adaptive learning rate optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>AdaGrad:&lt;/strong> Adaptive gradient optimization algorithm.&lt;/li>
+&lt;/ol>
+&lt;h2 id="experimentation-and-tuning">Experimentation and Tuning
+&lt;/h2>&lt;p>The optimization parameters for each technique are carefully tuned to achieve optimal performance. The model undergoes thorough experimentation to identify the best combination of hyperparameters and optimization algorithms for the given task.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>The Brain Tumour Classification project demonstrates the successful implementation of a fine-tuned VGG16 model for accurately classifying brain tumor images into four classes. The combination of image augmentation techniques and experimentation with various optimization algorithms contributes to the overall success of the project.&lt;/p>
+&lt;p>For detailed implementation code and results, refer to the project &lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/" target="_blank" rel="noopener"
+>repository&lt;/a> and &lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/blob/main/notebooks/Brain%20Tumor%20Classification%20CDS%20Project.ipynb" target="_blank" rel="noopener"
+>notebooks&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Anaplastic_astrocytoma.jpgi" target="_blank" rel="noopener"
+>Wikipedia&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Starbucks Drinks Dashboard</title><link>https://u77w41.github.io/p/starbucks-drinks-dashboard/</link><pubDate>Tue, 26 Nov 2024 04:27:13 +0000</pubDate><guid>https://u77w41.github.io/p/starbucks-drinks-dashboard/</guid><description>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-DashboardSummary.png" alt="Featured image of post Starbucks Drinks Dashboard" />&lt;h1 id="starbucks-drinks-nutritional-dashboard">Starbucks Drinks Nutritional Dashboard
+&lt;/h1>&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Power-BI-Dashboards/tree/main/Starbucks-Drinks-Dashboard" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="project-overview">Project Overview
+&lt;/h2>&lt;p>A comprehensive Power BI dashboard analyzing Starbucks drink products, focusing on nutritional content, health insights, and store location information. The dashboard provides a holistic view of Starbucks&amp;rsquo; product offerings through four interconnected pages.&lt;/p>
+&lt;p>&lt;strong>Key Visualizations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Total number of drink products&lt;/li>
+&lt;li>Drink categories distribution&lt;/li>
+&lt;li>Average nutritional values across product lines&lt;/li>
+&lt;li>Top-performing drinks by various nutritional criteria&lt;/li>
+&lt;/ul>
+&lt;h2 id="dashboard-architecture">Dashboard Architecture
+&lt;/h2>&lt;h3 id="1-overview-page">1. Overview Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Provide a introduction page of Starbucks drink portfolio and key nutritional metrics.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard1.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard1_hu7655621370833888268.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard1_hu10792120617503278157.jpg 1024w"
+loading="lazy"
+alt="Overview Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;h3 id="2-nutritional-insights-page">2. Nutritional Insights Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Detailed nutritional breakdown of Starbucks products&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard2.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard2_hu17072365464605465303.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard2_hu4949239709846475178.jpg 1024w"
+loading="lazy"
+alt="Nutritional Insights"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Nutritional Analysis&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Vitamin content visualization&lt;/li>
+&lt;li>Protein levels across different drinks&lt;/li>
+&lt;li>Fat content analysis&lt;/li>
+&lt;li>Vitamin C concentration&lt;/li>
+&lt;li>Interactive comparisons between products&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Key Features&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Comparative charts&lt;/li>
+&lt;li>Drill-down capabilities&lt;/li>
+&lt;li>Filtering options by drink type and size&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-advanced-nutritional-insights-page">3. Advanced Nutritional Insights Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: In-depth exploration of nutritional challenges and health-critical metrics&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard3.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard3_hu5282733621303373795.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard3_hu12572418397111144308.jpg 1024w"
+loading="lazy"
+alt="In-depth Insights"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Specialized Visualizations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Trans Fat Content Analysis
+&lt;ul>
+&lt;li>Identification of high trans fat products&lt;/li>
+&lt;li>Comparative trans fat levels across drink categories&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sugar Content Mapping&lt;/li>
+&lt;li>Mineral composition&lt;/li>
+&lt;li>Calorie density visualization&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Health Focus&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Warnings for high-risk nutritional profiles&lt;/li>
+&lt;li>Color-coded indicators for nutritional extremes&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-store-locator-page">4. Store Locator Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Store location mapping&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard4.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard4_hu3702940170927086496.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard4_hu13704753509602164384.jpg 1024w"
+loading="lazy"
+alt="Find Store"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>
+&lt;em>World map with Starbucks store locations&lt;/em>&lt;/p>
+&lt;h2 id="technical-implementation">Technical Implementation
+&lt;/h2>&lt;p>&lt;strong>Platform&lt;/strong>: Microsoft Power BI&lt;/p>
+&lt;p>&lt;strong>Data Processing&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Advanced data cleaning&lt;/li>
+&lt;li>Nutritional value normalization&lt;/li>
+&lt;/ul>
+&lt;h2 id="interactive-dashboard-capabilities">Interactive Dashboard Capabilities
+&lt;/h2>&lt;ul>
+&lt;li>Cross-page filtering&lt;/li>
+&lt;li>Dynamic data exploration&lt;/li>
+&lt;li>Responsive design&lt;/li>
+&lt;/ul>
+&lt;h2 id="target-audience">Target Audience
+&lt;/h2>&lt;ul>
+&lt;li>Health-conscious consumers&lt;/li>
+&lt;li>Nutritionists and dieticians&lt;/li>
+&lt;li>Starbucks management&lt;/li>
+&lt;li>Product development teams&lt;/li>
+&lt;li>Marketing strategists&lt;/li>
+&lt;/ul>
+&lt;h2 id="business-insights">Business Insights
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Nutritional Transparency&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Comprehensive product information&lt;/li>
+&lt;li>Clear health impact visualization&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Product Strategy&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Identify high-performing nutritional profiles&lt;/li>
+&lt;li>Guide product development&lt;/li>
+&lt;li>Support marketing positioning&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Consumer Education&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Empower informed beverage choices&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-enhancement-roadmap">Future Enhancement Roadmap
+&lt;/h2>&lt;ul>
+&lt;li>Integration with real-time nutritional tracking&lt;/li>
+&lt;li>Personalized nutritional recommendation engine&lt;/li>
+&lt;li>Expanded global store data&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage-guidelines">Usage Guidelines
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Navigation&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Use page tabs for different perspectives&lt;/li>
+&lt;li>Utilize filters for focused analysis&lt;/li>
+&lt;li>Hover for detailed tooltips&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Interpretation Tips&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Compare drinks within categories&lt;/li>
+&lt;li>Use store locator for nearby options&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="data-disclaimer">Data Disclaimer
+&lt;/h2>&lt;p>Important Notice:&lt;/p>
+&lt;h3 id="-data-integrity-warning-">🚨 Data Integrity Warning 🚨
+&lt;/h3>&lt;ul>
+&lt;li>This dashboard is created using DUMMY/SIMULATED DATA.&lt;/li>
+&lt;li>The nutritional information, store locations, and all visualizations are NOT REAL.&lt;/li>
+&lt;li>Data is purely for demonstration and educational purposes.&lt;/li>
+&lt;li>DO NOT use this data for actual nutritional planning or decision-making.&lt;/li>
+&lt;li>All data points are synthetic and do not represent actual Starbucks products or nutritional facts.&lt;/li>
+&lt;/ul></description></item><item><title>NSEScraper an open-source scrapper for nseindia.com website.</title><link>https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./</link><pubDate>Sat, 03 Aug 2024 17:37:11 +0000</pubDate><guid>https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./</guid><description>&lt;img src="https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage.png" alt="Featured image of post NSEScraper an open-source scrapper for nseindia.com website." />&lt;h1 id="installation">Installation
+&lt;/h1>&lt;p>To install using pip, use&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pip&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">nsescraper&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>nsescraper&lt;/strong> requires &lt;a class="link" href="https://www.python.org/" target="_blank" rel="noopener"
+>Python 3&lt;/a> and &lt;a class="link" href="https://pandas.pydata.org/" target="_blank" rel="noopener"
+>Pandas&lt;/a> to execute.&lt;/p>
+&lt;h1 id="features">Features:
+&lt;/h1>&lt;p>&lt;strong>nsescraper&lt;/strong> package contains different functions such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>intraday_index&lt;/strong>: Scrapes intra day data for any index from NSE&lt;/li>
+&lt;li>&lt;strong>intraday_stock&lt;/strong>: Scrapes intra day data for any listed stock from NSE&lt;/li>
+&lt;/ul>
+&lt;h1 id="usage">Usage
+&lt;/h1>&lt;ul>
+&lt;li>&lt;strong>Import the library&lt;/strong>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">nsescraper&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="o">*&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>&lt;strong>Choose a method:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-1-minute-candle-format">To scrap current days nse index/stock data as 1 minute candle format
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty 50&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 25010.9 | 25085.6 | 24777 | 24945.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:01:00 | 24946 | 24950 | 24826.8 | 24830 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:02:00 | 24816.5 | 24816.5 | 24784 | 24792.3 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:03:00 | 24791.5 | 24791.5 | 24777.6 | 24789.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 392 | 2024-08-02 15:32:00 | 24699.5 | 24717.7 | 24699.5 | 24717.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 393 | 2024-08-02 15:33:00 | 24717.7 | 24717.7 | 24717.7 | 24717.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;britannia&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:15:00 | 5645.9 | 5695.8 | 5645.9 | 5695.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:16:00 | 5707.8 | 5732.95 | 5706.7 | 5729.85 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:17:00 | 5715 | 5737.9 | 5709.15 | 5729.85 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:18:00 | 5732 | 5732.85 | 5689.95 | 5697.3 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 400 | 2024-08-02 15:55:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 401 | 2024-08-02 15:56:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-1-second-tick-format">To scrap current days nse index/stock data as 1 second tick format
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty midcap 100&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">tick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | Tick | 2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=======+=====================+=========+=====+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:00:01 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:00:02 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:00:03 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 15319 | 2024-08-02 15:32:59 | 57913.7 | NM |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 15320 | 2024-08-02 15:33:00 | 57913.7 | NM |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;dr reddy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">tick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | Tick |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+======+=====================+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:15:24 | 6891.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:15:30 | 6886.1 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:15:37 | 6900.05 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:15:44 | 6900.6 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 7931 | 2024-08-02 15:58:49 | 6964.15 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 7932 | 2024-08-02 15:59:39 | 6964.15 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-required-length-minute-candle">To scrap current days nse index/stock data as required length minute candle
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty energy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">candlestick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 44954.4 | 44954.4 | 44481.8 | 44481.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:10:00 | 44481.8 | 44627.7 | 44258.1 | 44625.6 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:20:00 | 44618.6 | 44684.2 | 44537.8 | 44551.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:30:00 | 44524.2 | 44558.8 | 44375.6 | 44404.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 38 | 2024-08-02 15:20:00 | 44378.4 | 44399.4 | 44286.2 | 44297.5 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 39 | 2024-08-02 15:30:00 | 44299.1 | 44334.2 | 44299.1 | 44334.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Zomato&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">candlestick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="mi">69&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>To scrap historical nse index/stock data&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">historical_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;NIFTY 50&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">historical_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;ABB&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Forcasting and Anomaly Detection</title><link>https://u77w41.github.io/p/forcasting-and-anomaly-detection/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/forcasting-and-anomaly-detection/</guid><description>&lt;img src="https://u77w41.github.io/p/forcasting-and-anomaly-detection/forecasting.png" alt="Featured image of post Forcasting and Anomaly Detection" />&lt;p>**&lt;a class="link" href="https://github.com/U77w41/Forcasting-and-Anomaly-Detection" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/p>
+&lt;h2 id="forecasting-techniques">Forecasting Techniques:
+&lt;/h2>&lt;h3 id="regression-techniques">Regression Techniques
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Polynomial Regression:&lt;/strong> Leveraging the flexibility of polynomial functions to capture non-linear relationships in the data.&lt;/li>
+&lt;li>&lt;strong>Multiple Linear Regression:&lt;/strong> Utilizing multiple features to model the sales data and uncover complex dependencies.&lt;/li>
+&lt;li>&lt;strong>Lasso Linear Regression:&lt;/strong> Introducing L1 regularization to encourage sparsity in the model, selecting only the most influential features.&lt;/li>
+&lt;li>&lt;strong>Ridge Linear Regression:&lt;/strong> Applying L2 regularization to prevent overfitting and improve the generalization of the model.&lt;/li>
+&lt;li>&lt;strong>Elastic Net Regression:&lt;/strong> Combining L1 and L2 regularization to harness the strengths of both techniques.&lt;/li>
+&lt;/ul>
+&lt;h3 id="time-series-forecasting">Time Series Forecasting
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>ARMA (AutoRegressive Moving Average):&lt;/strong> Employing ARMA models to understand and predict the temporal patterns in Walmart sales data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="anomaly-detection-techniques">Anomaly Detection Techniques:
+&lt;/h2>&lt;h3 id="anomaly-detection-techniques-using-unsupervised-learning-approaches">Anomaly Detection Techniques using Unsupervised Learning Approaches
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>KNN Regressor:&lt;/strong> Utilizing the K-nearest neighbors algorithm to detect anomalies based on the deviation from the expected sales values.&lt;/li>
+&lt;li>&lt;strong>DBSCAN (Density-Based Spatial Clustering of Applications with Noise):&lt;/strong> Identifying anomalies by clustering the sales data and isolating points that do not conform to any cluster.&lt;/li>
+&lt;li>&lt;strong>LSTM with Autoencoders:&lt;/strong> Leveraging Long Short-Term Memory networks combined with autoencoders for capturing complex temporal dependencies and detecting anomalies in the sales data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-version-control-dvc">Data Version Control (DVC)
+&lt;/h2>&lt;p>To maintain the integrity and traceability of our project, we adopted the Data Version Control (DVC) Python library. DVC facilitated the versioning of our data, ensuring reproducibility and providing a robust framework for collaboration.&lt;/p>
+&lt;p>This project represents a holistic exploration of machine learning techniques for forecasting and anomaly detection, combining traditional regression methods with cutting-edge time series forecasting and unsupervised learning approaches.&lt;/p></description></item><item><title>Analysis on Complete Works of Swami Vivekananda</title><link>https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/</link><pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/</guid><description>&lt;img src="https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/swami-ji.png" alt="Featured image of post Analysis on Complete Works of Swami Vivekananda" />&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Analysis-on-Complete-Works-of-Swami-Vivekananda/" target="_blank" rel="noopener"
+>Github Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="objectives">Objectives
+&lt;/h2>&lt;ol>
+&lt;li>Implement the Flajolet-Martin Algorithm in a scalable manner suitable for processing the extensive corpus of Swami Vivekananda&amp;rsquo;s works.&lt;/li>
+&lt;li>Develop a robust data processing pipeline to handle the text data and generate the necessary input for the algorithm.&lt;/li>
+&lt;li>Fine-tune the algorithm parameters and validate its accuracy against known cardinality benchmarks to ensure reliable estimates.&lt;/li>
+&lt;/ol>
+&lt;h2 id="technologies-and-tools">Technologies and Tools
+&lt;/h2>&lt;ul>
+&lt;li>Programming Language: Python&lt;/li>
+&lt;li>Data Processing: Pandas, Spark&lt;/li>
+&lt;li>Flajolet-Martin Algorithm Implementation: Custom Python code&lt;/li>
+&lt;li>Version Control: Git&lt;/li>
+&lt;li>Documentation: Markdown&lt;/li>
+&lt;/ul>
+&lt;h2 id="expected-outcomes">Expected Outcomes
+&lt;/h2>&lt;ol>
+&lt;li>A scalable and efficient implementation of the Flajolet-Martin Algorithm tailored for the unique characteristics of Swami Vivekananda&amp;rsquo;s complete works.&lt;/li>
+&lt;li>Accurate cardinality estimates for the distinct elements in the dataset.&lt;/li>
+&lt;li>Documentation detailing the project methodology, implementation details, and findings.&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-work">Future Work
+&lt;/h2>&lt;p>Potential future enhancements could include exploring other probabilistic algorithms for cardinality estimation, optimizing the algorithm further, or extending the analysis to specific subsets of Swami Vivekananda&amp;rsquo;s works.&lt;/p></description></item></channel></rss>

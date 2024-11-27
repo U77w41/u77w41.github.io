@@ -1,0 +1,203 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content="nsescraper is an open-source python package to scrap stock/index data from nseindia.com."><title>NSEScraper an open-source scrapper for nseindia.com website.</title>
+<link rel=canonical href=https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./><link rel=stylesheet href=/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css><meta property='og:title' content="NSEScraper an open-source scrapper for nseindia.com website."><meta property='og:description' content="nsescraper is an open-source python package to scrap stock/index data from nseindia.com."><meta property='og:url' content='https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./'><meta property='og:site_name' content='Ujjwal Chowdhury'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='Data Mining'><meta property='article:tag' content='Web Scrapping'><meta property='article:tag' content='Stock Market'><meta property='article:published_time' content='2024-08-03T17:37:11+00:00'><meta property='article:modified_time' content='2024-08-03T17:37:11+00:00'><meta property='og:image' content='https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage.png'><meta name=twitter:title content="NSEScraper an open-source scrapper for nseindia.com website."><meta name=twitter:description content="nsescraper is an open-source python package to scrap stock/index data from nseindia.com."><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content='https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage.png'><link rel="shortcut icon" href=/favicon.ico></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label="Toggle Menu">
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/img/avatar_hu9165544149906640232.png width=300 height=300 class=site-logo loading=lazy alt=Avatar></a></figure><div class=site-meta><h1 class=site-name><a href=/>Ujjwal Chowdhury</a></h1><h2 class=site-description>Data Scientist | Research Analyst | Azure Certified</h2></div></header><ol class=menu-social><li><a href=https://github.com/u77w41/ target=_blank title=GitHub rel=me><svg class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li><li><a href=https://www.kaggle.com/ujjwalchowdhury target=_blank title=Kaggle rel=me><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-letter-k"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 4v16"/><path d="M7 12h2l8-8"/><path d="M9 12l8 8"/></svg></a></li><li><a href=https://www.linkedin.com/in/ujjwal-chowdhury-857097200 target=_blank title=LinkedIn rel=me><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 012-2h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M8 11v5"/><path d="M8 8v.01"/><path d="M12 16v-5"/><path d="M16 16v-3a2 2 0 00-4 0"/></svg></a></li><li><a href=https://twitter.com/UjjwalCh0wdhury target=_blank title=Twitter rel=me><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4l11.733 16H20L8.267 4z"/><path d="M4 20l6.768-6.768m2.46-2.46L20 4"/></svg></a></li></ol><ol class=menu id=main-menu><li><a href=/><svg class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
+<span>Home</span></a></li><li><a href=/resume/><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-file-text"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 001 1h4"/><path d="M17 21H7a2 2 0 01-2-2V5a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"/><path d="M9 9h1"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>
+<span>Resume</span></a></li><li><a href=/certificates/><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-certificate"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 15m-3 0a3 3 0 106 0 3 3 0 10-6 0"/><path d="M13 17.5V22l2-1.5 2 1.5v-4.5"/><path d="M10 19H5a2 2 0 01-2-2V7c0-1.1.9-2 2-2h14a2 2 0 012 2v10a2 2 0 01-1 1.73"/><path d="M6 9h12"/><path d="M6 12h3"/><path d="M6 15h2"/></svg>
+<span>Certificates</span></a></li><li><a href=/publications/><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-ballpen"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 6l7 7-4 4"/><path d="M5.828 18.172a2.828 2.828.0 004 0L20.414 7.586a2 2 0 000-2.829l-1.171-1.171a2 2 0 00-2.829.0L5.828 14.172a2.828 2.828.0 000 4z"/><path d="M4 20l1.768-1.768"/></svg>
+<span>Publications</span></a></li><li><a href=/education/><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-school"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 9 12 5 2 9l10 4 10-4v6"/><path d="M6 10.6V16a6 3 0 0012 0v-5.4"/></svg>
+<span>Education</span></a></li><li><a href=/archives/><svg class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+<span>Archives</span></a></li><li><a href=/links/><svg class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M10 14a3.5 3.5.0 005 0l4-4a3.5 3.5.0 00-5-5l-.5.5"/><path d="M14 10a3.5 3.5.0 00-5 0l-4 4a3.5 3.5.0 005 5l.5-.5"/></svg>
+<span>Links</span></a></li><li><a href=/search/><svg class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+<span>Search</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<svg class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<span>Dark Mode</span></li></ol></li></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">Table of contents</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#to-scrap-current-days-nse-indexstock-data-as-1-minute-candle-format>To scrap current days nse index/stock data as 1 minute candle format</a></li><li><a href=#to-scrap-current-days-nse-indexstock-data-as-1-second-tick-format>To scrap current days nse index/stock data as 1 second tick format</a></li><li><a href=#to-scrap-current-days-nse-indexstock-data-as-required-length-minute-candle>To scrap current days nse index/stock data as required length minute candle</a></li></ol></nav></div></section></aside><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./><img src=/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage_hu10953233910344038454.png srcset="/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage_hu10953233910344038454.png 800w, /p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage_hu9078715123414731004.png 1600w" width=800 height=404 loading=lazy alt="Featured image of post NSEScraper an open-source scrapper for nseindia.com website."></a></div><div class=article-details><header class=article-category><a href=/categories/projects/>Projects</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./>NSEScraper an open-source scrapper for nseindia.com website.</a></h2><h3 class=article-subtitle>nsescraper is an open-source python package to scrap stock/index data from nseindia.com.</h3></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Aug 03, 2024</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>4 minute read</time></div></footer></div></header><section class=article-content><h1 id=installation>Installation</h1><p>To install using pip, use</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>pip</span> <span class=n>install</span> <span class=n>nsescraper</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>nsescraper</strong> requires <a class=link href=https://www.python.org/ target=_blank rel=noopener>Python 3</a> and <a class=link href=https://pandas.pydata.org/ target=_blank rel=noopener>Pandas</a> to execute.</p><h1 id=features>Features:</h1><p><strong>nsescraper</strong> package contains different functions such as:</p><ul><li><strong>intraday_index</strong>: Scrapes intra day data for any index from NSE</li><li><strong>intraday_stock</strong>: Scrapes intra day data for any listed stock from NSE</li></ul><h1 id=usage>Usage</h1><ul><li><strong>Import the library</strong>:</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>from</span> <span class=nn>nsescraper</span> <span class=kn>import</span> <span class=o>*</span>
+</span></span></code></pre></td></tr></table></div></div><ul><li><strong>Choose a method:</strong></li></ul><h2 id=to-scrap-current-days-nse-indexstock-data-as-1-minute-candle-format>To scrap current days nse index/stock data as 1 minute candle format</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>intraday_index</span><span class=p>(</span><span class=s2>&#34;nifty 50&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Output :</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|     | DATETIME            |    open |    high |     low |   close |
+</span></span><span class=line><span class=cl>+=====+=====================+=========+=========+=========+=========+
+</span></span><span class=line><span class=cl>|   0 | 2024-08-02 09:00:00 | 25010.9 | 25085.6 | 24777   | 24945.8 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|   1 | 2024-08-02 09:01:00 | 24946   | 24950   | 24826.8 | 24830   |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|   2 | 2024-08-02 09:02:00 | 24816.5 | 24816.5 | 24784   | 24792.3 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|   3 | 2024-08-02 09:03:00 | 24791.5 | 24791.5 | 24777.6 | 24789.8 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>| 392 | 2024-08-02 15:32:00 | 24699.5 | 24717.7 | 24699.5 | 24717.7 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>| 393 | 2024-08-02 15:33:00 | 24717.7 | 24717.7 | 24717.7 | 24717.7 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>intraday_stock</span><span class=p>(</span><span class=s2>&#34;britannia&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Output :</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|     | DATETIME            |    open |    high |     low |   close |
+</span></span><span class=line><span class=cl>+=====+=====================+=========+=========+=========+=========+
+</span></span><span class=line><span class=cl>|   0 | 2024-08-02 09:15:00 | 5645.9  | 5695.8  | 5645.9  | 5695.8  |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|   1 | 2024-08-02 09:16:00 | 5707.8  | 5732.95 | 5706.7  | 5729.85 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|   2 | 2024-08-02 09:17:00 | 5715    | 5737.9  | 5709.15 | 5729.85 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|   3 | 2024-08-02 09:18:00 | 5732    | 5732.85 | 5689.95 | 5697.3  |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>| 400 | 2024-08-02 15:55:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>| 401 | 2024-08-02 15:56:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+</span></span><span class=line><span class=cl>+-----+---------------------+---------+---------+---------+---------+
+</span></span></code></pre></td></tr></table></div></div><h2 id=to-scrap-current-days-nse-indexstock-data-as-1-second-tick-format>To scrap current days nse index/stock data as 1 second tick format</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>intraday_index</span><span class=p>(</span><span class=s2>&#34;nifty midcap 100&#34;</span><span class=p>,</span> <span class=n>tick</span><span class=o>=</span> <span class=kc>True</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Output :</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>+-------+---------------------+---------+-----+
+</span></span><span class=line><span class=cl>|       | DATETIME            |    Tick | 2   |
+</span></span><span class=line><span class=cl>+=======+=====================+=========+=====+
+</span></span><span class=line><span class=cl>|     0 | 2024-08-02 09:00:00 | 58490.4 | PO  |
+</span></span><span class=line><span class=cl>+-------+---------------------+---------+-----+
+</span></span><span class=line><span class=cl>|     1 | 2024-08-02 09:00:01 | 58490.4 | PO  |
+</span></span><span class=line><span class=cl>+-------+---------------------+---------+-----+
+</span></span><span class=line><span class=cl>|     2 | 2024-08-02 09:00:02 | 58490.4 | PO  |
+</span></span><span class=line><span class=cl>+-------+---------------------+---------+-----+
+</span></span><span class=line><span class=cl>|     3 | 2024-08-02 09:00:03 | 58490.4 | PO  |
+</span></span><span class=line><span class=cl>+-------+---------------------+---------+-----+
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>| 15319 | 2024-08-02 15:32:59 | 57913.7 | NM  |
+</span></span><span class=line><span class=cl>+-------+---------------------+---------+-----+
+</span></span><span class=line><span class=cl>| 15320 | 2024-08-02 15:33:00 | 57913.7 | NM  |
+</span></span><span class=line><span class=cl>+-------+---------------------+---------+-----+
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>intraday_stock</span><span class=p>(</span><span class=s2>&#34;dr reddy&#34;</span><span class=p>,</span> <span class=n>tick</span><span class=o>=</span> <span class=kc>True</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Output :</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>+------+---------------------+---------+
+</span></span><span class=line><span class=cl>|      | DATETIME            |    Tick |
+</span></span><span class=line><span class=cl>+======+=====================+=========+
+</span></span><span class=line><span class=cl>|    0 | 2024-08-02 09:15:24 | 6891.2  |
+</span></span><span class=line><span class=cl>+------+---------------------+---------+
+</span></span><span class=line><span class=cl>|    1 | 2024-08-02 09:15:30 | 6886.1  |
+</span></span><span class=line><span class=cl>+------+---------------------+---------+
+</span></span><span class=line><span class=cl>|    2 | 2024-08-02 09:15:37 | 6900.05 |
+</span></span><span class=line><span class=cl>+------+---------------------+---------+
+</span></span><span class=line><span class=cl>|    3 | 2024-08-02 09:15:44 | 6900.6  |
+</span></span><span class=line><span class=cl>+------+---------------------+---------+
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>| 7931 | 2024-08-02 15:58:49 | 6964.15 |
+</span></span><span class=line><span class=cl>+------+---------------------+---------+
+</span></span><span class=line><span class=cl>| 7932 | 2024-08-02 15:59:39 | 6964.15 |
+</span></span><span class=line><span class=cl>+------+---------------------+---------+
+</span></span></code></pre></td></tr></table></div></div><h2 id=to-scrap-current-days-nse-indexstock-data-as-required-length-minute-candle>To scrap current days nse index/stock data as required length minute candle</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>intraday_index</span><span class=p>(</span><span class=s2>&#34;nifty energy&#34;</span><span class=p>,</span> <span class=n>candlestick</span><span class=o>=</span> <span class=mi>10</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Output :</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>+----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|    | DATETIME            |    open |    high |     low |   close |
+</span></span><span class=line><span class=cl>+====+=====================+=========+=========+=========+=========+
+</span></span><span class=line><span class=cl>|  0 | 2024-08-02 09:00:00 | 44954.4 | 44954.4 | 44481.8 | 44481.8 |
+</span></span><span class=line><span class=cl>+----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|  1 | 2024-08-02 09:10:00 | 44481.8 | 44627.7 | 44258.1 | 44625.6 |
+</span></span><span class=line><span class=cl>+----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|  2 | 2024-08-02 09:20:00 | 44618.6 | 44684.2 | 44537.8 | 44551.7 |
+</span></span><span class=line><span class=cl>+----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>|  3 | 2024-08-02 09:30:00 | 44524.2 | 44558.8 | 44375.6 | 44404.2 |
+</span></span><span class=line><span class=cl>+----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>| 38 | 2024-08-02 15:20:00 | 44378.4 | 44399.4 | 44286.2 | 44297.5 |
+</span></span><span class=line><span class=cl>+----+---------------------+---------+---------+---------+---------+
+</span></span><span class=line><span class=cl>| 39 | 2024-08-02 15:30:00 | 44299.1 | 44334.2 | 44299.1 | 44334.2 |
+</span></span><span class=line><span class=cl>+----+---------------------+---------+---------+---------+---------+
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>intraday_stock</span><span class=p>(</span><span class=s2>&#34;Zomato&#34;</span><span class=p>,</span> <span class=n>candlestick</span><span class=o>=</span> <span class=mi>69</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>To scrap historical nse index/stock data</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>historical_index</span><span class=p>(</span><span class=s1>&#39;NIFTY 50&#39;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>historical_stock</span><span class=p>(</span><span class=s1>&#39;ABB&#39;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div></section><footer class=article-footer><section class=article-tags><a href=/tags/data-mining/>Data Mining</a>
+<a href=/tags/web-scrapping/>Web Scrapping</a>
+<a href=/tags/stock-market/>Stock Market</a></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>Related content</h2><div class=related-content><div class="flex article-list--tile"><article class=has-image><a href=/p/analysis-on-complete-works-of-swami-vivekananda/><div class=article-image><img src=/p/analysis-on-complete-works-of-swami-vivekananda/swami-ji.96577e9bf1062c82cfe0f98f5a68dc62_hu15183282018721744506.png width=250 height=150 loading=lazy alt="Featured image of post Analysis on Complete Works of Swami Vivekananda" data-hash="md5-lld+m/EGLILP4PmPWmjcYg=="></div><div class=article-details><h2 class=article-title>Analysis on Complete Works of Swami Vivekananda</h2></div></a></article><article class=has-image><a href=/p/forcasting-and-anomaly-detection/><div class=article-image><img src=/p/forcasting-and-anomaly-detection/forecasting.01cb0a3e8666bd78ad07f92c220c4dcb_hu4834754864412704190.png width=250 height=150 loading=lazy alt="Featured image of post Forcasting and Anomaly Detection" data-hash="md5-AcsKPoZmvXitB/ksIgxNyw=="></div><div class=article-details><h2 class=article-title>Forcasting and Anomaly Detection</h2></div></a></article><article class=has-image><a href=/p/brain-tumour-classificaion/><div class=article-image><img src=/p/brain-tumour-classificaion/Anaplastic_astrocytoma.5555b1c63e090c6ac3e8b6a04b5e0b8e_hu15713025343591247041.jpg width=250 height=150 loading=lazy alt="Featured image of post Brain Tumour Classificaion" data-hash="md5-VVWxxj4JDGrD6LagS14Ljg=="></div><div class=article-details><h2 class=article-title>Brain Tumour Classificaion</h2></div></a></article></div></div></aside><footer class=site-footer><section class=copyright>&copy;
+2024 Ujjwal Chowdhury</section><section class=powerby></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>

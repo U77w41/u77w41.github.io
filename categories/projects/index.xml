@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Ujjwal Chowdhury</title><link>https://u77w41.github.io/categories/projects/</link><description>Recent content in Projects on Ujjwal Chowdhury</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 03 Aug 2024 17:37:11 +0000</lastBuildDate><atom:link href="https://u77w41.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Brain Tumour Classificaion</title><link>https://u77w41.github.io/p/brain-tumour-classificaion/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/brain-tumour-classificaion/</guid><description>&lt;img src="https://u77w41.github.io/p/brain-tumour-classificaion/Anaplastic_astrocytoma.jpg" alt="Featured image of post Brain Tumour Classificaion" />&lt;h2 id="overview">Overview
+&lt;/h2>&lt;p>This project focuses on the classification of brain tumor images into four distinct classes: &amp;lsquo;glioma&amp;rsquo;, &amp;lsquo;meningioma&amp;rsquo;, &amp;rsquo;notumor&amp;rsquo;, and &amp;lsquo;pituitary&amp;rsquo;. The primary approach involves fine-tuning the VGG16 model using the PyTorch framework. Additionally, Python&amp;rsquo;s OpenCV library is utilized for image processing, and various image augmentation techniques are applied to enhance model generalization.&lt;/p>
+&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/tree/main" target="_blank" rel="noopener"
+>GitHub Link&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="technologies-used">Technologies Used
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>PyTorch:&lt;/strong> The deep learning framework for model development and training.&lt;/li>
+&lt;li>&lt;strong>OpenCV:&lt;/strong> Used for image processing tasks.&lt;/li>
+&lt;li>&lt;strong>Python:&lt;/strong> The primary programming language for the project.&lt;/li>
+&lt;/ul>
+&lt;h2 id="model-architecture">Model Architecture
+&lt;/h2>&lt;p>The VGG16 model is employed as the base architecture for the brain tumor classification task. The model is fine-tuned to adapt to the specific requirements of the project.&lt;/p>
+&lt;h2 id="image-augmentation-techniques">Image Augmentation Techniques
+&lt;/h2>&lt;p>To enhance the model&amp;rsquo;s robustness and improve generalization, the following image augmentation techniques are applied:&lt;/p>
+&lt;ul>
+&lt;li>Rotation&lt;/li>
+&lt;li>Scaling&lt;/li>
+&lt;li>Horizontal and Vertical Flipping&lt;/li>
+&lt;li>Brightness and Contrast adjustments&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimization-techniques">Optimization Techniques
+&lt;/h2>&lt;p>Several optimization techniques are experimented with to fine-tune the model:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Stochastic Gradient Descent (SGD):&lt;/strong> A traditional optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>Adam:&lt;/strong> An adaptive learning rate optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>RMSprop:&lt;/strong> Another adaptive learning rate optimization algorithm.&lt;/li>
+&lt;li>&lt;strong>AdaGrad:&lt;/strong> Adaptive gradient optimization algorithm.&lt;/li>
+&lt;/ol>
+&lt;h2 id="experimentation-and-tuning">Experimentation and Tuning
+&lt;/h2>&lt;p>The optimization parameters for each technique are carefully tuned to achieve optimal performance. The model undergoes thorough experimentation to identify the best combination of hyperparameters and optimization algorithms for the given task.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>The Brain Tumour Classification project demonstrates the successful implementation of a fine-tuned VGG16 model for accurately classifying brain tumor images into four classes. The combination of image augmentation techniques and experimentation with various optimization algorithms contributes to the overall success of the project.&lt;/p>
+&lt;p>For detailed implementation code and results, refer to the project &lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/" target="_blank" rel="noopener"
+>repository&lt;/a> and &lt;a class="link" href="https://github.com/U77w41/Brain-Tumour-Classificaion/blob/main/notebooks/Brain%20Tumor%20Classification%20CDS%20Project.ipynb" target="_blank" rel="noopener"
+>notebooks&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>Photo by &lt;a class="link" href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Anaplastic_astrocytoma.jpgi" target="_blank" rel="noopener"
+>Wikipedia&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>NSEScraper an open-source scrapper for nseindia.com website.</title><link>https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./</link><pubDate>Sat, 03 Aug 2024 17:37:11 +0000</pubDate><guid>https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./</guid><description>&lt;img src="https://u77w41.github.io/p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./nse_homepage.png" alt="Featured image of post NSEScraper an open-source scrapper for nseindia.com website." />&lt;h1 id="installation">Installation
+&lt;/h1>&lt;p>To install using pip, use&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pip&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">nsescraper&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>nsescraper&lt;/strong> requires &lt;a class="link" href="https://www.python.org/" target="_blank" rel="noopener"
+>Python 3&lt;/a> and &lt;a class="link" href="https://pandas.pydata.org/" target="_blank" rel="noopener"
+>Pandas&lt;/a> to execute.&lt;/p>
+&lt;h1 id="features">Features:
+&lt;/h1>&lt;p>&lt;strong>nsescraper&lt;/strong> package contains different functions such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>intraday_index&lt;/strong>: Scrapes intra day data for any index from NSE&lt;/li>
+&lt;li>&lt;strong>intraday_stock&lt;/strong>: Scrapes intra day data for any listed stock from NSE&lt;/li>
+&lt;/ul>
+&lt;h1 id="usage">Usage
+&lt;/h1>&lt;ul>
+&lt;li>&lt;strong>Import the library&lt;/strong>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">nsescraper&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="o">*&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>&lt;strong>Choose a method:&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-1-minute-candle-format">To scrap current days nse index/stock data as 1 minute candle format
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty 50&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 25010.9 | 25085.6 | 24777 | 24945.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:01:00 | 24946 | 24950 | 24826.8 | 24830 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:02:00 | 24816.5 | 24816.5 | 24784 | 24792.3 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:03:00 | 24791.5 | 24791.5 | 24777.6 | 24789.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 392 | 2024-08-02 15:32:00 | 24699.5 | 24717.7 | 24699.5 | 24717.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 393 | 2024-08-02 15:33:00 | 24717.7 | 24717.7 | 24717.7 | 24717.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;britannia&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:15:00 | 5645.9 | 5695.8 | 5645.9 | 5695.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:16:00 | 5707.8 | 5732.95 | 5706.7 | 5729.85 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:17:00 | 5715 | 5737.9 | 5709.15 | 5729.85 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:18:00 | 5732 | 5732.85 | 5689.95 | 5697.3 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 400 | 2024-08-02 15:55:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 401 | 2024-08-02 15:56:00 | 5720.35 | 5720.35 | 5720.35 | 5720.35 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-1-second-tick-format">To scrap current days nse index/stock data as 1 second tick format
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty midcap 100&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">tick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | Tick | 2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+=======+=====================+=========+=====+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:00:01 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:00:02 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:00:03 | 58490.4 | PO |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 15319 | 2024-08-02 15:32:59 | 57913.7 | NM |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 15320 | 2024-08-02 15:33:00 | 57913.7 | NM |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-------+---------------------+---------+-----+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;dr reddy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">tick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="kc">True&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | Tick |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+======+=====================+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:15:24 | 6891.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:15:30 | 6886.1 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:15:37 | 6900.05 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:15:44 | 6900.6 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 7931 | 2024-08-02 15:58:49 | 6964.15 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 7932 | 2024-08-02 15:59:39 | 6964.15 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+------+---------------------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="to-scrap-current-days-nse-indexstock-data-as-required-length-minute-candle">To scrap current days nse index/stock data as required length minute candle
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;nifty energy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">candlestick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>Output :&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | DATETIME | open | high | low | close |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+====+=====================+=========+=========+=========+=========+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 0 | 2024-08-02 09:00:00 | 44954.4 | 44954.4 | 44481.8 | 44481.8 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 1 | 2024-08-02 09:10:00 | 44481.8 | 44627.7 | 44258.1 | 44625.6 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 2 | 2024-08-02 09:20:00 | 44618.6 | 44684.2 | 44537.8 | 44551.7 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 3 | 2024-08-02 09:30:00 | 44524.2 | 44558.8 | 44375.6 | 44404.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 38 | 2024-08-02 15:20:00 | 44378.4 | 44399.4 | 44286.2 | 44297.5 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| 39 | 2024-08-02 15:30:00 | 44299.1 | 44334.2 | 44299.1 | 44334.2 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+----+---------------------+---------+---------+---------+---------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">intraday_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Zomato&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">candlestick&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="mi">69&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>To scrap historical nse index/stock data&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">historical_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;NIFTY 50&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">historical_stock&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;ABB&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Forcasting and Anomaly Detection</title><link>https://u77w41.github.io/p/forcasting-and-anomaly-detection/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/forcasting-and-anomaly-detection/</guid><description>&lt;img src="https://u77w41.github.io/p/forcasting-and-anomaly-detection/forecasting.png" alt="Featured image of post Forcasting and Anomaly Detection" />&lt;p>**&lt;a class="link" href="https://github.com/U77w41/Forcasting-and-Anomaly-Detection" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/p>
+&lt;h2 id="forecasting-techniques">Forecasting Techniques:
+&lt;/h2>&lt;h3 id="regression-techniques">Regression Techniques
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Polynomial Regression:&lt;/strong> Leveraging the flexibility of polynomial functions to capture non-linear relationships in the data.&lt;/li>
+&lt;li>&lt;strong>Multiple Linear Regression:&lt;/strong> Utilizing multiple features to model the sales data and uncover complex dependencies.&lt;/li>
+&lt;li>&lt;strong>Lasso Linear Regression:&lt;/strong> Introducing L1 regularization to encourage sparsity in the model, selecting only the most influential features.&lt;/li>
+&lt;li>&lt;strong>Ridge Linear Regression:&lt;/strong> Applying L2 regularization to prevent overfitting and improve the generalization of the model.&lt;/li>
+&lt;li>&lt;strong>Elastic Net Regression:&lt;/strong> Combining L1 and L2 regularization to harness the strengths of both techniques.&lt;/li>
+&lt;/ul>
+&lt;h3 id="time-series-forecasting">Time Series Forecasting
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>ARMA (AutoRegressive Moving Average):&lt;/strong> Employing ARMA models to understand and predict the temporal patterns in Walmart sales data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="anomaly-detection-techniques">Anomaly Detection Techniques:
+&lt;/h2>&lt;h3 id="anomaly-detection-techniques-using-unsupervised-learning-approaches">Anomaly Detection Techniques using Unsupervised Learning Approaches
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>KNN Regressor:&lt;/strong> Utilizing the K-nearest neighbors algorithm to detect anomalies based on the deviation from the expected sales values.&lt;/li>
+&lt;li>&lt;strong>DBSCAN (Density-Based Spatial Clustering of Applications with Noise):&lt;/strong> Identifying anomalies by clustering the sales data and isolating points that do not conform to any cluster.&lt;/li>
+&lt;li>&lt;strong>LSTM with Autoencoders:&lt;/strong> Leveraging Long Short-Term Memory networks combined with autoencoders for capturing complex temporal dependencies and detecting anomalies in the sales data.&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-version-control-dvc">Data Version Control (DVC)
+&lt;/h2>&lt;p>To maintain the integrity and traceability of our project, we adopted the Data Version Control (DVC) Python library. DVC facilitated the versioning of our data, ensuring reproducibility and providing a robust framework for collaboration.&lt;/p>
+&lt;p>This project represents a holistic exploration of machine learning techniques for forecasting and anomaly detection, combining traditional regression methods with cutting-edge time series forecasting and unsupervised learning approaches.&lt;/p></description></item><item><title>Analysis on Complete Works of Swami Vivekananda</title><link>https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/</link><pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate><guid>https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/</guid><description>&lt;img src="https://u77w41.github.io/p/analysis-on-complete-works-of-swami-vivekananda/swami-ji.png" alt="Featured image of post Analysis on Complete Works of Swami Vivekananda" />&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Analysis-on-Complete-Works-of-Swami-Vivekananda/" target="_blank" rel="noopener"
+>Github Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="objectives">Objectives
+&lt;/h2>&lt;ol>
+&lt;li>Implement the Flajolet-Martin Algorithm in a scalable manner suitable for processing the extensive corpus of Swami Vivekananda&amp;rsquo;s works.&lt;/li>
+&lt;li>Develop a robust data processing pipeline to handle the text data and generate the necessary input for the algorithm.&lt;/li>
+&lt;li>Fine-tune the algorithm parameters and validate its accuracy against known cardinality benchmarks to ensure reliable estimates.&lt;/li>
+&lt;/ol>
+&lt;h2 id="technologies-and-tools">Technologies and Tools
+&lt;/h2>&lt;ul>
+&lt;li>Programming Language: Python&lt;/li>
+&lt;li>Data Processing: Pandas, Spark&lt;/li>
+&lt;li>Flajolet-Martin Algorithm Implementation: Custom Python code&lt;/li>
+&lt;li>Version Control: Git&lt;/li>
+&lt;li>Documentation: Markdown&lt;/li>
+&lt;/ul>
+&lt;h2 id="expected-outcomes">Expected Outcomes
+&lt;/h2>&lt;ol>
+&lt;li>A scalable and efficient implementation of the Flajolet-Martin Algorithm tailored for the unique characteristics of Swami Vivekananda&amp;rsquo;s complete works.&lt;/li>
+&lt;li>Accurate cardinality estimates for the distinct elements in the dataset.&lt;/li>
+&lt;li>Documentation detailing the project methodology, implementation details, and findings.&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-work">Future Work
+&lt;/h2>&lt;p>Potential future enhancements could include exploring other probabilistic algorithms for cardinality estimation, optimizing the algorithm further, or extending the analysis to specific subsets of Swami Vivekananda&amp;rsquo;s works.&lt;/p></description></item></channel></rss>

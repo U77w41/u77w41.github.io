@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Analytics on Ujjwal Chowdhury</title><link>https://u77w41.github.io/tags/data-analytics/</link><description>Recent content in Data Analytics on Ujjwal Chowdhury</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2024 06:18:40 +0000</lastBuildDate><atom:link href="https://u77w41.github.io/tags/data-analytics/index.xml" rel="self" type="application/rss+xml"/><item><title>Paris Summer Olympic Games 2024 Dashboard</title><link>https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/</link><pubDate>Wed, 27 Nov 2024 06:18:40 +0000</pubDate><guid>https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/</guid><description>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/ParisSummerOlympicsDashboard.jpg" alt="Featured image of post Paris Summer Olympic Games 2024 Dashboard" />&lt;h1 id="olympics-2024-data-dashboard">Olympics 2024 Data Dashboard
+&lt;/h1>&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Power-BI-Dashboards/tree/main/Olympic-2024-Dashboard" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="project-overview">Project Overview
+&lt;/h2>&lt;p>This Power BI dashboard provides an interactive visualization of the Olympics 2024 data, focusing on key statistics related to medals, athletes, countries, and historical performances. The dashboard is divided into five pages, each tailored to present specific insights through dynamic filtering and visually engaging elements.&lt;/p>
+&lt;hr>
+&lt;h2 id="dataset-information">Dataset Information
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Source&lt;/strong>: &lt;a class="link" href="https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games" target="_blank" rel="noopener"
+>Kaggle - Paris 2024 Olympic Summer Games Dataset&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>:&lt;br>
+The Paris 2024 Olympic Summer Games dataset offers comprehensive data about the Summer Olympics held in 2024. It includes:&lt;/p>
+&lt;ul>
+&lt;li>Participating countries&lt;/li>
+&lt;li>Athletes&lt;/li>
+&lt;li>Sports disciplines&lt;/li>
+&lt;li>Medal standings&lt;/li>
+&lt;li>Key event details&lt;br>
+The dataset provides a solid foundation for analyzing the event&amp;rsquo;s performance and trends.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Additional Resources&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://olympics.com/en/paris-2024" target="_blank" rel="noopener"
+>Official Site - Paris 2024 Olympics&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/2024_Summer_Olympics" target="_blank" rel="noopener"
+>Wikipedia - 2024 Summer Olympics&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="pages-overview">Pages Overview
+&lt;/h2>&lt;h3 id="1-home">1. &lt;strong>Home&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: The landing page of the dashboard.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0001-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0001-min_hu16161788531360106778.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0001-min_hu10985719506404691726.jpg 1024w"
+loading="lazy"
+alt="Home Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>Navigation buttons or links to seamlessly guide users to other pages.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="2-overview">2. &lt;strong>Overview&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Provides a comprehensive summary of medal statistics for the Olympics 2024.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0002-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0002-min_hu16521905950428195455.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0002-min_hu10896075043478487203.jpg 1024w"
+loading="lazy"
+alt="Overview Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Medals by Country and Gender&lt;/strong>: Visualized using bar/column charts or other relevant visualizations to showcase the distribution of medals.&lt;/li>
+&lt;li>&lt;strong>Key Highlights&lt;/strong>:
+&lt;ul>
+&lt;li>Created using a &lt;strong>Measure Query&lt;/strong> to dynamically calculate and display critical statistics (e.g., total medals won, top-performing countries).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Custom Map Visualization&lt;/strong>:
+&lt;ul>
+&lt;li>Displays medallist density by country, offering a geographic perspective.&lt;/li>
+&lt;li>Enhances understanding of country-wise performance.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Game-wise Filtering&lt;/strong>:
+&lt;ul>
+&lt;li>Users can filter all visualizations on this page by selecting specific games.&lt;/li>
+&lt;li>Improves interactivity and customization for detailed analysis.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="3-athletes">3. &lt;strong>Athletes&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Focuses on individual athletes and their achievements.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0003-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0003-min_hu6091352730299780226.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0003-min_hu16145253374532252641.jpg 1024w"
+loading="lazy"
+alt="Athletes Summary Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Filters&lt;/strong>:
+&lt;ul>
+&lt;li>By Country, Game, Gender, and Medals Won.&lt;/li>
+&lt;li>Enables users to drill down into specific athlete data based on selected criteria.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Visualizations&lt;/strong>:
+&lt;ul>
+&lt;li>Highlight athletes&amp;rsquo; contributions to their countries&amp;rsquo; performances.&lt;/li>
+&lt;li>Possible use of tables, cards, or slicers for detailed and filtered views.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="4-country">4. &lt;strong>Country&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Analyzes the performance of countries in the Olympics 2024.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0004-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0004-min_hu7955690662470493762.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0004-min_hu1296234553821338875.jpg 1024w"
+loading="lazy"
+alt="Countrys Overview Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Summary Statistics&lt;/strong>:
+&lt;ul>
+&lt;li>Total medals won by countries.&lt;/li>
+&lt;li>Comparative analysis of countries&amp;rsquo; performances.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Game-wise Filtering&lt;/strong>:
+&lt;ul>
+&lt;li>Allows users to explore country-level statistics for selected games.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Visualizations&lt;/strong>:
+&lt;ul>
+&lt;li>Incorporates bar charts, tables, or other visual elements for an impactful representation.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="5-historical">5. &lt;strong>Historical&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Purpose&lt;/strong>: Explores historical Olympic games data and trends.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0005-min.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0005-min_hu5887975976216773846.jpg 480w, https://u77w41.github.io/p/paris-summer-olympic-games-2024-dashboard/preview_page-0005-min_hu12895359476998909353.jpg 1024w"
+loading="lazy"
+alt="Historical Medals Summary Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Features&lt;/strong>:
+&lt;ul>
+&lt;li>&lt;strong>Summary Statistics&lt;/strong>:
+&lt;ul>
+&lt;li>Historical medals won by countries.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Filters&lt;/strong>:
+&lt;ul>
+&lt;li>By Country and Games, enabling users to focus on specific historical data.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Visualizations&lt;/strong>:
+&lt;ul>
+&lt;li>Trends over multiple Olympic years to understand performance changes.&lt;/li>
+&lt;li>Graphs and timelines to depict historical achievements effectively.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="key-highlights">Key Highlights
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Interactivity&lt;/strong>: Filters across pages allow for granular analysis and customization.&lt;/li>
+&lt;li>&lt;strong>Custom Mapping&lt;/strong>: A unique visual element that enhances geographic insights.&lt;/li>
+&lt;li>&lt;strong>Dynamic Measures&lt;/strong>: Queries calculate and display real-time statistics.&lt;/li>
+&lt;li>&lt;strong>Comprehensive Visuals&lt;/strong>: Diverse charts, maps, and tables present data intuitively.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="applications">Applications
+&lt;/h2>&lt;ul>
+&lt;li>Suitable for analysts, sports enthusiasts, and stakeholders interested in Olympics 2024 performance data.&lt;/li>
+&lt;li>Helps in understanding medal trends, athlete achievements, and country-wise statistics.&lt;/li>
+&lt;li>Provides a historical perspective to assess long-term performance.&lt;/li>
+&lt;/ul>
+&lt;hr></description></item><item><title>Visualizing Microsoft AdventureWorks Data</title><link>https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/</link><pubDate>Mon, 25 Nov 2024 09:47:17 +0000</pubDate><guid>https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/</guid><description>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/Visualizing-Microsoft-AdventureWorks-Data.png" alt="Featured image of post Visualizing Microsoft AdventureWorks Data" />&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Power-BI-Dashboards/tree/main/Visualizing-Microsoft-AdventureWorks-Data" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h1 id="adventureworks-sales-analytics-dashboard">AdventureWorks Sales Analytics Dashboard
+&lt;/h1>&lt;h2 id="project-overview">Project Overview
+&lt;/h2>&lt;p>This Power BI dashboard provides comprehensive sales analytics for AdventureWorks, offering insights into revenue, orders, returns, and customer demographics. The dashboard consists of three interconnected pages, each focusing on specific aspects of the business.&lt;/p>
+&lt;h2 id="dashboard-structure">Dashboard Structure
+&lt;/h2>&lt;h3 id="1-sales-overview-page">1. Sales Overview Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Provides a high-level summary of key business metrics with dynamic filtering capabilities.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard1.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard1_hu9504818958505485759.jpg 480w, https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard1_hu13881012587386069282.jpg 1024w"
+loading="lazy"
+alt="Page1"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Key Features&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Revenue analysis across different dimensions&lt;/li>
+&lt;li>Order volume tracking&lt;/li>
+&lt;li>Returns monitoring&lt;/li>
+&lt;li>Product performance metrics&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Filters&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Order Category&lt;/li>
+&lt;li>Order Subcategory&lt;/li>
+&lt;li>Geographical Location&lt;/li>
+&lt;li>Date Range&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-performance-metrics-page">2. Performance Metrics Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Compares current performance against targets and tracks temporal trends.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard2.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard2_hu184460343030389083.jpg 480w, https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard2_hu17397293496313066274.jpg 1024w"
+loading="lazy"
+alt="Page2"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Key Visualizations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Current month vs target comparison for:
+&lt;ul>
+&lt;li>Order volume&lt;/li>
+&lt;li>Revenue&lt;/li>
+&lt;li>Returns&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Weekly profit and revenue trends&lt;/li>
+&lt;li>Performance gauges and KPI cards&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-customer-analytics-page">3. Customer Analytics Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Deep dive into customer demographics and behavior patterns.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard3.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard3_hu1270571163673599784.jpg 480w, https://u77w41.github.io/p/visualizing-microsoft-adventureworks-data/AdventureWorks_Dashboard3_hu10573143624724678711.jpg 1024w"
+loading="lazy"
+alt="Page3"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Customer Segmentation by&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Gender distribution&lt;/li>
+&lt;li>Income levels&lt;/li>
+&lt;li>Occupational categories&lt;/li>
+&lt;li>Age groups&lt;/li>
+&lt;li>Order history&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-source">Data Source
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>&lt;a class="link" href="https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&amp;amp;tabs=ssms" target="_blank" rel="noopener"
+>Microsoft AdventureWorks sample database&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-implementation">Technical Implementation
+&lt;/h2>&lt;p>&lt;strong>Platform&lt;/strong>: Microsoft Power BI&lt;/p>
+&lt;h2 id="interactive-features">Interactive Features
+&lt;/h2>&lt;ul>
+&lt;li>Cross-filtering capabilities across all pages&lt;/li>
+&lt;li>Drill-down functionality from category to subcategory levels&lt;/li>
+&lt;li>Dynamic date range selection&lt;/li>
+&lt;li>Tooltip enriched visualizations&lt;/li>
+&lt;/ul>
+&lt;h2 id="intended-users">Intended Users
+&lt;/h2>&lt;ul>
+&lt;li>Sales Management&lt;/li>
+&lt;li>Executive Leadership&lt;/li>
+&lt;li>Regional Managers&lt;/li>
+&lt;li>Product Teams&lt;/li>
+&lt;li>Customer Service Representatives&lt;/li>
+&lt;/ul>
+&lt;h2 id="business-benefits">Business Benefits
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Informed Decision Making&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Real-time access to critical business metrics&lt;/li>
+&lt;li>Comparison of actual performance against targets&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Customer Insights&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Better understanding of customer segments&lt;/li>
+&lt;li>Identification of high-value customer groups&lt;/li>
+&lt;li>Analysis of purchasing patterns&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Operational Efficiency&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Quick identification of underperforming areas&lt;/li>
+&lt;li>Monitoring of returns and potential quality issues&lt;/li>
+&lt;li>Geographical performance analysis&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-enhancements">Future Enhancements
+&lt;/h2>&lt;ul>
+&lt;li>Integration with predictive analytics&lt;/li>
+&lt;li>Addition of inventory management metrics&lt;/li>
+&lt;li>Enhanced customer segmentation analysis&lt;/li>
+&lt;li>Mobile-optimized view&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage-guidelines">Usage Guidelines
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Navigating the Dashboard&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Use the tabs at the bottom to switch between pages&lt;/li>
+&lt;li>Apply filters consistently across all pages&lt;/li>
+&lt;li>Utilize drill-through functionality for detailed analysis&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Best Practices&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Start with the Overview page for high-level insights&lt;/li>
+&lt;li>Use date filters to focus on specific periods&lt;/li>
+&lt;li>Export specific views for reporting purposes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item><item><title>Starbucks Drinks Dashboard</title><link>https://u77w41.github.io/p/starbucks-drinks-dashboard/</link><pubDate>Tue, 26 Nov 2024 04:27:13 +0000</pubDate><guid>https://u77w41.github.io/p/starbucks-drinks-dashboard/</guid><description>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-DashboardSummary.png" alt="Featured image of post Starbucks Drinks Dashboard" />&lt;h1 id="starbucks-drinks-nutritional-dashboard">Starbucks Drinks Nutritional Dashboard
+&lt;/h1>&lt;p>&lt;strong>&lt;a class="link" href="https://github.com/U77w41/Power-BI-Dashboards/tree/main/Starbucks-Drinks-Dashboard" target="_blank" rel="noopener"
+>GitHub Repo&lt;/a>&lt;/strong>&lt;/p>
+&lt;h2 id="project-overview">Project Overview
+&lt;/h2>&lt;p>A comprehensive Power BI dashboard analyzing Starbucks drink products, focusing on nutritional content, health insights, and store location information. The dashboard provides a holistic view of Starbucks&amp;rsquo; product offerings through four interconnected pages.&lt;/p>
+&lt;p>&lt;strong>Key Visualizations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Total number of drink products&lt;/li>
+&lt;li>Drink categories distribution&lt;/li>
+&lt;li>Average nutritional values across product lines&lt;/li>
+&lt;li>Top-performing drinks by various nutritional criteria&lt;/li>
+&lt;/ul>
+&lt;h2 id="dashboard-architecture">Dashboard Architecture
+&lt;/h2>&lt;h3 id="1-overview-page">1. Overview Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Provide a introduction page of Starbucks drink portfolio and key nutritional metrics.&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard1.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard1_hu7655621370833888268.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard1_hu10792120617503278157.jpg 1024w"
+loading="lazy"
+alt="Overview Page"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;h3 id="2-nutritional-insights-page">2. Nutritional Insights Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Detailed nutritional breakdown of Starbucks products&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard2.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard2_hu17072365464605465303.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard2_hu4949239709846475178.jpg 1024w"
+loading="lazy"
+alt="Nutritional Insights"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Nutritional Analysis&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Vitamin content visualization&lt;/li>
+&lt;li>Protein levels across different drinks&lt;/li>
+&lt;li>Fat content analysis&lt;/li>
+&lt;li>Vitamin C concentration&lt;/li>
+&lt;li>Interactive comparisons between products&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Key Features&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Comparative charts&lt;/li>
+&lt;li>Drill-down capabilities&lt;/li>
+&lt;li>Filtering options by drink type and size&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-advanced-nutritional-insights-page">3. Advanced Nutritional Insights Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: In-depth exploration of nutritional challenges and health-critical metrics&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard3.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard3_hu5282733621303373795.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard3_hu12572418397111144308.jpg 1024w"
+loading="lazy"
+alt="In-depth Insights"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>&lt;/p>
+&lt;p>&lt;strong>Specialized Visualizations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Trans Fat Content Analysis
+&lt;ul>
+&lt;li>Identification of high trans fat products&lt;/li>
+&lt;li>Comparative trans fat levels across drink categories&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sugar Content Mapping&lt;/li>
+&lt;li>Mineral composition&lt;/li>
+&lt;li>Calorie density visualization&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Health Focus&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Warnings for high-risk nutritional profiles&lt;/li>
+&lt;li>Color-coded indicators for nutritional extremes&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-store-locator-page">4. Store Locator Page
+&lt;/h3>&lt;p>&lt;strong>Purpose&lt;/strong>: Store location mapping&lt;/p>
+&lt;p>&lt;img src="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard4.jpg"
+width="2075"
+height="1200"
+srcset="https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard4_hu3702940170927086496.jpg 480w, https://u77w41.github.io/p/starbucks-drinks-dashboard/Starbucks-Drinks-Dashboard4_hu13704753509602164384.jpg 1024w"
+loading="lazy"
+alt="Find Store"
+class="gallery-image"
+data-flex-grow="172"
+data-flex-basis="415px"
+>
+&lt;em>World map with Starbucks store locations&lt;/em>&lt;/p>
+&lt;h2 id="technical-implementation">Technical Implementation
+&lt;/h2>&lt;p>&lt;strong>Platform&lt;/strong>: Microsoft Power BI&lt;/p>
+&lt;p>&lt;strong>Data Processing&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Advanced data cleaning&lt;/li>
+&lt;li>Nutritional value normalization&lt;/li>
+&lt;/ul>
+&lt;h2 id="interactive-dashboard-capabilities">Interactive Dashboard Capabilities
+&lt;/h2>&lt;ul>
+&lt;li>Cross-page filtering&lt;/li>
+&lt;li>Dynamic data exploration&lt;/li>
+&lt;li>Responsive design&lt;/li>
+&lt;/ul>
+&lt;h2 id="target-audience">Target Audience
+&lt;/h2>&lt;ul>
+&lt;li>Health-conscious consumers&lt;/li>
+&lt;li>Nutritionists and dieticians&lt;/li>
+&lt;li>Starbucks management&lt;/li>
+&lt;li>Product development teams&lt;/li>
+&lt;li>Marketing strategists&lt;/li>
+&lt;/ul>
+&lt;h2 id="business-insights">Business Insights
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Nutritional Transparency&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Comprehensive product information&lt;/li>
+&lt;li>Clear health impact visualization&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Product Strategy&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Identify high-performing nutritional profiles&lt;/li>
+&lt;li>Guide product development&lt;/li>
+&lt;li>Support marketing positioning&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Consumer Education&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Empower informed beverage choices&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="future-enhancement-roadmap">Future Enhancement Roadmap
+&lt;/h2>&lt;ul>
+&lt;li>Integration with real-time nutritional tracking&lt;/li>
+&lt;li>Personalized nutritional recommendation engine&lt;/li>
+&lt;li>Expanded global store data&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage-guidelines">Usage Guidelines
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Navigation&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Use page tabs for different perspectives&lt;/li>
+&lt;li>Utilize filters for focused analysis&lt;/li>
+&lt;li>Hover for detailed tooltips&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Interpretation Tips&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Compare drinks within categories&lt;/li>
+&lt;li>Use store locator for nearby options&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="data-disclaimer">Data Disclaimer
+&lt;/h2>&lt;p>Important Notice:&lt;/p>
+&lt;h3 id="-data-integrity-warning-">🚨 Data Integrity Warning 🚨
+&lt;/h3>&lt;ul>
+&lt;li>This dashboard is created using DUMMY/SIMULATED DATA.&lt;/li>
+&lt;li>The nutritional information, store locations, and all visualizations are NOT REAL.&lt;/li>
+&lt;li>Data is purely for demonstration and educational purposes.&lt;/li>
+&lt;li>DO NOT use this data for actual nutritional planning or decision-making.&lt;/li>
+&lt;li>All data points are synthetic and do not represent actual Starbucks products or nutritional facts.&lt;/li>
+&lt;/ul></description></item></channel></rss>
