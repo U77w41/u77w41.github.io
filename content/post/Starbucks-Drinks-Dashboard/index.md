@@ -20,7 +20,7 @@ tags:
 ---
 
 # Starbucks Drinks Nutritional Dashboard
-**[GitHub Repo](https://github.com/U77w41/Power-BI-Dashboards/tree/main/Starbucks-Drinks-Dashboard)
+**[GitHub Repo](https://github.com/U77w41/Power-BI-Dashboards/tree/main/Starbucks-Drinks-Dashboard)**
 
 ## Project Overview
 A comprehensive Power BI dashboard analyzing Starbucks drink products, focusing on nutritional content, health insights, and store location information. The dashboard provides a holistic view of Starbucks' product offerings through four interconnected pages.
