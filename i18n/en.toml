@@ -1,4 +1,4 @@
-# Overrides the theme's footer text without copying any theme template.
+# Overrides the theme's footer text (empty = hidden) without copying any theme template.
 [footer]
-    builtWith  = "Built with {{ .Generator }}"
+    builtWith  = ""
     designedBy = ""
