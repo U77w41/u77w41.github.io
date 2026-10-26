@@ -16,35 +16,17 @@ Every push to `master` builds the site and publishes it to the `gh-pages` branch
 | Footer wording | `i18n/en.toml` |
 | Extra CSS (optional) | `assets/scss/custom.scss` |
 
-## Common tasks
+## How to
 
-**Preview locally** (needs [Hugo extended](https://gohugo.io/installation/) and [Go](https://go.dev/dl/), e.g. `brew install hugo go`):
+See **[HOW-TO.md](HOW-TO.md)** for step-by-step guides: preview and publish, create a new blog post or project, add a menu item, and update the theme or Hugo.
 
-```bash
-hugo server        # open http://localhost:1313
-```
-
-**Add a project**
+Quick version:
 
 ```bash
-hugo new content post/My-New-Project
+hugo server -D                          # preview at http://localhost:1313
+hugo new content post/My-New-Project    # new project / blog post
+git add -A && git commit -m "..." && git push   # publish
 ```
-
-Edit the new file, put a cover image next to it (named as in `image:`), set `draft: false`, then commit and push.
-`weight` controls the order on the home page (1 = first). Keep `slug` unchanged once published, so links don't break.
-
-**Update the resume link**: replace the Google Drive file in place ("Manage versions" in Drive) and the link keeps working. Otherwise edit the link at the top of `content/page/Resume/index.md`.
-
-**Update the theme** (once or twice a year):
-
-```bash
-hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4
-hugo mod tidy
-hugo server        # check that everything still looks right
-```
-
-**Update Hugo**: change `HUGO_VERSION` in `.github/workflows/deploy.yml` after testing that version locally.
-It is pinned on purpose so a new Hugo release can't break the live site unexpectedly.
 
 ## Licences
 
