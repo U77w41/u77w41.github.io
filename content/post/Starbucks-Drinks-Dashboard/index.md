@@ -1,22 +1,19 @@
 ---
-title: "Starbucks Drinks Dashboard"
-description: "A comprehensive Power BI dashboard analyzing Starbucks drink products, focusing on nutritional content, health insights, and store location information. The dashboard provides a holistic view of Starbucks' product offerings through four interconnected pages."
-date: 2024-11-26T04:27:13Z
+title: Starbucks Drinks Dashboard
+slug: starbucks-drinks-dashboard
+description: Power BI dashboard on the nutritional content of Starbucks drinks and store locations.
 image: Starbucks-Drinks-DashboardSummary.png
-math: 
-license: MIT License
-hidden: false
-comments: true
-draft: false
-weight: 6 
+date: 2024-11-26T04:27:13+00:00
+weight: 6
 categories:
-    - Data Analytics Projects
+- Power BI
 tags:
-    - Power BI
-    - Data Analytics
-    - Data visualization
-    - EDA
-    - Dashboard
+- Power BI
+- Data Analytics
+- Data visualization
+- EDA
+- Dashboard
+license: MIT License
 ---
 
 # Starbucks Drinks Nutritional Dashboard

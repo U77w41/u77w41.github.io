@@ -1,80 +1,52 @@
-<!-- 
-new post
-hugo new post/Visualizing-Microsoft-AdventureWorks-Data/index.md
+# u77w41.github.io
 
+Personal portfolio of Ujjwal Chowdhury, live at <https://u77w41.github.io/>.
 
+Built with [Hugo](https://gohugo.io/) and the [Stack theme](https://github.com/CaiJimmy/hugo-theme-stack) by Jimmy Cai.
+Every push to `master` builds the site and publishes it to the `gh-pages` branch (see `.github/workflows/deploy.yml`).
 
+## Where things are
 
+| What | File |
+|---|---|
+| Projects (home page cards) | `content/post/<Project-Name>/index.md` + images in the same folder |
+| Resume, Publications, Certificates | `content/page/<Name>/index.md` |
+| Name, subtitle, avatar, footer | `config/_default/params.toml`, `assets/img/avatar.png` |
+| Social icons (GitHub, LinkedIn, …) | `config/_default/menu.toml` |
+| Footer wording | `i18n/en.toml` |
+| Extra CSS (optional) | `assets/scss/custom.scss` |
 
+## Common tasks
 
-
-
-
-
-
-
-
-
-
-
-
-<img align="right" width="150" alt="logo" src="https://user-images.githubusercontent.com/5889006/190859553-5b229b4f-c476-4cbd-928f-890f5265ca4c.png">
-
-# Hugo Theme Stack Starter Template
-
-This is a quick start template for [Hugo theme Stack](https://github.com/CaiJimmy/hugo-theme-stack). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.
-
-It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the theme to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
-
-## Get started
-
-1. Click *Use this template*, and create your repository on GitHub.
-![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
-
-2. Once the repository is created, create a GitHub codespace associated with it.
-![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
-
-3. And voila! You're ready to go. The codespace has been configured with the latest version of Hugo extended, just run `hugo server` in the terminal and see your new site in action.
-
-4. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL.
-
-5. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page associated with the repository.
-![GitHub action](https://user-images.githubusercontent.com/5889006/156916881-90b8bb9b-1925-4e60-9d7a-8026cda729bf.png)
-
----
-
-In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.**
-
-## Update theme manually
-
-Run:
+**Preview locally** (needs [Hugo extended](https://gohugo.io/installation/) and [Go](https://go.dev/dl/), e.g. `brew install hugo go`):
 
 ```bash
-hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v3
+hugo server        # open http://localhost:1313
+```
+
+**Add a project**
+
+```bash
+hugo new content post/My-New-Project
+```
+
+Edit the new file, put a cover image next to it (named as in `image:`), set `draft: false`, then commit and push.
+`weight` controls the order on the home page (1 = first). Keep `slug` unchanged once published, so links don't break.
+
+**Update the resume link**: replace the Google Drive file in place ("Manage versions" in Drive) and the link keeps working. Otherwise edit the link at the top of `content/page/Resume/index.md`.
+
+**Update the theme** (once or twice a year):
+
+```bash
+hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4
 hugo mod tidy
+hugo server        # check that everything still looks right
 ```
 
-> This starter template has been configured with `v3` version of theme. Due to the limitation of Go module, once the `v4` or up version of theme is released, you need to update the theme manually. (Modifying `config/module.toml` file)
+**Update Hugo**: change `HUGO_VERSION` in `.github/workflows/deploy.yml` after testing that version locally.
+It is pinned on purpose so a new Hugo release can't break the live site unexpectedly.
 
-## Deploy to another static page hostings
+## Licences
 
-If you want to build this site using another static page hosting, you need to make sure they have Go installed in the machine. 
-
-<details>
-  <summary>Vercel</summary>
-  
-You need to overwrite build command to install manually Go:
-
-```
-amazon-linux-extras install golang1.11 && hugo --gc --minify
-```
-
-![](https://user-images.githubusercontent.com/5889006/156917172-01e4d418-3469-4ffb-97e4-a905d28b8424.png)
-
-Make sure also to specify Hugo version in the environment variable `HUGO_VERSION` (Use the latest version of Hugo extended):
-
-![Environment variable](https://user-images.githubusercontent.com/5889006/156917212-afb7c70d-ab85-480f-8288-b15781a462c0.png)
-</details> -->
-
-
-# Hello World
+- The Stack theme is licensed under [GPL-3.0](https://github.com/CaiJimmy/hugo-theme-stack/blob/master/LICENSE) and is pulled in as a Hugo module; it is not covered by this repository's licence.
+- Everything else in this repository is under the MIT licence in `LICENSE`.

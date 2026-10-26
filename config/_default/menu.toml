@@ -1,50 +1,46 @@
-# Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
-# https://tabler.io/icons
-################## Github ##################
+# Icons in the left sidebar. Icon names refer to SVG files in assets/icons
+# or in the theme (see https://tabler.io/icons for more).
+
 [[social]]
-identifier = "github"
-name = "GitHub"
-url = "https://github.com/u77w41/"
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/u77w41"
+    weight     = 1
+    [social.params]
+        icon   = "brand-github"
+        newTab = true
 
-[social.params]
-icon = "brand-github"
-newtab = true
-################## LinkedIn ##################
 [[social]]
-identifier = "linkedin"
-name = "LinkedIn"
-url = "https://www.linkedin.com/in/ujjwal-chowdhury-857097200"
+    identifier = "linkedin"
+    name       = "LinkedIn"
+    url        = "https://www.linkedin.com/in/ujjwal-chowdhury-857097200/"
+    weight     = 2
+    [social.params]
+        icon   = "brand-linkedin"
+        newTab = true
 
-[social.params]
-icon = "brand-linkedin"
-newtab = true
-
-################## X ##################
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com/UjjwalCh0wdhury"
+    identifier = "kaggle"
+    name       = "Kaggle"
+    url        = "https://www.kaggle.com/ujjwalchowdhury"
+    weight     = 3
+    [social.params]
+        icon   = "brand-kaggle"
+        newTab = true
 
-[social.params]
-icon = "brand-x"
-newtab = true
-
-################## Kaggle ##################
 [[social]]
-identifier = "kaggle"
-name = "Kaggle"
-url = "https://www.kaggle.com/ujjwalchowdhury"
+    identifier = "x"
+    name       = "X (Twitter)"
+    url        = "https://twitter.com/UjjwalCh0wdhury"
+    weight     = 4
+    [social.params]
+        icon   = "brand-x"
+        newTab = true
 
-[social.params]
-icon = "brand-kaggle"
-newtab = true
-
-
-#######
+[[social]]
+    identifier = "email"
+    name       = "Email"
+    url        = "mailto:u77w41@gmail.com"
+    weight     = 5
+    [social.params]
+        icon   = "mail"

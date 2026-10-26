@@ -1,17 +1,11 @@
 ---
-title: "Certificates"
-description: 
-date: 2024-06-23T00:00:00Z
+title: Certificates
+slug: certificates
 image: microsoft_dp100.jpg
-math: 
-license: 
-hidden: false
-comments: false
-draft: false
 menu:
     main:
-        weight: 3
-        params: 
+        weight: 4
+        params:
             icon: certificate
 ---
 
@@ -56,7 +50,7 @@ In the course, I learned about **Cloud Computing** fundamentals, including **vir
 ### Skills Learned:
 **Virtual Machines**, **Distributed Systems**, **NoSQL**, **MapReduce**, **PySpark**, **Apache Kafka**.
 
-![Colud_Computing](Cloud_Computing_and_Distributed_Systems.jpg)
+![Cloud_Computing](Cloud_Computing_and_Distributed_Systems.jpg)
 
 ## Data Base Management System
 The course on Databases provides a comprehensive understanding of Structured Database Management Systems (**DBMS**) and their significance in various applications, covering both commercial systems like Oracle and open-source solutions such as **MySQL**. It delves into data structures, file organizations, SQL, data analysis, database design, and optimization, facilitating proficiency in relational data models, entity-relationship modeling, and query coding practices. Additionally, the course explores multi-tier client/server architectures, web-based database applications, and advanced topics including indexing, hashing, concurrency control, and recovery systems across its eight-week layout.

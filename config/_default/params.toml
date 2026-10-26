@@ -1,152 +1,39 @@
-# Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
-# Output page's full content in RSS.
+# Sections listed on the home page.
+mainSections   = ["post"]
 rssFullContent = true
-favicon = "/favicon.ico"
+favicon        = "/favicon.ico"
 
-# [footer]
-# since = 2024
-# customText = "Ujjwal Chowdhury"
+[footer]
+    since = 2024
 
 [dateFormat]
-published = "April 27, 2024"
-lastUpdated = "Nov 04, 2024 10:38 IST"
+    published   = ":date_medium"
+    lastUpdated = ":date_medium"
 
 [sidebar]
-emoji = ""
-subtitle = """Data Scientist | AI Researcher | Building for Bharat"""
-
-[sidebar.avatar]
-enabled = true
-local = true
-src = "img/avatar.png"
+    compact  = false
+    subtitle = "Data Scientist, Fraud & Risk Analytics @ RBIH"
+    avatar   = "img/avatar.png"
 
 [article]
-math = false
-readingTime = true
+    math        = false
+    toc         = true
+    readingTime = false
 
-[article.license]
-enabled = false
-default = "Licensed under CC BY-NC-SA 4.0"
+    [article.list]
+        showTags = false
 
-## Widgets
-[[widgets.homepage]]
-type = "search"
-
-[[widgets.homepage]]
-type = "archives"
-
-[widgets.homepage.params]
-limit = 5
-
-[[widgets.homepage]]
-type = "categories"
-
-[widgets.homepage.params]
-limit = 10
-
-[[widgets.homepage]]
-type = "tag-cloud"
-
-[widgets.homepage.params]
-limit = 10
-
-[[widgets.page]]
-type = "toc"
+# No right-hand sidebar on the home page; table of contents on project pages.
+[widgets]
+    homepage = []
+    page     = [{ type = "toc" }]
 
 [opengraph.twitter]
-site = ""
-card = "summary_large_image"
-
-[defaultImage.opengraph]
-enabled = false
-local = false
-src = ""
+    card = "summary_large_image"
 
 [colorScheme]
-toggle = true
-default = "auto"
+    toggle  = true
+    default = "auto"
 
-[imageProcessing.cover]
-enabled = true
-
-[imageProcessing.content]
-enabled = true
-
-## Comments
 [comments]
-enabled = false
-provider = "disqus"
-
-[comments.disqusjs]
-shortname = ""
-apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
-
-[comments.utterances]
-repo = ""
-issueTerm = "pathname"
-label = ""
-
-[comments.remark42]
-host = ""
-site = ""
-locale = ""
-
-[comments.vssue]
-platform = ""
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
-autoCreateIssue = false
-
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
-
-[comments.waline.locale]
-admin = "Admin"
-
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
-
-[comments.cactus]
-defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-serverName = "cactus.chat"
-siteName = ""
-
-[comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
-lightTheme = ""
-darkTheme = ""
-reactionsEnabled = 1
-emitMetadata = 0
-
-[comments.gitalk]
-owner = ""
-admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
-
-[comments.cusdis]
-host = ""
-id = ""
-
-
-#######################################
+    enabled = false

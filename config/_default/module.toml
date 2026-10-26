@@ -1,2 +1,4 @@
+# Stack theme, loaded as a Hugo module.
+# To update the theme (1-2 times a year), see README.md.
 [[imports]]
-path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+    path = "github.com/CaiJimmy/hugo-theme-stack/v4"

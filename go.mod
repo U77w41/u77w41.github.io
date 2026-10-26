@@ -1,5 +1,5 @@
-module github.com/CaiJimmy/hugo-theme-stack-starter
+module github.com/U77w41/u77w41.github.io
 
-go 1.17
+go 1.21
 
-require github.com/CaiJimmy/hugo-theme-stack/v3 v3.34.2 // indirect
+require github.com/CaiJimmy/hugo-theme-stack/v4 v4.0.3 // indirect

@@ -1,23 +1,21 @@
 ---
-title: "Paris Summer Olympic Games 2024 Dashboard"
-description: "This Power BI dashboard combines robust data analysis capabilities with user-friendly design, ensuring insightful and engaging data exploration for the Olympics 2024."
-date: 2024-11-27T06:18:40Z
+title: Paris Summer Olympic Games 2024 Dashboard
+slug: paris-summer-olympic-games-2024-dashboard
+description: Interactive Power BI dashboard on medals, athletes and countries at the Paris 2024 Olympics.
 image: ParisSummerOlympicsDashboard.jpg
-math: 
-license: MIT License
-hidden: false
-comments: true
-draft: false
-weight: 3 
+date: 2024-11-27T06:18:40+00:00
+weight: 4
 categories:
-    - Data Analytics Projects
+- Power BI
 tags:
-    - Power BI
-    - Data Analytics
-    - Data visualization
-    - EDA
-    - Dashboard
+- Power BI
+- Data Analytics
+- Data visualization
+- EDA
+- Dashboard
+license: MIT License
 ---
+
 # Olympics 2024 Data Dashboard
 
 **[GitHub Repo](https://github.com/U77w41/Power-BI-Dashboards/tree/main/Olympic-2024-Dashboard)**

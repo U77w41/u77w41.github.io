@@ -1,25 +1,27 @@
 ---
-title: "Forcasting and Anomaly Detection"
-description: In the "Forecasting-and-Anomaly-Detection" project, we delved into the realm of machine learning to enhance our understanding of Walmart sales data. The project focused on both time series forecasting and anomaly detection, employing a diverse set of techniques to achieve accurate predictions and identify unusual patterns in the sales data.
-date: 2022-06-27T00:00:00Z
+title: Forecasting and Anomaly Detection
+slug: forecasting-and-anomaly-detection
+description: Sales forecasting and unsupervised anomaly detection on Walmart sales data.
+aliases:
+- /p/forcasting-and-anomaly-detection/
 image: forecasting.png
-math: 
-license: 
-hidden: false
-comments: true
+date: 2022-06-27T00:00:00+00:00
+weight: 3
 categories:
-    - Projects
+- Machine Learning
 tags:
-    - Machine Learning
-    - Deep Learning 
-    - Time Series
-    - Statistics
-    - Regression
-    - Annomaly Detection
-weight: 6 
-draft: false
+- Machine Learning
+- Deep Learning
+- Time Series
+- Statistics
+- Regression
+- Anomaly Detection
 ---
-**[GitHub Repo](https://github.com/U77w41/Forcasting-and-Anomaly-Detection)
+
+**[GitHub Repo](https://github.com/U77w41/Forcasting-and-Anomaly-Detection)**
+
+In the "Forecasting-and-Anomaly-Detection" project, we delved into the realm of machine learning to enhance our understanding of Walmart sales data. The project focused on both time series forecasting and anomaly detection, employing a diverse set of techniques to achieve accurate predictions and identify unusual patterns in the sales data.
+
 ## Forecasting Techniques:
 
 ### Regression Techniques

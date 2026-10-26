@@ -1,20 +1,18 @@
 ---
-title: "NSEScraper an open-source scrapper for nseindia.com website."
-description: nsescraper is an open-source python package to scrap stock/index data from nseindia.com.
-date: 2024-08-03T17:37:11Z
+title: 'NSEScraper: an open-source scraper for nseindia.com'
+slug: nsescraper
+description: Open-source Python package (on PyPI) to scrape intraday stock and index data from nseindia.com.
+aliases:
+- /p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./
 image: nse_homepage.png
-math: 
-license: 
+date: 2024-08-03T17:37:11+00:00
+weight: 1
 categories:
-    - Projects
+- Open Source
 tags:
-    - Data Mining
-    - Web Scrapping
-    - Stock Market
-weight: 6 
-hidden: false
-comments: true
-draft: false
+- Data Mining
+- Web Scraping
+- Stock Market
 ---
 
 # Installation

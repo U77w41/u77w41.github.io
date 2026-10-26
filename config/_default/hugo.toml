@@ -1,0 +1,13 @@
+baseURL = "https://u77w41.github.io/"
+locale  = "en-us"
+title   = "Ujjwal Chowdhury"
+
+defaultContentLanguage = "en"
+enableRobotsTXT        = true
+
+[pagination]
+    pagerSize = 10
+
+[build]
+    # Don't write an editor helper file (jsconfig.json) into assets/ on every build.
+    noJSConfigInAssets = true

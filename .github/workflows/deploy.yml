@@ -1,51 +1,43 @@
-name: Deploy to Github Pages
+name: Deploy to GitHub Pages
 
 on:
-    push:
-        branches: [master]
-    pull_request:
-        branches: [master]
+  push:
+    branches: [master]
+  workflow_dispatch: # lets you re-run a deploy from the Actions tab
+
+permissions:
+  contents: write # needed to push the built site to the gh-pages branch
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  # Pinned on purpose. Change it only after testing a newer Hugo locally (see README).
+  HUGO_VERSION: "0.168.0"
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
 
-        permissions:
-            # Give the default GITHUB_TOKEN write permission to commit and push the
-            # added or changed files to the repository.
-            contents: write
+      - uses: actions/setup-go@v7
+        with:
+          go-version: stable
 
-        steps:
-            - uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
-            - name: Cache Hugo resources
-              uses: actions/cache@v4
-              env:
-                  cache-name: cache-hugo-resources
-              with:
-                  path: resources
-                  key: ${{ env.cache-name }}
+      - name: Build
+        run: hugo --minify --gc
 
-            - uses: actions/setup-go@v5
-              with:
-                  go-version: "^1.17.0"
-            - run: go version
-
-            - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
-              with:
-                  hugo-version: "latest"
-                  extended: true
-
-            - name: Build
-              run: hugo --minify --gc
-
-            - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@v4
-              with:
-                  branch: gh-pages
-                  folder: public
-                  clean: true
-                  single-commit: true
+      - name: Publish to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: public
+          clean: true
+          single-commit: true

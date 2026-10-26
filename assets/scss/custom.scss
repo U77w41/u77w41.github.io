@@ -1,3 +1,20 @@
 /*
-    You can add your own custom styles here.
+    Small additions on top of the Stack theme.
+    Everything here is optional: delete a block to get the theme's default back.
 */
+
+/* Home page: show projects as a two-column grid on wide screens. */
+@include respond(lg) {
+    .article-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        article {
+            --article-image-height: 200px;
+        }
+
+        .article-title {
+            font-size: 2rem;
+        }
+    }
+}
