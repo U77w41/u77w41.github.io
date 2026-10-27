@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 48 896 896" fill="none" 
+xmlns:c2pa="http://c2pa.org/manifest"><metadata>
+</metadata>
+  <style>g{stroke:#232323}@media (prefers-color-scheme:dark){g{stroke:#ecf0f1}}</style>
+  <g stroke-width="52" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 652 278 C 555 278, 468 242, 468 192 C 468 142, 530 118, 598 118 C 675 118, 735 148, 730 176 C 727 190, 715 198, 702 198"/>
+    <path d="M 413 348 Q 645 338, 880 340"/>
+    <path d="M 500 344 C 630 346, 766 368, 766 408 C 766 445, 520 500, 520 535 C 520 568, 764 575, 764 668 C 764 765, 560 822, 390 822 C 220 822, 136 778, 136 720 C 136 672, 205 656, 305 656 C 475 656, 635 745, 674 872"/>
+  </g>
+</svg>
