@@ -13,7 +13,8 @@ cd ~/uc/projects/u77w41.github.io
 3. [Create a new blog post / project](#3-create-a-new-blog-post--project)
 4. [Add a new item to the menu](#4-add-a-new-item-to-the-menu)
 5. [Update the theme](#5-update-the-theme)
-6. [When something goes wrong](#6-when-something-goes-wrong)
+6. [Change the favicon or the Support link](#6-change-the-favicon-or-the-support-link)
+7. [When something goes wrong](#7-when-something-goes-wrong)
 
 ---
 
@@ -163,7 +164,7 @@ The left-hand menu is built from three kinds of entries. `weight` sets the order
 
 2. Preview, then commit and push. The page is at `u77w41.github.io/about/`.
 
-Existing menu weights: Projects 1, Resume 2, Publications 3, Certificates 4.
+Existing menu weights: Projects 1, Resume 2, Publications 3, Certificates 4, Support my work 100 (kept last).
 
 ### B. A link to another website
 
@@ -194,7 +195,7 @@ Copy one of the `[[social]]` blocks in `config/_default/menu.toml` and change `i
 
 `icon:` is the name of an SVG file, without `.svg`. Available now:
 
-- In this repo (`assets/icons/`): `briefcase`, `brand-kaggle`, `brand-linkedin`, `brand-x`, `certificate`, `file-text`, `mail`, `publications`, `school`
+- In this repo (`assets/icons/`): `briefcase`, `brand-kaggle`, `brand-linkedin`, `brand-x`, `certificate`, `file-text`, `mail`, `publications`, `school`, `support`
 - From the theme: `archives`, `brand-github`, `brand-twitter`, `categories`, `hash`, `home`, `link`, `messages`, `rss`, `search`, `tag`, `user`
 
 To add a new icon:
@@ -268,7 +269,34 @@ The live site uses the exact Hugo version in `.github/workflows/deploy.yml`, so 
 
 ---
 
-## 6. When something goes wrong
+## 6. Change the favicon or the Support link
+
+### Favicon (the small icon in the browser tab)
+
+The files are in `static/`:
+
+| File | Used by |
+|---|---|
+| `favicon.svg` | Modern browsers. Switches to a light stroke when the browser is in dark mode |
+| `favicon.ico` | Older browsers and bookmarks (16, 32 and 48 px inside one file) |
+| `apple-touch-icon.png` | iPhone/iPad "Add to Home Screen" (180 × 180 px, white background) |
+
+To change it, replace these three files, keeping the same names. A free converter such as <https://realfavicongenerator.net> can make the `.ico` and `.png` from an SVG. Thin lines disappear at 16 px, so use a thicker stroke for the favicon than for a large logo.
+
+Browsers cache favicons for a long time: after publishing, check in a private window.
+
+### "Support my work" link
+
+The page itself is in a separate repository, [U77w41/support-my-work](https://github.com/U77w41/support-my-work), and is published at <https://u77w41.github.io/support-my-work/>. This site only links to it, in two places:
+
+- **Menu (last item):** the `[[main]]` block with `identifier = "support"` in `config/_default/menu.toml`.
+- **Footer of every page:** `customText` in `config/_default/params.toml`.
+
+Don't create `content/page/support-my-work/`: a page at the same address would clash with the separate site.
+
+---
+
+## 7. When something goes wrong
 
 | Problem | Fix |
 |---|---|

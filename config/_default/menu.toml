@@ -44,3 +44,13 @@
     weight     = 5
     [social.params]
         icon   = "mail"
+
+# Last item in the left menu. The page itself lives in the separate
+# U77w41/support-my-work repository, not in this site.
+[[main]]
+    identifier = "support"
+    name       = "Support my work"
+    url        = "https://u77w41.github.io/support-my-work/"
+    weight     = 100
+    [main.params]
+        icon   = "support"
