@@ -52,6 +52,8 @@
                             aria-controls="{{ $panelId }}"
                         >
                             {{ partial "helper/icon" (default "link" .Params.Icon) }}
+                            {{- /* The theme's chevron-right, turned to point down (up while open) in custom.scss */ -}}
+                            <span class="menu-social-dropdown-chevron" aria-hidden="true">{{ partial "helper/icon" "chevron-right" }}</span>
                         </button>
                         <div class="menu-social-dropdown-panel" id="{{ $panelId }}" hidden>
                             <p class="menu-social-dropdown-title">{{ .Name }}</p>

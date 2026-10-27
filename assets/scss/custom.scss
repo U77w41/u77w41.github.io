@@ -32,10 +32,18 @@
 
 .menu-social {
     position: relative;
+    /*
+        Six icons plus the Tools arrow need about 157px without gaps. The theme's 10px gaps
+        don't fit the narrow sidebar on tablets and small laptops, so the gap shrinks there
+        (down to 4px) and stays at 10px wherever there is room.
+    */
+    gap: clamp(4px, calc((100% - 157px) / 5), 10px);
 }
 
 .menu-social-dropdown-toggle {
     display: flex;
+    align-items: center;
+    gap: 0;
     padding: 0;
     margin: 0;
     border: 0;
@@ -51,6 +59,29 @@
 
     &[aria-expanded="true"] svg {
         stroke: var(--accent-color);
+    }
+
+    /* Small chevron after the icon so it reads as a dropdown: points down, flips up while open. */
+    .menu-social-dropdown-chevron {
+        display: flex;
+
+        svg {
+            width: 13px;
+            height: 13px;
+            stroke-width: 2.25;
+            transform: rotate(90deg);
+            transition: transform 0.2s ease;
+        }
+    }
+
+    &[aria-expanded="true"] .menu-social-dropdown-chevron svg {
+        transform: rotate(-90deg);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .menu-social-dropdown-chevron svg {
+            transition: none;
+        }
     }
 }
 

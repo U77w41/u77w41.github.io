@@ -187,7 +187,7 @@ Copy one of the `[[social]]` blocks in `config/_default/menu.toml` and change `i
 
 ### D. A tool in the Tools dropdown
 
-The four-circle icon after Email opens a list of your web tools. Each tool is a `[[social]]` block with `parent = "tools"`. To add one, copy the ANURUP block at the end of the social section in `config/_default/menu.toml` and change it:
+The four-circle icon with the small ▾ arrow, after Email, opens a list of your web tools. Each tool is a `[[social]]` block with `parent = "tools"`. To add one, copy the ANURUP block at the end of the social section in `config/_default/menu.toml` and change it:
 
 ```toml
 [[social]]
