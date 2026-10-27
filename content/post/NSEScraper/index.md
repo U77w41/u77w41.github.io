@@ -6,7 +6,7 @@ aliases:
 - /p/nsescraper-an-open-source-scrapper-for-nseindia.com-website./
 image: nse_homepage.png
 date: 2024-08-03T17:37:11+00:00
-weight: 1
+weight: 2
 categories:
 - Open Source
 tags:

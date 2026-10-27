@@ -6,7 +6,7 @@ aliases:
 - /p/forcasting-and-anomaly-detection/
 image: forecasting.png
 date: 2022-06-27T00:00:00+00:00
-weight: 3
+weight: 4
 categories:
 - Machine Learning
 tags:

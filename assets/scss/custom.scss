@@ -18,3 +18,138 @@
         }
     }
 }
+
+/*
+    "Tools" dropdown in the social icon row (markup in layouts/_partials/sidebar/left.html,
+    script in layouts/_partials/footer/custom.html). Colours come from the theme's
+    variables, so light and dark mode both work.
+*/
+
+/* Keep the open dropdown above the project cards, which come later in the page. */
+.left-sidebar {
+    z-index: 2;
+}
+
+.menu-social {
+    position: relative;
+}
+
+.menu-social-dropdown-toggle {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 6px;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+
+    &:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 3px;
+    }
+
+    &[aria-expanded="true"] svg {
+        stroke: var(--accent-color);
+    }
+}
+
+.menu-social-dropdown-panel {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    z-index: 10;
+    width: 300px;
+    max-width: calc(100vw - 30px);
+    padding: 8px;
+    background: var(--card-background);
+    border: 1px solid var(--card-separator-color);
+    border-radius: var(--card-border-radius);
+    /* A bit stronger than the theme's card shadow, so the panel stands out over the cards. */
+    box-shadow: var(--shadow-l2), 0 12px 32px rgba(0, 0, 0, 0.12);
+
+    [data-scheme="dark"] & {
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+    }
+
+    &[hidden] {
+        display: none;
+    }
+
+    .menu-social-dropdown-title {
+        margin: 6px 10px 4px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--card-text-color-tertiary);
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li + li {
+        border-top: 1px solid var(--card-separator-color);
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 10px;
+        border-radius: 8px;
+        color: var(--card-text-color-main);
+        text-decoration: none;
+
+        &:hover,
+        &:focus-visible {
+            background: var(--card-background-selected);
+            outline: none;
+        }
+    }
+
+    .menu-social-dropdown-icon {
+        display: flex;
+        flex-shrink: 0;
+
+        svg {
+            width: 32px;
+            height: 32px;
+            stroke: var(--card-text-color-main);
+        }
+    }
+
+    .menu-social-dropdown-text {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        min-width: 0;
+    }
+
+    .menu-social-dropdown-name {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .menu-social-dropdown-description {
+        font-size: 1.3rem;
+        line-height: 1.4;
+        color: var(--card-text-color-secondary);
+    }
+
+    .menu-social-dropdown-external {
+        display: flex;
+        margin-left: auto;
+        flex-shrink: 0;
+
+        svg {
+            width: 16px;
+            height: 16px;
+            stroke: var(--card-text-color-tertiary);
+            stroke-width: 2;
+        }
+    }
+}

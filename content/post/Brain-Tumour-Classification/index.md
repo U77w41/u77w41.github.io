@@ -6,7 +6,7 @@ aliases:
 - /p/brain-tumour-classificaion/
 image: Anaplastic_astrocytoma.jpg
 date: 2022-05-02T00:00:00+00:00
-weight: 2
+weight: 3
 categories:
 - Deep Learning
 tags:

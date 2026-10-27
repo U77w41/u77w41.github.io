@@ -4,7 +4,7 @@ slug: paris-summer-olympic-games-2024-dashboard
 description: Interactive Power BI dashboard on medals, athletes and countries at the Paris 2024 Olympics.
 image: ParisSummerOlympicsDashboard.jpg
 date: 2024-11-27T06:18:40+00:00
-weight: 4
+weight: 5
 categories:
 - Power BI
 tags:

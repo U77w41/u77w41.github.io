@@ -45,6 +45,27 @@
     [social.params]
         icon   = "mail"
 
+# "Tools" icon (right of Email). It has no url of its own: clicking it opens
+# a dropdown that lists every [[social]] entry with parent = "tools".
+# To add a tool, copy the ANURUP block below (see HOW-TO.md, section 4D).
+[[social]]
+    identifier = "tools"
+    name       = "Tools"
+    weight     = 6
+    [social.params]
+        icon   = "tools-grid"
+
+[[social]]
+    parent     = "tools"
+    identifier = "anurup"
+    name       = "ANURUP"
+    url        = "https://u77w41.github.io/anurup/"
+    weight     = 1
+    [social.params]
+        description = "Privacy-first photo & PDF tools for online forms"
+        icon        = "anurup"
+        newTab      = true
+
 # Last item in the left menu. The page itself lives in the separate
 # U77w41/support-my-work repository, not in this site.
 [[main]]

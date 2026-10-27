@@ -13,6 +13,7 @@ Every push to `master` builds the site and publishes it to the `gh-pages` branch
 | Resume, Publications, Certificates | `content/page/<Name>/index.md` |
 | Name, subtitle, avatar, footer | `config/_default/params.toml`, `assets/img/avatar.png` |
 | Social icons (GitHub, LinkedIn, …) | `config/_default/menu.toml` |
+| Tools dropdown (icon after Email) | `config/_default/menu.toml`, entries with `parent = "tools"` |
 | Footer wording | `i18n/en.toml` |
 | Extra CSS (optional) | `assets/scss/custom.scss` |
 
@@ -31,4 +32,5 @@ git add -A && git commit -m "..." && git push   # publish
 ## Licences
 
 - The Stack theme is licensed under [GPL-3.0](https://github.com/CaiJimmy/hugo-theme-stack/blob/master/LICENSE) and is pulled in as a Hugo module; it is not covered by this repository's licence.
+- `layouts/_partials/sidebar/left.html` is a modified copy of a Stack theme file, so it stays under GPL-3.0.
 - Everything else in this repository is under the MIT licence in `LICENSE`.

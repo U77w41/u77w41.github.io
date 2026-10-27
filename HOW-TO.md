@@ -84,7 +84,7 @@ Everything in `content/post/` appears as a card on the home page (the **Projects
    | `description` | One sentence shown under the title on the card |
    | `date` | Publish date shown on the card |
    | `image` | Cover image file name, in the same folder (delete the line for no cover) |
-   | `weight` | Position on the home page: 1 = first. Posts with the same weight are sorted newest first |
+   | `weight` | Position on the home page: 1 = first. Posts with the same weight are sorted newest first. To put a new post at the top, give it `1` and add 1 to every other post's weight (`weight: 0` doesn't work, Hugo treats it as "no weight" and puts the post last) |
    | `categories` | The coloured badge on the card, e.g. `Machine Learning`, `Power BI`, `Open Source` |
    | `tags` | Keywords shown at the bottom of the post |
    | `draft` | `true` = hidden from the live site. Change to `false` to publish |
@@ -185,6 +185,35 @@ Add this to the end of `config/_default/menu.toml`:
 
 Copy one of the `[[social]]` blocks in `config/_default/menu.toml` and change `identifier`, `name`, `url`, `weight` and `icon`.
 
+### D. A tool in the Tools dropdown
+
+The four-circle icon after Email opens a list of your web tools. Each tool is a `[[social]]` block with `parent = "tools"`. To add one, copy the ANURUP block at the end of the social section in `config/_default/menu.toml` and change it:
+
+```toml
+[[social]]
+    parent     = "tools"           # keep this: it puts the entry in the Tools list
+    identifier = "my-tool"         # any unique name
+    name       = "My Tool"         # bold text in the list
+    url        = "https://u77w41.github.io/my-tool/"
+    weight     = 2                 # order inside the list
+    [social.params]
+        description = "One short line about what it does"
+        icon        = "my-tool"    # optional: assets/icons/my-tool.svg
+        newTab      = true         # open in a new tab (also shows the ↗ arrow)
+```
+
+- `description` and `icon` are optional. Leave out `icon` and the entry shows just the text.
+- An icon for the list works like the other icons (see **Icons** below). It is drawn at 32 px, so a simple outline logo works best.
+- Any `[[social]]` entry that has children becomes a dropdown, so you could make a second one the same way, for example a "Talks" icon.
+
+The dropdown isn't part of the theme. It is made of three files in this repo:
+
+| File | What it does |
+|---|---|
+| `layouts/_partials/sidebar/left.html` | Copy of the theme's sidebar, changed to draw the dropdown (see section 5) |
+| `layouts/_partials/footer/custom.html` | Opens and closes it: click, Esc, click outside |
+| `assets/scss/custom.scss` | The look of the button and the list |
+
 ### Reorder or remove an item
 
 - **Reorder:** change the `weight` numbers.
@@ -195,7 +224,7 @@ Copy one of the `[[social]]` blocks in `config/_default/menu.toml` and change `i
 
 `icon:` is the name of an SVG file, without `.svg`. Available now:
 
-- In this repo (`assets/icons/`): `briefcase`, `brand-kaggle`, `brand-linkedin`, `brand-x`, `certificate`, `file-text`, `mail`, `publications`, `school`, `support`
+- In this repo (`assets/icons/`): `anurup`, `briefcase`, `brand-kaggle`, `brand-linkedin`, `brand-x`, `certificate`, `external-link`, `file-text`, `mail`, `publications`, `school`, `support`, `tools-grid`
 - From the theme: `archives`, `brand-github`, `brand-twitter`, `categories`, `hash`, `home`, `link`, `messages`, `rss`, `search`, `tag`, `user`
 
 To add a new icon:
@@ -230,7 +259,17 @@ The theme ([Stack](https://github.com/CaiJimmy/hugo-theme-stack)) is downloaded 
    hugo mod tidy
    ```
 
-4. Preview with `hugo server` and click through: Projects, one project page, Resume, Certificates, dark mode, and a narrow (phone-width) window.
+4. Preview with `hugo server` and click through: Projects, one project page, Resume, Certificates, the Tools dropdown, dark mode, and a narrow (phone-width) window.
+
+   **Check the overridden sidebar.** `layouts/_partials/sidebar/left.html` is a copy of the theme's sidebar (from v4.0.3) with the Tools dropdown added, so theme updates to that file don't reach your site on their own. Compare the old and new theme versions (put the new version number in place of `4.1.0`):
+
+   ```bash
+   curl -s https://raw.githubusercontent.com/CaiJimmy/hugo-theme-stack/v4.0.3/layouts/_partials/sidebar/left.html > /tmp/sidebar-old.html
+   curl -s https://raw.githubusercontent.com/CaiJimmy/hugo-theme-stack/v4.1.0/layouts/_partials/sidebar/left.html > /tmp/sidebar-new.html
+   diff /tmp/sidebar-old.html /tmp/sidebar-new.html
+   ```
+
+   No output means the theme didn't touch it, and you're done. If lines are listed, copy the same changes into your `layouts/_partials/sidebar/left.html`, keeping the block marked `Added: dropdown`, and update the version in the note at the top of that file.
 
 5. If Hugo says the theme needs a newer Hugo version, run `brew upgrade hugo`, then put the new number from `hugo version` into `HUGO_VERSION` in `.github/workflows/deploy.yml`.
 

@@ -4,7 +4,7 @@ slug: visualizing-microsoft-adventureworks-data
 description: 'Power BI sales analytics for AdventureWorks: revenue, orders, returns and customer demographics.'
 image: Visualizing-Microsoft-AdventureWorks-Data.png
 date: 2024-11-25T09:47:17+00:00
-weight: 5
+weight: 6
 categories:
 - Power BI
 tags:

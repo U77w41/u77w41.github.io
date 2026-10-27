@@ -1,0 +1,51 @@
+{{- /*
+    Theme hook (empty in the theme). Opens and closes the social-row dropdowns
+    drawn by layouts/_partials/sidebar/left.html, for example "Tools".
+    Closes on Esc, on a click outside, or when focus leaves the dropdown.
+*/ -}}
+<script>
+(function () {
+    var dropdowns = document.querySelectorAll(".menu-social-dropdown");
+    if (!dropdowns.length) return;
+
+    function setOpen(dropdown, open) {
+        var toggle = dropdown.querySelector(".menu-social-dropdown-toggle");
+        var panel = dropdown.querySelector(".menu-social-dropdown-panel");
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        panel.hidden = !open;
+    }
+
+    function closeAll(except) {
+        dropdowns.forEach(function (d) {
+            if (d !== except) setOpen(d, false);
+        });
+    }
+
+    dropdowns.forEach(function (dropdown) {
+        var toggle = dropdown.querySelector(".menu-social-dropdown-toggle");
+
+        toggle.addEventListener("click", function () {
+            var open = toggle.getAttribute("aria-expanded") !== "true";
+            closeAll(dropdown);
+            setOpen(dropdown, open);
+        });
+
+        dropdown.addEventListener("keydown", function (event) {
+            if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+                setOpen(dropdown, false);
+                toggle.focus();
+            }
+        });
+
+        dropdown.addEventListener("focusout", function (event) {
+            if (event.relatedTarget && !dropdown.contains(event.relatedTarget)) {
+                setOpen(dropdown, false);
+            }
+        });
+    });
+
+    document.addEventListener("click", function (event) {
+        if (!event.target.closest(".menu-social-dropdown")) closeAll();
+    });
+})();
+</script>

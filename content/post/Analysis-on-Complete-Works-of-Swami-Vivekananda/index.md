@@ -4,7 +4,7 @@ slug: analysis-on-complete-works-of-swami-vivekananda
 description: Estimating the number of distinct words in Swami Vivekananda's complete works with the Flajolet-Martin algorithm.
 image: swami-ji.png
 date: 2023-12-08T00:00:00+00:00
-weight: 7
+weight: 8
 categories:
 - Data Mining
 tags:

@@ -4,7 +4,7 @@ slug: starbucks-drinks-dashboard
 description: Power BI dashboard on the nutritional content of Starbucks drinks and store locations.
 image: Starbucks-Drinks-DashboardSummary.png
 date: 2024-11-26T04:27:13+00:00
-weight: 6
+weight: 7
 categories:
 - Power BI
 tags:
