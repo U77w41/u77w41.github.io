@@ -224,7 +224,7 @@ The dropdown isn't part of the theme. It is made of three files in this repo:
 
 `icon:` is the name of an SVG file, without `.svg`. Available now:
 
-- In this repo (`assets/icons/`): `anurup`, `briefcase`, `brand-kaggle`, `brand-linkedin`, `brand-x`, `certificate`, `external-link`, `file-text`, `mail`, `publications`, `school`, `support`, `tools-grid`
+- In this repo (`assets/icons/`): `anurup`, `briefcase`, `brand-kaggle`, `brand-linkedin`, `brand-x`, `certificate`, `diff-checker`, `external-link`, `file-text`, `mail`, `publications`, `school`, `support`, `tools-grid`
 - From the theme: `archives`, `brand-github`, `brand-twitter`, `categories`, `hash`, `home`, `link`, `messages`, `rss`, `search`, `tag`, `user`
 
 To add a new icon:

@@ -66,6 +66,17 @@
         icon        = "anurup"
         newTab      = true
 
+[[social]]
+    parent     = "tools"
+    identifier = "diff-checker"
+    name       = "Diff Checker"
+    url        = "https://u77w41.github.io/diff-checker/"
+    weight     = 2
+    [social.params]
+        description = "Fast, private diff tool for text, code & notebooks"
+        icon        = "diff-checker"
+        newTab      = true
+
 # Last item in the left menu. The page itself lives in the separate
 # U77w41/support-my-work repository, not in this site.
 [[main]]
