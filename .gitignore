@@ -1,4 +1,46 @@
-public
-resources
+# Hugo build outputs and caches
+public/
+resources/_gen/
+resources/
 .hugo_build.lock
+
+# OS & Editor artifacts
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# AI Agent instructions & rules
+claude.md
+CLAUDE.md
+agents.md
+AGENTS.md
+gemini.md
+GEMINI.md
+
+# AI Agent planning, task, and skill tracking files
+[pP]lan.md
+[pP]lans.md
+[sS]kill.md
+[sS]kills.md
+[tT]ask.md
+[tT]asks.md
+[tT]odo.md
+scratchpad.md
+scratch.md
+plans/
+scratch/
+
+# AI Agent tooling directories and local session data
+.gemini/
+.antigravity/
+.claude/
+.claude.json
+.cursor/
+.codex/
+.aider*
+.copilot/
+.agents/scratch/
