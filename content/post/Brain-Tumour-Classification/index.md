@@ -1,7 +1,7 @@
 ---
 title: Brain Tumour Classification
 slug: brain-tumour-classification
-description: Fine-tuned VGG16 in PyTorch to classify brain MRI scans as glioma, meningioma, pituitary tumour or no tumour.
+description: Fine-tuning a VGG16 deep convolutional neural network in PyTorch to classify brain MRI scans across four diagnostic classes.
 aliases:
 - /p/brain-tumour-classificaion/
 image: Anaplastic_astrocytoma.jpg
@@ -14,52 +14,69 @@ tags:
 - Deep Learning
 - Computer Vision
 - Image Classification
+- PyTorch
 ---
 
-Radiology is a broad subject that needs more knowledge and understanding of medical science to identify tumors accurately. The need for a tumor detection program, thus, overcomes the lack of qualified radiologists. Using magnetic resonance imaging, biomedical image processing makes it easier to detect and locate brain tumors. In this study, a segmentation and detection method for brain tumors was developed using images from the MRI sequence as an input image to identify the tumor area. This process is difficult due to the wide variety of tumor tissues in the presence of different patients, and, in most cases, the similarity within normal tissues makes the task difficult. The main goal is to classify the brain in the presence of a brain tumor or a healthy brain.
+**[GitHub Repository](https://github.com/U77w41/Brain-Tumour-Classificaion/) · [Jupyter Notebook](https://github.com/U77w41/Brain-Tumour-Classificaion/blob/main/notebooks/Brain%20Tumor%20Classification%20CDS%20Project.ipynb)**
 
 ## Overview
 
-This project focuses on the classification of brain tumor images into four distinct classes: 'glioma', 'meningioma', 'notumor', and 'pituitary'. The primary approach involves fine-tuning the VGG16 model using the PyTorch framework. Additionally, Python's OpenCV library is utilized for image processing, and various image augmentation techniques are applied to enhance model generalization.
+Magnetic resonance imaging (MRI) is the primary non-invasive modality for diagnosing intracranial tumors. However, differentiating between tumor subtypes on axial MRI slices is challenging due to variable lesion margins, necrotic tissue regions, and subtle intensity differences between abnormal and healthy neural tissue.
 
-**[GitHub Link](https://github.com/U77w41/Brain-Tumour-Classificaion/tree/main)**
+This project implements a transfer learning pipeline in PyTorch, fine-tuning a VGG16 convolutional neural network to categorize brain MRI scans into four distinct diagnostic categories.
 
-## Technologies Used
+## The Diagnostic Classes
 
-- **PyTorch:** The deep learning framework for model development and training.
-- **OpenCV:** Used for image processing tasks.
-- **Python:** The primary programming language for the project.
+The classification model evaluates MRI slices across three major intracranial tumor categories alongside healthy control scans:
 
-## Model Architecture
+| Class | Pathological Profile |
+| :--- | :--- |
+| **Glioma** | Primary brain tumors arising from glial cells, typically presenting irregular, infiltrative boundaries. |
+| **Meningioma** | Usually slow-growing tumors arising from the meningeal membranes enveloping the brain and spinal cord. |
+| **Pituitary** | Tumors originating in the pituitary gland at the base of the skull, frequently affecting hormonal pathways. |
+| **No Tumor** | Control scans exhibiting normal cerebral anatomy without focal space-occupying lesions. |
 
-The VGG16 model is employed as the base architecture for the brain tumor classification task. The model is fine-tuned to adapt to the specific requirements of the project.
+## Preprocessing & Image Augmentation
 
-## Image Augmentation Techniques
+MRI scans vary significantly in intensity, resolution, and skull orientation across clinical imaging centers. Using OpenCV and PyTorch torchvision transforms, each image undergoes standardized preprocessing:
 
-To enhance the model's robustness and improve generalization, the following image augmentation techniques are applied:
+* **Contour-Based Brain Cropping:** Detects the largest contour in the grayscale image to isolate the cranial region, removing black border margins and non-informative background pixels.
+* **Standardization:** Resizes images to $224 \times 224$ pixels and normalizes pixel values against standard ImageNet channel means and standard deviations.
+* **Data Augmentation:** To prevent overfitting on small clinical sample cohorts, the training pipeline applies:
+  * Random horizontal and vertical flips
+  * Random affine rotations ($\pm 15^\circ$)
+  * Random scaling and perspective shifts
+  * Brightness and contrast adjustments
 
-- Rotation
-- Scaling
-- Horizontal and Vertical Flipping
-- Brightness and Contrast adjustments
+## Model Architecture & Transfer Learning
 
-## Optimization Techniques
+Instead of training a deep convolutional network from scratch on a limited medical dataset, the pipeline adapts **VGG16** pre-trained on ImageNet:
 
-Several optimization techniques are experimented with to fine-tune the model:
+1. **Feature Extractor:** Frozen early convolutional blocks retain low-level visual primitives (edges, gradients, textures).
+2. **Fine-Tuning:** The deeper convolutional layers are unfrozen with a reduced learning rate to learn domain-specific neuroimaging patterns.
+3. **Custom Classification Head:** Replaces VGG16's original 1000-class classifier with:
+   * Adaptive Average Pooling
+   * Dense Layer (512 units) with ReLU activation
+   * Dropout ($p = 0.5$) for regularization
+   * Final Linear Layer (4 output units) mapped through Softmax
 
-1. **Stochastic Gradient Descent (SGD):** A traditional optimization algorithm.
-2. **Adam:** An adaptive learning rate optimization algorithm.
-3. **RMSprop:** Another adaptive learning rate optimization algorithm.
-4. **AdaGrad:** Adaptive gradient optimization algorithm.
+## Optimization & Experimentation
 
-## Experimentation and Tuning
+We benchmarked four optimization algorithms to assess convergence stability and loss reduction:
 
-The optimization parameters for each technique are carefully tuned to achieve optimal performance. The model undergoes thorough experimentation to identify the best combination of hyperparameters and optimization algorithms for the given task.
+* **Adam:** Provided the fastest initial convergence and stable training progression using adaptive moment estimation.
+* **SGD with Momentum ($0.9$):** Exhibited smoother gradient trajectories and achieved competitive final test accuracy when paired with a cosine annealing learning rate scheduler.
+* **RMSprop & AdaGrad:** Evaluated as adaptive baselines, though RMSprop showed occasional loss oscillations on smaller batch sizes.
 
-## Conclusion
+## Results & Diagnostic Evaluation
 
-The Brain Tumour Classification project demonstrates the successful implementation of a fine-tuned VGG16 model for accurately classifying brain tumor images into four classes. The combination of image augmentation techniques and experimentation with various optimization algorithms contributes to the overall success of the project.
+Model performance was evaluated on a held-out test split using multi-class metrics:
 
-For detailed implementation code and results, refer to the project [repository](https://github.com/U77w41/Brain-Tumour-Classificaion/) and [notebooks](https://github.com/U77w41/Brain-Tumour-Classificaion/blob/main/notebooks/Brain%20Tumor%20Classification%20CDS%20Project.ipynb).
+* **Confusion Matrix Analysis:** Evaluates class-specific misclassifications, prioritizing high sensitivity on glioma scans to avoid missed high-grade lesions.
+* **Per-Class Precision, Recall, and F1-Score:** Ensures consistent diagnostic performance across both common and rarer tumor presentations without class bias.
 
-> Photo by [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/d/d8/Anaplastic_astrocytoma.jpgi)
+The complete training scripts, hyperparameter configurations, and evaluation graphs are documented in the [project notebook](https://github.com/U77w41/Brain-Tumour-Classificaion/blob/main/notebooks/Brain%20Tumor%20Classification%20CDS%20Project.ipynb).
+
+---
+
+> Photo credit: [Wikipedia / Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/d/d8/Anaplastic_astrocytoma.jpg)

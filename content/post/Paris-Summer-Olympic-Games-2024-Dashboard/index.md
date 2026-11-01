@@ -1,7 +1,7 @@
 ---
 title: Paris Summer Olympic Games 2024 Dashboard
 slug: paris-summer-olympic-games-2024-dashboard
-description: Interactive Power BI dashboard on medals, athletes and countries at the Paris 2024 Olympics.
+description: Interactive Power BI dashboard analyzing medals, athletes, and country performances at the Paris 2024 Olympics.
 image: ParisSummerOlympicsDashboard.jpg
 date: 2024-11-27T06:18:40+00:00
 weight: 5
@@ -16,122 +16,68 @@ tags:
 license: MIT License
 ---
 
-# Olympics 2024 Data Dashboard
+**[GitHub Repository](https://github.com/U77w41/Power-BI-Dashboards/tree/main/Olympic-2024-Dashboard)** · **[Kaggle Dataset](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)**
 
-**[GitHub Repo](https://github.com/U77w41/Power-BI-Dashboards/tree/main/Olympic-2024-Dashboard)**
+## Overview
 
-## Project Overview
+The Paris 2024 Summer Olympic Games featured over 10,500 athletes competing across 32 sports and 329 medal events. This Power BI dashboard aggregates competition records into interactive views exploring country medal tallies, gender parity in podium finishes, individual athlete records, and multi-year historical trends.
 
-This Power BI dashboard provides an interactive visualization of the Olympics 2024 data, focusing on key statistics related to medals, athletes, countries, and historical performances. The dashboard is divided into five pages, each tailored to present specific insights through dynamic filtering and visually engaging elements.
+The report contains five interconnected pages with dynamic cross-filtering by sport, country, and event.
 
----
+## Dashboard Pages
 
-## Dataset Information
+### 1. Home & Navigation
 
-- **Source**: [Kaggle - Paris 2024 Olympic Summer Games Dataset](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)  
-- **Description**:  
-  The Paris 2024 Olympic Summer Games dataset offers comprehensive data about the Summer Olympics held in 2024. It includes:
-  - Participating countries
-  - Athletes
-  - Sports disciplines
-  - Medal standings
-  - Key event details  
-  The dataset provides a solid foundation for analyzing the event's performance and trends.  
-
-- **Additional Resources**:
-  - [Official Site - Paris 2024 Olympics](https://olympics.com/en/paris-2024)
-  - [Wikipedia - 2024 Summer Olympics](https://en.wikipedia.org/wiki/2024_Summer_Olympics)
-
----
-
-## Pages Overview
-
-### 1. **Home**
-- **Purpose**: The landing page of the dashboard.
+The landing screen provides a high-level visual intro and direct navigation links across the four core analytical modules.
 
 ![Home Page](preview_page-0001-min.jpg)
 
-- **Features**:
-  - Navigation buttons or links to seamlessly guide users to other pages.
+### 2. Medal Overview & Geographic Distribution
 
----
-
-### 2. **Overview**
-- **Purpose**: Provides a comprehensive summary of medal statistics for the Olympics 2024.
+This page summarizes total medal counts, gold-to-bronze distributions, and global medal density.
 
 ![Overview Page](preview_page-0002-min.jpg)
 
-- **Features**:  
-  - **Medals by Country and Gender**: Visualized using bar/column charts or other relevant visualizations to showcase the distribution of medals.  
-  - **Key Highlights**:  
-    - Created using a **Measure Query** to dynamically calculate and display critical statistics (e.g., total medals won, top-performing countries).  
-  - **Custom Map Visualization**:  
-    - Displays medallist density by country, offering a geographic perspective.  
-    - Enhances understanding of country-wise performance.  
-  - **Game-wise Filtering**:  
-    - Users can filter all visualizations on this page by selecting specific games.  
-    - Improves interactivity and customization for detailed analysis.
+* **Medals by Country & Gender:** Stacked bar charts showing the balance of medals won by male and female athletes across participating nations.
+* **Choropleth Map:** Visualizes medal density worldwide, highlighting regional strongholds in specific athletic disciplines.
+* **Game-Wise Slicers:** Allows filtering all charts simultaneously by selecting individual sports (e.g., Athletics, Swimming, Gymnastics).
 
----
+### 3. Athlete Performance & Disciplines
 
-### 3. **Athletes**
-- **Purpose**: Focuses on individual athletes and their achievements.
+A dedicated athlete directory exploring individual performances, multiple medalists, and sport-specific achievements.
 
 ![Athletes Summary Page](preview_page-0003-min.jpg)
 
-- **Features**:
-  - **Filters**:  
-    - By Country, Game, Gender, and Medals Won.  
-    - Enables users to drill down into specific athlete data based on selected criteria.  
-  - **Visualizations**:  
-    - Highlight athletes' contributions to their countries' performances.  
-    - Possible use of tables, cards, or slicers for detailed and filtered views.
+* **Athlete Roster:** Searchable table listing athletes with their nationality, events entered, and medal outcomes.
+* **Multi-Medal Winners:** Highlights top competitors who secured podium placements across multiple individual or team events.
+* **Filters:** Drill down by country, sporting discipline, gender, or medal type.
 
----
+### 4. Country Profiles
 
-### 4. **Country**
-- **Purpose**: Analyzes the performance of countries in the Olympics 2024.
+An in-depth breakdown of individual National Olympic Committees (NOCs) and their medal composition.
 
-![Country's Overview Page](preview_page-0004-min.jpg)
+![Country Overview Page](preview_page-0004-min.jpg)
 
-- **Features**:  
-  - **Summary Statistics**:  
-    - Total medals won by countries.  
-    - Comparative analysis of countries' performances.  
-  - **Game-wise Filtering**:  
-    - Allows users to explore country-level statistics for selected games.  
-  - **Visualizations**:  
-    - Incorporates bar charts, tables, or other visual elements for an impactful representation.
+* **National Leaderboard:** Compares official IOC ranking (sorted by gold medal priority) with total medal count.
+* **Discipline Strengths:** Identifies which sports contributed the largest share of a country's total medal haul.
+* **Podium Conversion:** Visualizes the ratio of finals reached to medals won.
 
----
+### 5. Historical Context & Multi-Games Trends
 
-### 5. **Historical**
-- **Purpose**: Explores historical Olympic games data and trends.
+Places Paris 2024 in context by comparing national performance against historical Olympic Games.
 
 ![Historical Medals Summary Page](preview_page-0005-min.jpg)
 
-- **Features**:
-  - **Summary Statistics**:  
-    - Historical medals won by countries.  
-  - **Filters**:  
-    - By Country and Games, enabling users to focus on specific historical data.  
-  - **Visualizations**:  
-    - Trends over multiple Olympic years to understand performance changes.  
-    - Graphs and timelines to depict historical achievements effectively.
+* **Historical Medal Trajectories:** Line charts tracking how nations have trended over multiple modern Olympic editions.
+* **Emerging Contenders:** Flags countries achieving their first-ever Olympic medals or record-high medal totals in 2024.
 
----
+## Key DAX Measures
 
-## Key Highlights
-- **Interactivity**: Filters across pages allow for granular analysis and customization.  
-- **Custom Mapping**: A unique visual element that enhances geographic insights.  
-- **Dynamic Measures**: Queries calculate and display real-time statistics.  
-- **Comprehensive Visuals**: Diverse charts, maps, and tables present data intuitively.
+* **Total Medals:** `COUNTROWS(Medals)`
+* **Gold Medal Ratio:** `DIVIDE(CALCULATE(COUNTROWS(Medals), Medals[Medal] = "Gold"), [Total Medals], 0)`
+* **Weighted Medal Score:** `CALCULATE(COUNTROWS(Medals), Medals[Medal] = "Gold") * 3 + CALCULATE(COUNTROWS(Medals), Medals[Medal] = "Silver") * 2 + CALCULATE(COUNTROWS(Medals), Medals[Medal] = "Bronze")`
 
----
+## Data Sources
 
-## Applications
-- Suitable for analysts, sports enthusiasts, and stakeholders interested in Olympics 2024 performance data.  
-- Helps in understanding medal trends, athlete achievements, and country-wise statistics.  
-- Provides a historical perspective to assess long-term performance.
-
----
+* **Competition Data:** [Paris 2024 Olympic Summer Games Dataset on Kaggle](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)
+* **Historical Records:** Official Olympic database references via [Olympics.com](https://olympics.com/en/paris-2024)

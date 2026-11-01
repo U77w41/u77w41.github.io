@@ -1,7 +1,7 @@
 ---
 title: Forecasting and Anomaly Detection
 slug: forecasting-and-anomaly-detection
-description: Sales forecasting and unsupervised anomaly detection on Walmart sales data.
+description: Sales forecasting and unsupervised anomaly detection on Walmart weekly retail data.
 aliases:
 - /p/forcasting-and-anomaly-detection/
 image: forecasting.png
@@ -18,33 +18,47 @@ tags:
 - Anomaly Detection
 ---
 
-**[GitHub Repo](https://github.com/U77w41/Forcasting-and-Anomaly-Detection)**
+**[GitHub Repository](https://github.com/U77w41/Forcasting-and-Anomaly-Detection)**
 
-In the "Forecasting-and-Anomaly-Detection" project, we delved into the realm of machine learning to enhance our understanding of Walmart sales data. The project focused on both time series forecasting and anomaly detection, employing a diverse set of techniques to achieve accurate predictions and identify unusual patterns in the sales data.
+## Overview
 
-## Forecasting Techniques:
+Retail demand forecasting requires balancing macroeconomic indicators, regional promotional events, and seasonal holidays. At the same time, unexpected sales spikes or drops need to be isolated to separate genuine demand shifts from supply chain bottlenecks or data collection errors.
 
-### Regression Techniques
+This project uses the historical Walmart sales dataset (covering 45 stores across diverse regions) to benchmark multiple forecasting approaches and evaluate unsupervised anomaly detection techniques on retail time series.
 
-- **Polynomial Regression:** Leveraging the flexibility of polynomial functions to capture non-linear relationships in the data.
-- **Multiple Linear Regression:** Utilizing multiple features to model the sales data and uncover complex dependencies.
-- **Lasso Linear Regression:** Introducing L1 regularization to encourage sparsity in the model, selecting only the most influential features.
-- **Ridge Linear Regression:** Applying L2 regularization to prevent overfitting and improve the generalization of the model.
-- **Elastic Net Regression:** Combining L1 and L2 regularization to harness the strengths of both techniques.
+## Dataset & Feature Engineering
+
+The dataset tracks weekly department-level sales alongside store attributes and regional economic indicators:
+
+* **Temporal Signals:** Week of year, month, and major holiday indicators (Super Bowl, Labor Day, Thanksgiving, Christmas).
+* **Store Characteristics:** Store type (A, B, C) and store size.
+* **Macroeconomic Factors:** Regional Consumer Price Index (CPI), unemployment rates, and local fuel prices.
+* **Promotions:** Anonymized markdown discounts (MarkDown1 through MarkDown5).
+
+Preprocessing included forward-filling missing markdown values, cyclical encoding of week numbers, and scaling continuous economic variables.
+
+## Forecasting Models
+
+We evaluated several regression and time series models on held-out test periods:
+
+### Linear & Regularized Regression
+
+* **Multiple Linear Regression:** Established a baseline mapping features directly to weekly revenue.
+* **Polynomial Feature Expansion:** Captured non-linear interactions between weather (temperature), holiday proximity, and markdown events.
+* **L1 & L2 Regularization (Lasso, Ridge, Elastic Net):** Penalized collinear features—particularly among markdowns and store size tiers—to control overfitting and improve test set generalization.
 
 ### Time Series Forecasting
 
-- **ARMA (AutoRegressive Moving Average):** Employing ARMA models to understand and predict the temporal patterns in Walmart sales data.
+* **ARMA / ARIMA:** Modeled the sequential auto-regressive structure and moving averages on stationary, differenced weekly sales series to capture recurring annual seasonality.
 
-## Anomaly Detection Techniques:
+## Anomaly Detection Approaches
 
-### Anomaly Detection Techniques using Unsupervised Learning Approaches
+To identify unusual sales swings without labeled incident logs, we applied three unsupervised techniques:
 
-- **KNN Regressor:** Utilizing the K-nearest neighbors algorithm to detect anomalies based on the deviation from the expected sales values.
-- **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):** Identifying anomalies by clustering the sales data and isolating points that do not conform to any cluster.
-- **LSTM with Autoencoders:** Leveraging Long Short-Term Memory networks combined with autoencoders for capturing complex temporal dependencies and detecting anomalies in the sales data.
+* **k-Nearest Neighbors (k-NN) Distance:** Evaluates each data point's Euclidean distance to its $k$-th nearest neighbor in feature space. Samples with large neighborhood distances represent rare sales conditions.
+* **DBSCAN (Density-Based Spatial Clustering):** Groups dense clusters of regular sales activity while isolating points in low-density regions as noise/anomalies.
+* **LSTM Autoencoders:** Sequences of weekly sales were passed through an LSTM encoder-decoder architecture trained exclusively on typical demand patterns. High reconstruction errors flag non-standard anomalies where sales deviate sharply from temporal expectations.
 
 ## Data Version Control (DVC)
-To maintain the integrity and traceability of our project, we adopted the Data Version Control (DVC) Python library. DVC facilitated the versioning of our data, ensuring reproducibility and providing a robust framework for collaboration.
 
-This project represents a holistic exploration of machine learning techniques for forecasting and anomaly detection, combining traditional regression methods with cutting-edge time series forecasting and unsupervised learning approaches.
+To keep model weights, intermediate data splits, and feature matrices reproducible across runs without committing multi-megabyte CSVs into Git, the project uses [Data Version Control (DVC)](https://dvc.org/). DVC tracks pointer files in Git while storing large artifacts in remote storage, making every experiment pipeline reproducible from raw data to evaluation metrics.

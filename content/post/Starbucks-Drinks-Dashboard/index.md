@@ -1,7 +1,7 @@
 ---
 title: Starbucks Drinks Dashboard
 slug: starbucks-drinks-dashboard
-description: Power BI dashboard on the nutritional content of Starbucks drinks and store locations.
+description: Power BI dashboard analyzing nutritional profiles, calorie distributions, and store locations.
 image: Starbucks-Drinks-DashboardSummary.png
 date: 2024-11-26T04:27:13+00:00
 weight: 7
@@ -16,121 +16,57 @@ tags:
 license: MIT License
 ---
 
-# Starbucks Drinks Nutritional Dashboard
-**[GitHub Repo](https://github.com/U77w41/Power-BI-Dashboards/tree/main/Starbucks-Drinks-Dashboard)**
+**[GitHub Repository](https://github.com/U77w41/Power-BI-Dashboards/tree/main/Starbucks-Drinks-Dashboard)**
 
-## Project Overview
-A comprehensive Power BI dashboard analyzing Starbucks drink products, focusing on nutritional content, health insights, and store location information. The dashboard provides a holistic view of Starbucks' product offerings through four interconnected pages.
+> **Note on Data:** This project was developed as an exploratory data visualization study using simulated beverage metrics and location data to model commercial nutritional reporting.
 
-**Key Visualizations**:
-- Total number of drink products
-- Drink categories distribution
-- Average nutritional values across product lines
-- Top-performing drinks by various nutritional criteria
+## Overview
 
-## Dashboard Architecture
+Modern beverage menus span hundreds of customized variations across milk bases, sweeteners, and portion sizes. This Power BI dashboard provides structured reporting on beverage nutrition, breaking down calorie counts, sugar loads, macronutrient splits, and global store presence across four analytical pages.
 
-### 1. Overview Page
-**Purpose**: Provide a introduction page of Starbucks drink portfolio and key nutritional metrics.
+## Dashboard Pages
+
+### 1. Beverage Portfolio Overview
+
+The introductory page provides an aggregate view of the beverage menu across major drink categories (Espresso, Brewed Coffee, Frappuccino, Tea, and Cold Brew).
 
 ![Overview Page](Starbucks-Drinks-Dashboard1.jpg)
 
-### 2. Nutritional Insights Page
-**Purpose**: Detailed nutritional breakdown of Starbucks products
+* **Menu Composition:** Distribution of drink offerings by category and available cup sizes (Short, Tall, Grande, Venti).
+* **Macronutrient Averages:** Baseline calorie, protein, fat, and carbohydrate levels averaged by beverage line.
+* **Top Ranks:** Quick-reference cards highlighting beverages with the highest and lowest calorie counts per category.
+
+### 2. Nutritional Profiles & Macronutrients
+
+A comparative view breaking down primary dietary macronutrients across drinks.
 
 ![Nutritional Insights](Starbucks-Drinks-Dashboard2.jpg)
 
-**Nutritional Analysis**:
-- Vitamin content visualization
-- Protein levels across different drinks
-- Fat content analysis
-- Vitamin C concentration
-- Interactive comparisons between products
+* **Fat and Protein Comparisons:** Scatter plots and grouped bar charts comparing protein content against total fat across dairy and plant-based milk formulations.
+* **Serving Size Normalization:** Visualizations that adjust metric comparisons based on fluid volume (caloric density per ounce).
+* **Category Slicers:** Interactive filters enabling users to compare specific drink subcategories side-by-side.
 
-**Key Features**:
-- Comparative charts
-- Drill-down capabilities
-- Filtering options by drink type and size
+### 3. Critical Health Indicators & Sugar Mapping
 
-### 3. Advanced Nutritional Insights Page
-**Purpose**: In-depth exploration of nutritional challenges and health-critical metrics
+Focuses on dietary risk factors that consumers and health analysts monitor closely: added sugars, sodium, trans fats, and caffeine.
 
 ![In-depth Insights](Starbucks-Drinks-Dashboard3.jpg)
 
-**Specialized Visualizations**:
-- Trans Fat Content Analysis
-  - Identification of high trans fat products
-  - Comparative trans fat levels across drink categories
-- Sugar Content Mapping
-- Mineral composition
-- Calorie density visualization
+* **Sugar Content Distribution:** Identifies beverages that exceed recommended daily sugar intakes in a single serving.
+* **Trans & Saturated Fat Flags:** Highlights drinks with elevated saturated fat levels resulting from whipped cream or whole milk preparations.
+* **Color-Coded Thresholds:** Conditional formatting on tables and KPI cards flagging nutritional extremes.
 
-**Health Focus**:
-- Warnings for high-risk nutritional profiles
-- Color-coded indicators for nutritional extremes
+### 4. Store Distribution Map
 
-### 4. Store Locator Page
-**Purpose**: Store location mapping
+Visualizes store network coverage across international territories.
 
 ![Find Store](Starbucks-Drinks-Dashboard4.jpg)
-*World map with Starbucks store locations*
 
-## Technical Implementation
+* **Global Footprint:** Geographic plot showing store concentrations across regions.
+* **Regional Aggregation:** Drill-down from continent and country to local market clusters.
 
-**Platform**: Microsoft Power BI
+## Key DAX Calculations
 
-**Data Processing**:
-- Advanced data cleaning
-- Nutritional value normalization
-
-## Interactive Dashboard Capabilities
-- Cross-page filtering
-- Dynamic data exploration
-- Responsive design
-
-## Target Audience
-- Health-conscious consumers
-- Nutritionists and dieticians
-- Starbucks management
-- Product development teams
-- Marketing strategists
-
-## Business Insights
-1. **Nutritional Transparency**
-   - Comprehensive product information
-   - Clear health impact visualization
-
-2. **Product Strategy**
-   - Identify high-performing nutritional profiles
-   - Guide product development
-   - Support marketing positioning
-
-3. **Consumer Education**
-   - Empower informed beverage choices
-
-## Future Enhancement Roadmap
-- Integration with real-time nutritional tracking
-- Personalized nutritional recommendation engine
-- Expanded global store data
-
-## Usage Guidelines
-1. **Navigation**
-   - Use page tabs for different perspectives
-   - Utilize filters for focused analysis
-   - Hover for detailed tooltips
-
-2. **Interpretation Tips**
-   - Compare drinks within categories
-   - Use store locator for nearby options
-
-
-
-## Data Disclaimer
-Important Notice:
-### 🚨 Data Integrity Warning 🚨
-
-- This dashboard is created using DUMMY/SIMULATED DATA.
-- The nutritional information, store locations, and all visualizations are NOT REAL.
-- Data is purely for demonstration and educational purposes.
-- DO NOT use this data for actual nutritional planning or decision-making.
-- All data points are synthetic and do not represent actual Starbucks products or nutritional facts.
+* **Average Calories per Drink:** `AVERAGE(Beverages[Calories])`
+* **Sugar-to-Calorie Ratio:** `DIVIDE(SUM(Beverages[Sugars_g]) * 4, SUM(Beverages[Calories]), 0)`
+* **High-Sugar Flag:** `IF(Beverages[Sugars_g] > 30, "Above 30g", "30g or Below")`
