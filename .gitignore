@@ -43,4 +43,5 @@ scratch/
 .codex/
 .aider*
 .copilot/
-.agents/scratch/
+.agents/
+skills-lock.json
